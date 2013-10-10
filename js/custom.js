@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
 /*----------------------------------------------------*/
 /*	Search box expand Section
 /*----------------------------------------------------*/
-	    
+
 	jQuery(".search-text-box").focus(function(){
 	   jQuery("ul.social").animate({ marginLeft: "-120px"}, 450, "easeInSine")
 	});
@@ -51,15 +51,15 @@ $('ul#flickrfeed').jflickrfeed({
 	});
 
 
-	
+
 /*----------------------------------------------------*/
 /*	Superfish Mainmenu Section
 /*----------------------------------------------------*/
-	
+
     jQuery(function () {
         jQuery('ul.sf-menu').stop().superfish();
     });
-	
+
 
 
 /*----------------------------------------------------*/
@@ -83,9 +83,9 @@ $('ul#flickrfeed').jflickrfeed({
     }
 
     );
-	
-	
-	
+
+
+
     jQuery('.slider-wrapper').hover(function () {
         jQuery('.nivo-prevNav').stop().animate({
             "opacity": 1
@@ -144,7 +144,7 @@ $('ul#flickrfeed').jflickrfeed({
     });
 
 
- 
+
 
 });
 
@@ -260,10 +260,10 @@ jQuery(window).load(function() {
 /*----------------------------------------------------*/
 
 	jQuery('.portfolio-carousel').carousel({interval: false, wrap: false});
-	
-	
+
+
 	jQuery('.client-carousel').carousel({interval: false, wrap: false});
-	
+
 	jQuery('.testimonials-carousel').carousel({interval: 5000, pause: "hover"});
 
 
@@ -360,91 +360,91 @@ $(document).ready(function(){
 /*----------------------------------------------------*/
 
 jQuery(document).ready(function () {
-	
-	
+
+
 
 
 	jQuery('.portfolio-item').hover(function () {
 			jQuery(this).find( '.portfolio-item-hover' ).animate({
 				"opacity": 0.8
 			}, 100, 'easeInOutCubic');
-			
-			
+
+
 		}, function () {
 			jQuery(this).find( '.portfolio-item-hover' ).animate({
 				"opacity": 0
 			}, 100, 'easeInOutCubic');
-			
+
 	});
-	
-	
+
+
 	jQuery('.portfolio-item').hover(function () {
        jQuery(this).find(".fullscreen").stop().animate({'top' : '60%', 'opacity' : 1}, 250, 'easeOutBack');
-        
+
     }, function () {
         jQuery(this).find(".fullscreen").stop().animate({'top' : '65%', 'opacity' : 0}, 150, 'easeOutBack');
-        
+
     });
-	
-	
+
+
 	jQuery('.blog-showcase ul li').each(function () {
 		jQuery(this).on('hover', function () {
 			jQuery(this).siblings('li').removeClass('blog-first-el').end().addClass('blog-first-el');
 		});
 	});
-	
-	
+
+
 	jQuery('.blog-showcase-thumb').hover(function () {
         jQuery(this).find( '.post-item-hover' ).animate({
             "opacity": 0.8
         }, 100, 'easeInOutCubic');
-        
+
     }, function () {
         jQuery(this).find( '.post-item-hover' ).animate({
             "opacity": 0
         }, 100, 'easeInOutCubic');
-        
-    });
-	
 
-	
+    });
+
+
+
 	jQuery('.blog-showcase-thumb').hover(function () {
        jQuery(this).find(".fullscreen").stop().animate({'top' : '57%', 'opacity' : 1}, 250, 'easeOutBack');
-        
+
     }, function () {
         jQuery(this).find(".fullscreen").stop().animate({'top' : '65%', 'opacity' : 0}, 150, 'easeOutBack');
-        
+
     });
 
 
 
-/* Post Image overlay */	
-	
+/* Post Image overlay */
+
 	jQuery('.post-image').hover(function () {
         jQuery(this).find( '.img-hover' ).animate({
             "opacity": 0.8
         }, 100, 'easeInOutCubic');
-		
-        
+
+
     }, function () {
         jQuery(this).find( '.img-hover' ).animate({
             "opacity": 0
         }, 100, 'easeInOutCubic');
-        
+
     });
-	
-	
+
+
 	jQuery('.post-image').hover(function () {
        jQuery(this).find(".fullscreen").stop().animate({'top' : '55%', 'opacity' : 1}, 250, 'easeOutBack');
-        
+
     }, function () {
         jQuery(this).find(".fullscreen").stop().animate({'top' : '65%', 'opacity' : 0}, 150, 'easeOutBack');
-        
+
     });
-	
+
 
 /*Mobile device topnav opener*/
-	
+
 	jQuery( ".down-button" ).click(function() {
     jQuery( ".down-button .icon-current" ).toggleClass("icon-angle-up icon-angle-down");
 });
@@ -459,8 +459,8 @@ jQuery(document).ready(function () {
 	jQuery('.service-reasons').parallax("50%", 0.1);
 
 	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({overlay_gallery: false});
-	
-	
+
+
 
 /*----------------------------------------------------*/
 /*	Tootltip Initialize
@@ -489,7 +489,7 @@ jQuery(document).ready(function () {
 /*	Scroll To Top Section
 /*----------------------------------------------------*/
 	jQuery(document).ready(function () {
-	
+
 		jQuery(window).scroll(function () {
 			if (jQuery(this).scrollTop() > 100) {
 				jQuery('.scrollup').fadeIn();
@@ -497,14 +497,14 @@ jQuery(document).ready(function () {
 				jQuery('.scrollup').fadeOut();
 			}
 		});
-	
+
 		jQuery('.scrollup').click(function () {
 			jQuery("html, body").animate({
 				scrollTop: 0
 			}, 600);
 			return false;
 		});
-	
+
 	});
 
 
@@ -603,7 +603,7 @@ jQuery(document).ready(function () {
 			e(this).siblings("span").html("+")
 		}
 	});
-	
+
 	jQuery(function (jQuery) {
 		jQuery("#example").popover();
 		jQuery("#example_left").popover({
@@ -615,22 +615,22 @@ jQuery(document).ready(function () {
 		jQuery("#example_bottom").popover({
 			placement: 'bottom'
 		});
-	}); 
+	});
 
 
 
 	/*----------------------------------------------------*/
 	/*	Jquery Google map Section
 	/*----------------------------------------------------*/
-		
+
 	//Google map
 	jQuery('#maps').gMap({
-		address: "Khulna Division, Bangladesh",
+		address: "2100 Riverchase Center #108 Birmingham, AL 35244",
 		zoom: 10,
 		markers: [{
-			latitude: 22.816694,
-			longitude: 89.549904,
-			html: "<h4>FIFO Themes</h4>Wordpress, HTML5/CSS Themes",
+			latitude: 33.36437,
+			longitude: -86.787078,
+			html: "<h4>OwlMonitor</h4>",
 			popup: true
 		}]
 	});
@@ -647,7 +647,7 @@ $("#contact").submit(function (e) {
 	var subject = $("#subject").val();
     var text = $("#text").val();
     var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&text=' + text;
-	
+
 
     function isValidEmail(emailAddress) {
         var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
