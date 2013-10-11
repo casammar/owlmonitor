@@ -644,9 +644,8 @@ $("#contact").submit(function (e) {
     e.preventDefault();
     var name = $("#name").val();
     var email = $("#email").val();
-	var subject = $("#subject").val();
-    var text = $("#text").val();
-    var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&text=' + text;
+    var institution = $("#institution").val();
+    var dataString = 'name=' + name + '&email=' + email + '&institution=' + institution;
 
 
     function isValidEmail(emailAddress) {
@@ -654,7 +653,7 @@ $("#contact").submit(function (e) {
         return pattern.test(emailAddress);
     };
 
-    if (isValidEmail(email) && (text.length > 100) && (name.length > 1)) {
+    if (isValidEmail(email) && (text.length > 10) && (name.length > 1)) {
         $.ajax({
             type: "POST",
             url: "ajax/process.php",
