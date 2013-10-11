@@ -659,8 +659,8 @@ $("#contact").submit(function (e) {
             url: "ajax/process.php",
             data: dataString,
             success: function () {
-                $('.success').fadeIn(1000).delay(3000).fadeOut(1000);
-                $('#contact')[0].reset();
+		$('#contact').toggle(1000);
+                $('.success').fadeIn(1000);
             }
         });
     } else {

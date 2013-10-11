@@ -26,7 +26,8 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['institutio
 
 			//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
 
-			$to = 'chris.sammarco@gmail.com';
+            $to  = 'chris.sammarco@gmail.com' . ', ';
+            $to .= 'guyfriedman@gmail.com';
 
 			$subject = "OwlMonitor Contact Form";
 
