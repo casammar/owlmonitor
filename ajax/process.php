@@ -2,7 +2,7 @@
 // Email Submit
 // Note: filter_var() requires PHP >= 5.2.0
 if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject']) && isset($_POST['text']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
- 
+
   // detect & prevent header injections
   $test = "/(content-type|bcc:|cc:|to:)/i";
   foreach ( $_POST as $key => $val ) {
@@ -21,12 +21,12 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject'])
 			$message .= "<tr><td><strong>Message:</strong> </td><td>" . htmlentities($_POST['text']) . "</td></tr>";
 			$message .= "</table>";
 			$message .= "</body></html>";
-			
-			
-			
+
+
+
 			//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
 
-			$to = 'youremailhere@gmail.com';
+			$to = 'chris.sammarco@gmail.com';
 
 			$subject = $_POST['subject'];
 
@@ -36,7 +36,7 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject'])
 			$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 			mail($to, $subject, $message, $headers);
-			
+
    
 }
 ?>
