@@ -20,7 +20,7 @@ img {
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     color: #666;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
 }
 
@@ -222,7 +222,9 @@ header .main-header {
 }
 
 .logo h1 {
-    margin: 13px 0;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    margin: 20px 0;
 }
 
 .navbar-fixed-top {
