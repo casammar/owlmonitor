@@ -1,6 +1,6 @@
 /*Blue #0488cd */
 .btn:focus, .subscribe-btn, .progress .progress-bar, .accordionMod .panel-heading .current, #current:after, .tp-leftarrow.default:hover,.tp-rightarrow.default:hover, .nivo-prevNav:hover, .nivo-nextNav:hover, .contact-box:hover, #options li a.selected, .ch-info .ch-info-back {
-    background: #0488cd;
+    background: #323B44;
 }
 
 
@@ -69,4 +69,29 @@ ul.why li:before {
 
 a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active {
     color: #0488cd;
+}
+
+
+.logo h1{
+    color:#0488cd;
+}
+
+.slogan-title{
+    color:#FF3900;
+}
+
+.main-content h3{
+    color:#FF3900;
+}
+
+.ch-info-wrap {
+    background:#0488cd;
+}
+
+h3.title {
+    color:#0488cd;
+}
+
+#footer h3 {
+    color:#FFBA00;
 }
