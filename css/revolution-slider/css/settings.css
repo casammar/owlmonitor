@@ -40,7 +40,7 @@ website:   	http://www.themepunch.com
 .tp-caption h3{font-size:40px; text-transform:uppercase; font-weight:600; color:#fff; margin:0; padding:0; text-rendering: none;}
 .tp-caption h4{font-size:30px; margin:0; padding:0; color:#fff; font-weight:300; text-transform:capitalize}
 .tp-caption.bg-black{padding:5px 10px; background:#555;}
-.tp-caption h5 {margin:0;padding:0;font-size:20px; color: #fff;}
+.tp-caption h5 {margin:0;padding:0;font-size:20px; color: #fff;letter-spacing:4px;}
 .tp-caption .slide-icon {font-size:14px; display:block; width:30px; height:30px; text-align:center; line-height:30px; float:left; border-radius:50px; background:#555; margin-right:5px; margin-top: -4px;}
 .tp-caption .slide-icon.bg-color{background:#39c381;}
 .tp-caption.align_center p{text-align:center;}
@@ -274,94 +274,94 @@ website:   	http://www.themepunch.com
 			padding-top: 1px;
 			background-color:#fff;
 					}
-					
-					
+
+
 .tp-caption.modern_medium_fat{
-			position: absolute; 
-			color: #000; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 24px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #000;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 24px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_medium_fat_white{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 24px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 24px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_medium_light{
-			position: absolute; 
-			color: #000; 
-			text-shadow: none; 
-			font-weight: 300; 
-			font-size: 24px; 
-			line-height: 20px; 
-			font-family: 'Open Sans', sans-serif; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #000;
+			text-shadow: none;
+			font-weight: 300;
+			font-size: 24px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 .tp-caption.modern_big_bluebg{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 800; 
-			font-size: 30px; 
-			line-height: 36px; 
-			font-family: 'Open Sans', sans-serif; 
-			padding: 3px 10px; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			background-color:#4e5b6c;	
-			letter-spacing: 0;										
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 30px;
+			line-height: 36px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 3px 10px;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			background-color:#4e5b6c;
+			letter-spacing: 0;
 		}
 .tp-caption.modern_big_redbg{
-			position: absolute; 
-			color: #fff; 
-			text-shadow: none; 
-			font-weight: 300; 
-			font-size: 30px; 
-			line-height: 36px; 
-			font-family: 'Open Sans', sans-serif; 
-			padding: 3px 10px; 
+			position: absolute;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 300;
+			font-size: 30px;
+			line-height: 36px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 3px 10px;
   			padding-top: 1px;
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			background-color:#de543e;	
-			letter-spacing: 0;										
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			background-color:#de543e;
+			letter-spacing: 0;
 		}
 .tp-caption.modern_small_text_dark{
-			position: absolute; 
-			color: #555; 
-			text-shadow: none; 
-			font-size: 14px; 
-			line-height: 22px; 
-			font-family: Arial; 
-			margin: 0px; 
-			border-width: 0px; 
-			border-style: none; 
-			white-space:nowrap;		
+			position: absolute;
+			color: #555;
+			text-shadow: none;
+			font-size: 14px;
+			line-height: 22px;
+			font-family: Arial;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			white-space:nowrap;
 		}
 
-					
-					
-					
+
+
+
 
 .tp-caption.boxshadow{
 		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
