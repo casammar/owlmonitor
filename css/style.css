@@ -2217,12 +2217,12 @@ a.portfolio-item-link {
 .ch-info-wrap i {
     color: #FFFFFF;
     float: left;
-    font-size: 28px;
+    font-size: 54px;
     left: 35%;
     line-height: 80px;
     position: relative;
     z-index: 5;
-	text-shadow:0 3px 0 rgba(0, 0, 0, 0.1);
+    text-shadow:0 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 .ch-info-wrap {

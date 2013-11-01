@@ -1,7 +1,7 @@
 /* Responsive Media Queries */
 
 @media(min-width: 1200px) {
-	
+
 
 body.boxed {
     width: 1230px;
@@ -28,7 +28,7 @@ body.boxed #header .main-header {
 @media (min-width: 768px) and (max-width: 979px)  {
 
 body.boxed {
-	
+
 	width: 100%;
 }
 
@@ -65,7 +65,7 @@ body.boxed {
 }
 
 .portfolio.two-column .view h3 {
-    
+
 	margin-top:50px;
 }
 
@@ -125,18 +125,21 @@ nav.menu {
 @media (max-width: 767px) {
 
 body.boxed {
-	
-	width: 100%;
+    width: 100%;
 }
-	
+
 .top-bar .pull-left, .top-bar .pull-right, .logo.pull-left, .get-started .pull-right {
     float: none !important;
+}
+
+.logo{
+    height:60px;
 }
 
 .logo.pull-left {
     display: block;
     text-align: center;
-    margin: 25px 0 10px;
+    margin: 25px 0 -10px;
 }
 
 .navbar-fixed-top {
@@ -156,7 +159,12 @@ header .top-bar {
     display: block;
 }
 
+.topnav.navbar-header{
+    display:none;
+}
+
 .mobile.navbar-header {
+    display:none;
     margin-bottom: 30px;
 }
 
@@ -204,7 +212,11 @@ header .top-bar {
 }
 
 .phone-email {
-    padding: 12px 0 3px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 0px 10px 0px;
+    line-height: 30px;
 }
 
 .top-bar #search-form {
@@ -215,6 +227,23 @@ header .top-bar {
     display: block;
     margin: 0 0 10px;
     text-align: center;
+}
+
+.fullwidthbanner-container{
+    display:none;
+}
+
+.slogan h2 {
+    font-size: 28px;
+}
+
+.mobile-content{
+    display:block !important;
+    margin:100px 0;
+}
+
+.mobile-content .btn-block{
+    margin-top:30px;
 }
 
 div.content-box.big.bottom-pad-small {
@@ -322,12 +351,12 @@ div.content-box.big.bottom-pad-small {
 }
 
 .portfolio.two-column .view h3 {
-    
+
 	margin-top:50px;
 }
 
 .portfolio.three-column .view h3 {
-    
+
 	margin-top:30px;
 }
 
@@ -416,10 +445,10 @@ div.p_table div.column_1, div.p_table div.column_2, div.p_table div.column_3, di
 
 
 body.boxed {
-	
+
 	width: 100%;
 }
-	
+
 .slogan h2 {
     display: inline-block;
     font-size: 24px;
@@ -442,12 +471,12 @@ body.boxed {
 }
 
 .portfolio.two-column .view h3 {
-    
+
 	margin-top:100px;
 }
 
 .portfolio.three-column .view h3 {
-    
+
 	margin-top:50px;
 }
 
@@ -460,7 +489,7 @@ body.boxed {
 
 
 @media (min-width: 768px) and (max-width: 979px) {
-	
+
 .get-started .pull-right {
     float: none !important;
 }
@@ -485,7 +514,7 @@ body.boxed {
 }
 
 .portfolio.three-column .view h3 {
-    
+
 	margin-top:7px;
 }
 
@@ -679,7 +708,7 @@ footer section {
 #not-found h2 {
     font-size: 180px;
 }
-	
+
 }
 
 
@@ -710,7 +739,7 @@ footer section {
 }
 
 @media handheld,only screen and (max-width:1140px) {
-	
+
 	.blog-showcase ul li .blog-showcase-extra-info {
 		zoom:1;
 		filter:alpha(opacity=100);
