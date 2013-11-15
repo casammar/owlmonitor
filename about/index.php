@@ -6,7 +6,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
-                        <h2 class="title">Blog</h2>
+                        <h2 class="title">About</h2>
                      </div>
                      <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                         <div class="breadcrumbs pull-right">
@@ -14,7 +14,6 @@
                               <li>You are here:</li>
                               <li><a href="../index.html">Home</a></li>
                               <li>About</li>
-                              <li>Blog</li>
                            </ul>
                         </div>
                      </div>
