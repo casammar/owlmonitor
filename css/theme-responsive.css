@@ -114,7 +114,13 @@ nav.menu {
 }
 
 .menu ul>li>a {
+    font-weight: 600;
+    font-size: 17px;
     padding: 34px 18px 31px 18px;
+}
+
+.menu ul>li>a:hover {
+    background-color:transparent;
 }
 
 }

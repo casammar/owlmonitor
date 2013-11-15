@@ -90,6 +90,7 @@
 
 
 #current,.menu ul li a:hover,.menu ul>li:hover>a {
+    color:#01ABF9;
     border-bottom: 3px solid #0488cd;
 }
 
@@ -140,4 +141,37 @@ h3.title {
 
 #footer h3 {
     color:#FFBA00;
+}
+
+.btn-new-dark-blue{
+    color: #fff;
+    background-color: #031885;
+    border:1px solid #3D498A;
+}
+.btn-new-dark-blue:hover, .btn-new-dark-blue:focus, .btn-new-dark-blue:active {
+    color: #fff;
+    background-color: #010E4E;
+    border:1px solid #3D498A;
+}
+
+.btn-new-light-blue{
+    color: #fff;
+    background-color: #01ABF9;
+    border:1px solid #0085C2;
+}
+
+.btn-new-light-blue:hover, .btn-new-light-blue:focus, .btn-new-light-blue:active {
+    color: #fff;
+    background-color: #016EF9;
+    border:1px solid #005DC2;
+}
+
+.demo-link{
+    color:#FFBA00 !important;
+}
+
+#footer a:hover{color:#FFFFFF;}
+
+.main-content, .content {
+padding: 60px 0;
 }
