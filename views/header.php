@@ -57,9 +57,7 @@
                   <!-- TopNav End -->
                   <!-- Logo Start -->
                   <div class="logo pull-left">
-                     <h1>
-                        ExamHawk
-                     </h1>
+                     <img src="<?php echo BASE_URL; ?>/img/001-examhawk-logo.png">
                   </div>
                   <!-- Logo End -->
                   <!-- Mobile Menu Start -->
@@ -73,51 +71,16 @@
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
                         <li>
-                           <a href="#" class="sf-with-ul">
-                           Institutions
-                           <span class="sf-sub-indicator">
-                           <i class="icon-angle-down "></i>
-                           </span>
-                           </a>
-                           <ul>
-                              <li><a href="<?php echo BASE_URL; ?>/institutions/how-it-works.php" class="sf-with-ul">How It Works</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/institutions/pricing.php" class="sf-with-ul">Pricing</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/institutions/faq.php" class="sf-with-ul">FAQ's</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/institutions/technical-requirements.php" class="sf-with-ul">Technical Requirements</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="sf-with-ul">Live Demo</a></li>
-                           </ul>
+                           <a href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
                         </li>
                         <li>
-                           <a href="#" class="sf-with-ul">
-                           Students
-                           <span class="sf-sub-indicator">
-                           <i class="icon-angle-down "></i>
-                           </span>
-                           </a>
-                           <ul>
-                              <li><a href="<?php echo BASE_URL; ?>/students/how-it-works.php" class="sf-with-ul">How It Works</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/students/sign-up.php" class="sf-with-ul">Sign Up/Download</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/students/technical-requirements.php" class="sf-with-ul">Technical Requirements</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/students/test-equipment.php" class="sf-with-ul">Test Your Equipment</a></li>
-                           </ul>
+                           <a href="<?php echo BASE_URL; ?>/students">Students</a>
                         </li>
                         <li>
-                           <a href="#" class="sf-with-ul">
-                           About
-                           <span class="sf-sub-indicator">
-                           <i class="icon-angle-down "></i>
-                           </span>
-                           </a>
-                           <ul>
-                              <li><a href="<?php echo BASE_URL; ?>/about/mission.php" class="sf-with-ul">Mission / Vision</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/about/team.php" class="sf-with-ul">Team</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/about/contact.php" class="sf-with-ul">Contact</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/about/conferences.php" class="sf-with-ul">Conferences</a></li>
-                              <li><a href="<?php echo BASE_URL; ?>/about/blog.php" class="sf-with-ul">Blog</a></li>
-                           </ul>
+                           <a href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
                         </li>
                         <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a>
+                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
                         </li>
 		     </ul>
 		  </nav>

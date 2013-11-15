@@ -1,1 +1,1 @@
-<?php define('BASE_URL', 'http://highernext.com/beta'); ?>
+<?php define('BASE_URL', 'http://localhost/owlmonitor'); ?>
