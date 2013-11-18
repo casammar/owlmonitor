@@ -57,7 +57,9 @@
                   <!-- TopNav End -->
                   <!-- Logo Start -->
                   <div class="logo pull-left">
-                     <img src="<?php echo BASE_URL; ?>/img/001-examhawk-logo.png">
+                      <a href="<?php echo BASE_URL; ?>">
+                         <img src="<?php echo BASE_URL; ?>/img/001-examhawk-logo.png">
+                      </a>
                   </div>
                   <!-- Logo End -->
                   <!-- Mobile Menu Start -->

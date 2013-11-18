@@ -88,6 +88,7 @@
       <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/browser-os-detect.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
    </body>
 </html>
