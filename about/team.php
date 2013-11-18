@@ -29,23 +29,88 @@
                      <!-- Sidebar Begin -->
                      <?php include '../views/about-sidebar.php'; ?>
                      <!-- Sidebar End -->
-                     <div class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <article class="post hentry">
-                           <div class="post-content">
-                              <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                              </p>
-                              <br>
-                              <p>
-                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                              </p>
-                              <br>
-                              <p>
-                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                              </p>
+                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <h3 class="title">Our Team</h3>
+                        <div class="row team">
+                           <!-- item 1 -->
+                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d1">
+                              <div class="team-member">
+                                 <div class="team-member-holder">
+                                    <div class="team-member-image">
+                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <div class="team-member-links">
+                                          <div class="team-member-links-list">
+                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="team-member-meta">
+                                       <h4 class="team-member-name">Jeffrey Lebowski</h4>
+                                       <div class="team-member-role">CEO</div>
+                                       <div class="team-member-description">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
-                        </article>
+                           <!-- End -->
+                           <!-- item 2 -->
+                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d2">
+                              <div class="team-member">
+                                 <div class="team-member-holder">
+                                    <div class="team-member-image">
+                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <div class="team-member-links">
+                                          <div class="team-member-links-list">
+                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="team-member-meta">
+                                       <h4 class="team-member-name">Walter Sobchak</h4>
+                                       <div class="team-member-role">CMO</div>
+                                       <div class="team-member-description">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- End -->
+                           <!-- item 3 -->
+                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d3">
+                              <div class="team-member">
+                                 <div class="team-member-holder">
+                                    <div class="team-member-image">
+                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <div class="team-member-links">
+                                          <div class="team-member-links-list">
+                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="team-member-meta">
+                                       <h4 class="team-member-name">Theodore Donald Kerabatsos</h4>
+                                       <div class="team-member-role">CFO</div>
+                                       <div class="team-member-description">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- End -->
+
+                        </div>
                      </div>
+
                      <!-- Left Section End -->
                   </div>
                </div>

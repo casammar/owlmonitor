@@ -29,24 +29,44 @@
                      <!-- Sidebar Begin -->
                      <?php include '../views/about-sidebar.php'; ?>
                      <!-- Sidebar End -->
-                     <div class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <article class="post hentry">
-                           <div class="post-content">
-                              <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                              </p>
-                              <br>
-                              <p>
-                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                              </p>
-                              <br>
-                              <p>
-                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                              </p>
+                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="contact-form">
+                        <h3 class="title">Send Us an Email</h3>
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
+                        </p>
+                        <div class="divider"></div>
+                        <form method="post" class="reply" id="contact">
+                           <fieldset>
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label>Name: <span>*</span></label>
+                                    <input class="form-control" id="name" name="name" type="text" value="" required>
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label>Email: <span>*</span></label>
+                                    <input class="form-control" type="email" id="email" name="email" value="" required>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label>Subject: <span>*</span></label>
+                                    <input class="form-control" id="subject" name="subject" type="text" value="" required>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label>Message: <span>*</span></label>
+                                    <textarea class="form-control" id="text" name="text" rows="3" cols="40" required></textarea>
+                                 </div>
+                              </div>
+                           </fieldset>
+                           <button class="btn-normal btn-color submit  bottom-pad" type="submit">Send</button>
+                           <div class="success alert-success alert" style="display:none">Your message has been sent successfully.</div>
+                           <div class="error alert-error alert" style="display:none">E-mail must be valid and message must be longer than 100 characters.</div>
+                           <div class="clearfix">
                            </div>
-                        </article>
+                        </form>
                      </div>
-                     <!-- Left Section End -->
                   </div>
                </div>
             </div>
