@@ -670,3 +670,14 @@ $("#contact").submit(function (e) {
 
     return false;
 });
+
+
+/*----------------------------------------------------*/
+/*	Browser & OS Detect
+/*----------------------------------------------------*/
+
+	jQuery(document).ready(function(){
+	    $("#user-os").append( BrowserDetect.OS);
+	    $("#user-browser").append( BrowserDetect.browser);
+	    $("#user-version").append( BrowserDetect.version);
+	});
