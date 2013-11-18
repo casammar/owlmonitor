@@ -76,16 +76,16 @@
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
                         <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
                         </li>
                         <li>
-                           <a href="<?php echo BASE_URL; ?>/students">Students</a>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/students/')?'current':''?>" href="<?php echo BASE_URL; ?>/students">Students</a>
                         </li>
                         <li>
-                           <a href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/about/')?'current':''?>" href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
                         </li>
                         <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/live-demo.php')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
                         </li>
 		     </ul>
 		  </nav>
