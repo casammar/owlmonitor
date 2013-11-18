@@ -175,3 +175,10 @@ h3.title {
 .main-content, .content {
 padding: 60px 0;
 }
+
+.student-header{
+    color: #FF3900;
+    text-align:center;
+    font-style:oblique;
+    letter-spacing:3px
+}
