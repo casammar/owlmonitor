@@ -36,3 +36,12 @@
       opacity:0.4;
       filter:alpha(opacity=40); /* For IE8 and earlier */
 }
+
+#institution-header{
+    font-size: 60px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 3px;
+color: #01ABF9;
+font-weight: 600;
+}
