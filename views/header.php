@@ -21,11 +21,13 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/team-member.css" media="screen">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/pricing-table.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
-
+      <!-- Steps -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
 

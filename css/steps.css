@@ -1,0 +1,38 @@
+.step{
+	padding: 20px 0 0 0;
+	position: relative;
+	border-bottom: 1px solid #D7D4CE;
+
+}
+
+.step span{
+	font-size:4.61em;
+	line-height: 1;
+	color: #F7AA34;
+	float: left;
+	margin: 0 20px 60px 0;
+}
+
+.step h2{
+	font-size: 1.538em;
+	margin: 10px 0 10px 0;
+	width: 340px;
+}
+
+.step p{
+	font-size: 1.153em;
+	width: 340px;
+}
+
+.step img{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#bg-row{
+      background: url(../img/computer-silhouette.jpg) no-repeat;
+      background-size:cover;
+      opacity:0.4;
+      filter:alpha(opacity=40); /* For IE8 and earlier */
+}
