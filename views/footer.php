@@ -4,55 +4,44 @@
             <div class="footer-top">
                <div class="container">
                   <div class="row">
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-                        <h3>Institutions</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/how-it-works.php">How It Works</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/pricing.php">Pricing</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/faq.php">FAQs</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/technical-requirements.php">Technical Requirements</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
-                    </ul>
-                    </section>
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-                        <h3>Students</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/students/how-it-works.php">How It Works</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/students/sign-up.php">Sign Up</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/students/test-equipment.php">Test Your Equipment</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/students/technical-requirements.php">Technical Requirements</a></li>
-                    </ul>
-                    </section>
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-                        <h3>About</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/about/mission.php">Mission / Vision</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
-                    </ul>
-                    </section>
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-                         <h3>Contact Us</h3>
-                         <ul class="contact-us">
-                            <li>
-                               <i class="icon-map-marker"></i>
-                               <p>
-                                  <strong>Address:</strong>
-                                  Philadelphia, PA
-                               </p>
-                            </li>
-                            <li>
-                               <i class="icon-phone"></i>
-                               <p><strong>Phone:</strong>123-456-7890</p>
-                            </li>
-                            <li>
-                               <i class="icon-envelope"></i>
-                               <p><strong>Email:</strong><a href="mailto:info@examhawk.com">info@examhawk.com</a></p>
-                            </li>
-                         </ul>
-                    </section>
+		     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-one">
+		         <h3>Product</h3>
+			 <ul>
+			     <li><a href="institutions">Institutions</a></li>
+			     <li><a href="test-takers">Test Takers</a></li>
+			     <li><a href="institutions/live-demo.php">Live Demo</a></li>
+			 </ul>
+		     </section>
+		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three">
+		         <h3>About</h3>
+			 <ul>
+			     <li><a href="about/mission.php">Mission / Vision</a></li>
+                             <li><a href="about/team.php">Team</a></li>
+                             <li><a href="about/contact.php">Contact</a></li>
+                             <li><a href="about/conferences.php">Conferences</a></li>
+			     <li><a href="about/blog.php">Blog</a></li>
+			 </ul>
+		     </section>
+		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-us">
+                           <li>
+                              <i class="icon-map-marker"></i>
+                              <p>
+                                 <strong>Address:</strong>
+                                 Philadelphia, PA
+                              </p>
+                           </li>
+                           <li>
+                              <i class="icon-phone"></i>
+                              <p><strong>Phone:</strong>123-456-7890</p>
+                           </li>
+                           <li>
+                              <i class="icon-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:info@examhawk.com">info@examhawk.com</a></p>
+                           </li>
+                        </ul>
+                     </section>
                   </div>
                </div>
             </div>
