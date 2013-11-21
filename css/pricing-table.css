@@ -224,7 +224,7 @@ div.p_table.three-col div.column_1, div.p_table.three-col div.column_2, div.p_ta
 
 /* =================== 4 COLUMN Width  ==================== */
 div.p_table div.column_1, div.p_table div.column_2, div.p_table div.column_3, div.p_table div.column_4 {
-    
+
     height: 100%;
     float: left;
     position: relative;
@@ -241,11 +241,11 @@ div.p_table {
 
 
 /* ========== COLUMN HOVERS ========== */
-div.p_table div.column_1,
+/*div.p_table div.column_1,
 div.p_table div.column_2,
 div.p_table div.column_3,
 div.p_table div.column_4 {
-	/* transitions */
+	 transitions
     -webkit-transition: box-shadow 0.25s ease;
     -moz-transition: box-shadow 0.25s ease;
     -o-transition: box-shadow 0.25s ease;
@@ -261,7 +261,7 @@ div.p_table div.column_4:hover {
     z-index: 100;
     left: 0;
     top: -15px;
-	/* shadow */
+	 shadow
     box-shadow: 5px 0px 5px rgba(0,0,0,0.5);
     -webkit-box-shadow: 5px 0px 5px rgba(0,0,0,0.5);
     -moz-box-shadow: 5px 0px 5px rgba(0,0,0,0.5);
@@ -311,7 +311,7 @@ div.p_table div.column_3:hover li.footer_row,
 div.p_table div.column_4:hover li.footer_row {
     padding-left: 5px !important;
     padding-right: 5px !important;
-}
+}*/
 
 /*==================== DATA ROWS  ====================*/
 /* ------ common styles ------  */
