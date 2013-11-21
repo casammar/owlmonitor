@@ -81,7 +81,7 @@
                            <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
                         </li>
                         <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/students/')?'current':''?>" href="<?php echo BASE_URL; ?>/students">Students</a>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/students/')?'current':''?>" href="<?php echo BASE_URL; ?>/students">Test Takers</a>
                         </li>
                         <li>
                            <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/about/')?'current':''?>" href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
