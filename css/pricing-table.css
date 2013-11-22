@@ -195,7 +195,7 @@ div.p_table div.column_1 li.header_row_2,
 div.p_table div.column_2 li.header_row_2,
 div.p_table div.column_3 li.header_row_2,
 div.p_table div.column_4 li.header_row_2 {
-    height: 100px;
+    height: 115px;
     width: 100%;
     padding: 3px 0px 7px 0px !important;
 }

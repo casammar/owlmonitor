@@ -55,14 +55,14 @@
                <div class="container">
                   <div class="row">
                      <div class="slogan-content">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                            <h3>Having Trouble? Call us today at <b>(123)456-7890</b> or Email us at <a href="mailto:info@examhawk.com">info@examhawk.com</a></h3>
-                        </div>
-<!--                        <div class="col-lg-3 col-md-3">
-                           <div class="get-started">
-                              <button class="btn btn-special btn-color pull-right">Contact Us</button>
-                           </div>
                         </div>-->
+                        <div class="col-lg-12 col-md-12">
+                           <div class="get-started">
+                              <button class="btn btn-special btn-color">Read More</button>
+                           </div>
+                        </div>
                         <div class="clearfix"></div>
                      </div>
                   </div>
@@ -82,30 +82,30 @@
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d1">
 						<div class="content-box big ch-item bottom-pad-small">
 							<div class="content-box-info">
-								<h3>Quote One</h3>
-								<p>
-									 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-								</p>
+								<blockquote>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
                             </div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d2">
 						<div class="content-box big ch-item bottom-pad-small">
 							<div class="content-box-info">
-								<h3>Quote Two</h3>
-								<p>
-									 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-								</p>
+								<blockquote>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
                             </div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d3">
 						<div class="content-box big ch-item">
 							<div class="content-box-info">
-								<h3>Quote Three</h3>
-								<p>
-									 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-								</p>
+								<blockquote>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
                             </div>
 						</div>
 					</div>
@@ -127,20 +127,19 @@
 							<ul>
 								<!-- column header -->
 								<li class="header_row_1 align_center">
-								<h2 class="col1">Standard</h2>
+								<h2 class="col1">ExamHawk Pricing</h2>
 								</li>
 								<li class="header_row_2 align_center">
+                                    <h3 class="col1">as low as</h3>
 								<h1 class="col1">$<span>10</span></h1>
-								<h3 class="col1">per month</h3>
+								<h3 class="col1">per test</h3>
 								</li>
 								<!-- data rows -->
-								<li class="row_style_3 align_center"><span>10GB Disk Space</span></li>
-								<li class="row_style_1 align_center"><span>100GB Bandwidth</span></li>
-								<li class="row_style_3 align_center"><span>1 Email Account</span></li>
-								<li class="row_style_1 align_center"><span>1 MySQL Database</span></li>
-								<li class="row_style_3 align_center"><span>24/7 Support</span></li>
-								<li class="row_style_1 align_center"><span>99% Uptime Guarantee</span></li>
-								<!-- column footer -->
+								<li class="row_style_3 align_center"><span>Scheduled Test - $10</span></li>
+								<li class="row_style_1 align_center"><span>Take it Soon - $15</span></li>
+								<li class="row_style_3 align_center"><span>On-demand - $18.75</span></li>
+								<li class="row_style_1 align_center"><span></span></li>
+                                <!-- column footer -->
 								<li class="footer_row"></li>
 							</ul>
 						</div>
@@ -148,16 +147,7 @@
 					<div class="clearfix">
 					</div>
 				</div>
-
-				<div class="posts-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <h3 class="title">Header</h3>
-					<div class="post-content">
-						<p style="text-align:justify;">
-							 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<h3 class="title">Contact Us for a Live Demo</h3>
 					<form method="post" class="reply" id="contact">
 						<fieldset>
@@ -178,7 +168,7 @@
 								</div>
 							</div>
 						</fieldset>
-						<button class="btn-normal btn-color submit bottom-pad" type="submit">Send</button>
+						<button class="btn-normal btn-color submit bottom-pad pull-right" type="submit">Send</button>
 						<div class="success alert-success alert" style="display:none">
 							Your message has been sent successfully.
 						</div>
