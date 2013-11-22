@@ -182,3 +182,17 @@ padding: 60px 0;
     font-style:oblique;
     letter-spacing:3px
 }
+
+
+blockquote p{
+    font-size:22px;
+}
+
+blockquote.pull-right small{
+    font-size:18px;
+}
+
+blockquote.pull-right small:after{
+    content:none;
+
+}
