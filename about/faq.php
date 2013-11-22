@@ -10,7 +10,7 @@
                      <!-- Sidebar End -->
                      <!-- FAQ Start -->
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                           <h3 class="title">Student FAQs</h3>
+                           <h3 class="title"><a id="test-takers-faq">Test Taker FAQs</a></h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">Question 1</h4>
@@ -70,7 +70,7 @@
                               </div>
                            </div>
                            <div class="divider"></div>
-                           <h3 class="title">Teachers FAQs</h3>
+                           <h3 class="title"><a id="teachers-faq">Teachers FAQs</a></h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">Question 1</h4>

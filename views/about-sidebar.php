@@ -4,7 +4,8 @@
        <h3 class="title">About ExamHawk</h3>
        <ul class="category-list slide">
           <li><a href="<?php echo BASE_URL; ?>/about/mission.php">Mission</a></li>
-          <li><a href="<?php echo BASE_URL; ?>/about/faq.php">FAQ's</a></li>
+          <li><a href="<?php echo BASE_URL; ?>/about/faq.php#teachers-faq">Teacher FAQ's</a></li>
+          <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQ's</a></li>
           <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
           <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
           <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
