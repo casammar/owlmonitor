@@ -294,7 +294,7 @@ h2.title {
 .fullwidthbanner-container {
     width: 100% !important;
     position: relative;
-    max-height: 470px !important;
+    max-height: 505px !important;
     overflow: hidden;
     background-image: url(../img/loader.gif);
     background-repeat: no-repeat;
@@ -1034,7 +1034,7 @@ div.content-box.big div.content-box-info p {
 	border-width: 1px 1px 3px;
 	border-color: #ddd;
 	background: #fafafa;
-	min-height: 285px;
+	min-height: 315px;
 
 	/* Safari 4-5,Chrome 1-9 */
 	background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
