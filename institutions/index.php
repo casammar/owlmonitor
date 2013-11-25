@@ -119,35 +119,59 @@
 	<div class="services-big">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<!-- pricing table -->
 					<div class="p_table">
 						<!-- column style 1 -->
-						<div class="column_1">
+						<div class="column_1" style="width:100%;">
 							<ul>
 								<!-- column header -->
 								<li class="header_row_1 align_center">
 								<h2 class="col1">ExamHawk Pricing</h2>
 								</li>
-								<li class="header_row_2 align_center">
+<!--								<li class="header_row_2 align_center">
                                     <h3 class="col1">as low as</h3>
 								<h1 class="col1">$<span>10</span></h1>
 								<h3 class="col1">per test</h3>
-								</li>
+								</li>-->
 								<!-- data rows -->
-								<li class="row_style_3 align_center"><span>Scheduled Test - $10</span></li>
-								<li class="row_style_1 align_center"><span>Take it Soon - $15</span></li>
-								<li class="row_style_3 align_center"><span>On-demand - $18.75</span></li>
-								<li class="row_style_1 align_center"><span></span></li>
-                                <!-- column footer -->
-								<li class="footer_row"></li>
-							</ul>
+                                </ul>
+                                   <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th>Exam Length</th>
+                                        <th>Flex Scheduling</th>
+                                        <th>Take it Soon</th>
+                                        <th>Take it Now</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>120 Minutes or Less</td>
+                                        <td>$10.00</td>
+                                        <td>$15.00</td>
+                                        <td>$18.75</td>
+                                      </tr>
+                                      <tr>
+                                        <td>120-180 Minutes</td>
+                                        <td>$15.00</td>
+                                        <td>$20.00</td>
+                                        <td>$23.75</td>
+                                      </tr>
+                                      <tr>
+                                        <td>181 Minutes or More</td>
+                                        <td>$20.00</td>
+                                        <td>$25.00</td>
+                                        <td>$28.75</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
 						</div>
 					</div>
 					<div class="clearfix">
 					</div>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<h3 class="title">Contact Us for a Live Demo</h3>
 					<form method="post" class="reply" id="contact">
 						<fieldset>
