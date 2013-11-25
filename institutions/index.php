@@ -119,7 +119,7 @@
 	<div class="services-big">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<!-- pricing table -->
 					<div class="p_table">
 						<!-- column style 1 -->
@@ -171,7 +171,7 @@
 					<div class="clearfix">
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-12">
 					<h3 class="title">Contact Us for a Live Demo</h3>
 					<form method="post" class="reply" id="contact">
 						<fieldset>
