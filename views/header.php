@@ -28,6 +28,8 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
       <!-- Steps -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
+      <!-- Schedule Grid -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
 

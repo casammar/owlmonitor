@@ -1,0 +1,71 @@
+/* SCHEDULE PAGE GRID */
+
+	.schedule_grid_col_01 {
+		width:150px;
+		float:left;
+		padding:0px 20px 0px 0px;
+		margin:0px;
+		text-align:right!important;
+		}
+
+	.schedule_grid_col_02 {
+		width:530px;
+		float:left;
+		padding:0px;
+		margin:0px;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-left-color: #000000;
+		}
+
+		.schedule_grid_col_02 h1 {
+		}
+
+		.schedule_grid_col_02 .p, .schedule_grid_col_02_blue .p {
+		display:inline!important;
+		}
+
+	.schedule_grid_col_02_light {
+		width:530px;
+		float:left;
+		padding:0px;
+		margin:0px;
+		line-height:18px;
+		background:#EBE6EB;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-left-color: #000000;
+		}
+
+	.schedule_grid_col_02_blue {
+		width:530px;
+		float:left;
+		padding:0px;
+		margin:0px;
+		background:#CCCCCC;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-left-color: #000000;
+		}
+
+
+	.schedule_grid_col_01_text_padding {
+		padding:30px 0px 16px 20px;
+	}
+
+	.schedule_grid_col_02_text_padding {
+		padding:22px 20px 20px 20px;
+	}
+
+
+	img.floatRight {
+		float: right;
+		margin: 0px 0px 0px 20px;
+		padding:0px;
+	}
+
+	img.floatRightDouble {
+		float: right;
+		margin: 0px;
+		padding:0px;
+	}
