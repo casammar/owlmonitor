@@ -977,13 +977,6 @@ div.content-box div.content-box-info {
 
 div.content-box.big {
 	padding:0 7% 30px;
-	border-radius: 3px;
-	background:#fff;
-	-webkit-transition: background .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out;
-    -o-transition: background .5s ease-in-out;
-    -ms-transition: background .5s ease-in-out;
-    transition: background .5s ease-in-out;
 }
 
 
