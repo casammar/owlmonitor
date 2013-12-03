@@ -994,7 +994,11 @@ div.content-box.big:hover {
 div.content-box.big div.content-box-info {
     padding-left: 0;
 	text-align:center;
-	margin:60px 0 0;
+	margin:40px 0 0;
+}
+
+div.content-box.big div.content-box-info h3 {
+    color:#0488cd;
 }
 
 div.content-box.big div.content-box-info p {
@@ -2279,7 +2283,7 @@ a.portfolio-item-link {
 	opacity: 0;
 }
 
-.ch-item:hover .ch-info-front {
+/*.ch-item:hover .ch-info-front {
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
@@ -2296,7 +2300,7 @@ a.portfolio-item-link {
 
 	opacity: 1;
 	pointer-events: auto;
-}
+}*/
 
 
 /* Team Section */
