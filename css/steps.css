@@ -1,8 +1,6 @@
 .step{
-	padding: 20px 0 0 0;
-	position: relative;
-	border-bottom: 1px solid #D7D4CE;
-
+	padding: 0;
+	height:160px;
 }
 
 .step span{
@@ -20,14 +18,16 @@
 }
 
 .step p{
-	font-size: 1.153em;
-	width: 340px;
+    text-align:justify
+}
+
+.step h3.title{
+
 }
 
 .step img{
-	position: absolute;
-	top: 0;
-	right: 0;
+	float:left;
+	margin-right:15px;
 }
 
 #bg-row{

@@ -252,3 +252,7 @@ right: 10px;
 -ms-transform: skew(15deg) rotate(6deg);
 -o-transform: skew(15deg) rotate(6deg);
 transform: skew(15deg) rotate(6deg); }
+
+.client-quote{
+    margin-top:50px !important;
+}

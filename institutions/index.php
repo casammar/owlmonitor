@@ -25,25 +25,29 @@
 				<!-- Skill Section Start -->
 				<div class="choice col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<div class="step">
-						<h2>Simple</h2>
+						<h3 class="title">Simple</h3>
 						<p>
-							Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
-						</p>
-						<img src="http://placehold.it/120" alt="step 1"/>
+							<img src="http://placehold.it/90" alt="step 1"/>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
+                            <br><br>
+                        </p>
+
+
 					</div>
 					<div class="step">
-						<h2>Secure</h2>
+						<h3 class="title">Secure</h3>
 						<p>
-							Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
-						</p>
-						<img src="http://placehold.it/120" alt="step 2"/>
+							<img src="http://placehold.it/90" alt="step 2"/>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
+                            <br><br>
+                        </p>
+
 					</div>
 					<div class="step">
-						<h2>Compliant</h2>
+						<h3 class="title">Compliant</h3>
 						<p>
-							Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
-						</p>
-						<img src="http://placehold.it/120" alt="step 3"/>
+							<img src="http://placehold.it/90" alt="step 3"/>Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
+                            <br><br>
+                        </p>
+
 					</div>
 				</div>
 				<!-- Skill Section Start -->
@@ -60,7 +64,7 @@
                         </div>-->
                         <div class="col-lg-12 col-md-12">
                            <div class="get-started">
-                              <button class="btn btn-special btn-color">Read More</button>
+                              <a href="#quotes" class="btn btn-special btn-color">Read More</a>
                            </div>
                         </div>
                         <div class="clearfix"></div>
@@ -70,7 +74,7 @@
             </div>
             <!-- Slogan End-->
 	<!-- 3 Column Services -->
-	<div class="service-reasons">
+	<div class="service-reasons" id="quotes">
 		<div class="container">
 			<div class="row">
 <!--				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -78,10 +82,10 @@
 				</div>
 				<div class="divider">
 				</div>-->
-				<div class="reasons">
+				<div class="reasons" >
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d1">
-						<div class="content-box big ch-item bottom-pad-small">
-							<div class="content-box-info">
+						<div class="content-box big ch-item bottom-pad-small" style="width:90%;">
+							<div class="content-box-info client-quote">
 								<blockquote>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                   <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
@@ -90,8 +94,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d2">
-						<div class="content-box big ch-item bottom-pad-small">
-							<div class="content-box-info">
+						<div class="content-box big ch-item bottom-pad-small" style="width:90%;">
+							<div class="content-box-info client-quote">
 								<blockquote>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                   <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
@@ -100,8 +104,8 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d3">
-						<div class="content-box big ch-item">
-							<div class="content-box-info">
+						<div class="content-box big ch-item" style="width:90%;">
+							<div class="content-box-info client-quote">
 								<blockquote>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                   <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
