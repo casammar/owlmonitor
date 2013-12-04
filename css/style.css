@@ -217,7 +217,10 @@ header .main-header {
 }
 
 .logo {
-    height: 80px;
+    line-height: 80px;
+}
+.logo img{
+    vertical-align:middle;
 }
 
 .logo h1 {
