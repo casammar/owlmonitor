@@ -256,3 +256,24 @@ transform: skew(15deg) rotate(6deg); }
 .client-quote{
     margin-top:50px !important;
 }
+
+#background-banner{
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: cover;
+    background-position:left center;
+    background-repeat: no-repeat;
+    background-image:url('../../img/slider/slider-bg-1-alt.jpg');
+    min-height:643px;
+}
+
+#background-banner h3{
+    color:#01ABF9;
+    text-align:right;
+    font-size:48px;
+    padding:15px;
+    margin-top:10px;
+}
