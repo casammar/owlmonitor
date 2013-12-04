@@ -144,29 +144,36 @@
                                     <thead>
                                       <tr>
                                         <th>Exam Length</th>
-                                        <th>Flex Scheduling</th>
-                                        <th>Take it Soon</th>
-                                        <th>Take it Now</th>
+                                        <th>Per Test</th>
                                       </tr>
                                     </thead>
                                     <tbody>
                                       <tr>
                                         <td>120 Minutes or Less</td>
                                         <td>$10.00</td>
-                                        <td>$15.00</td>
-                                        <td>$18.75</td>
                                       </tr>
                                       <tr>
                                         <td>120-180 Minutes</td>
                                         <td>$15.00</td>
-                                        <td>$20.00</td>
-                                        <td>$23.75</td>
                                       </tr>
                                       <tr>
                                         <td>181 Minutes or More</td>
                                         <td>$20.00</td>
-                                        <td>$25.00</td>
-                                        <td>$28.75</td>
+                                      </tr>
+                                    </tbody>
+                                    <thead>
+                                      <tr>
+                                        <th>Extras</th>
+                                      </tr>
+                                    </thead>
+                                     <tbody>
+                                      <tr>
+                                        <td>Take it Now</td>
+                                        <td>$8.75</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Take it Soon</td>
+                                        <td>$5.00</td>
                                       </tr>
                                     </tbody>
                                   </table>
