@@ -1555,8 +1555,8 @@ a.scrollup:hover i,a.scrollup:focus i {
 }
 
 .contact-us {
-    margin: 15px 0 0;
     background: url("../img/contact-map.png") no-repeat center bottom;
+    background-size: 75%;
 }
 
 footer .contact-us a {

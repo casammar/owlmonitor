@@ -22,9 +22,9 @@
 			     <li><a href="about/blog.php">Blog</a></li>
 			 </ul>
 		     </section>
-		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three">
+		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three contact-us">
                         <h3>Contact Us</h3>
-                        <ul class="contact-us">
+                        <ul>
                            <li>
                               <i class="icon-map-marker"></i>
                               <p>
