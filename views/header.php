@@ -65,7 +65,7 @@
                   <!-- Logo Start -->
                   <div class="logo pull-left">
                       <a href="<?php echo BASE_URL; ?>">
-                         <img src="<?php echo BASE_URL; ?>/img/003-examhawk-logo.png">
+                         <img src="<?php echo BASE_URL; ?>/img/001-examhawk-logo.png">
                       </a>
                   </div>
                   <!-- Logo End -->
