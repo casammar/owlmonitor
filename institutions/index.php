@@ -64,7 +64,7 @@
                         </div>-->
                         <div class="col-lg-12 col-md-12">
                            <div class="get-started">
-                              <a href="#quotes" class="btn btn-special btn-color">Read More</a>
+                              <a class="scrolldown" href="#quotes" style="cursor: pointer; display: inline;text-decoration:none;"><i class="icon-chevron-down icon-2x"></i></a>
                            </div>
                         </div>
                         <div class="clearfix"></div>

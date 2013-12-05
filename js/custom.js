@@ -455,8 +455,8 @@ jQuery(document).ready(function () {
 /*	Clients section Parallax
 /*----------------------------------------------------*/
 
-	jQuery('.client').parallax("50%", 0.1);
-	jQuery('.service-reasons').parallax("50%", 0.1);
+	jQuery('.clien').parallax("50%", 0.1);
+	jQuery('.service-reason').parallax("50%", 0.1);
 
 	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({overlay_gallery: false});
 
@@ -501,6 +501,13 @@ jQuery(document).ready(function () {
 		jQuery('.scrollup').click(function () {
 			jQuery("html, body").animate({
 				scrollTop: 0
+			}, 600);
+			return false;
+		});
+
+		jQuery('.scrolldown').click(function () {
+			jQuery("html, body").animate({
+				scrollTop: 1000
 			}, 600);
 			return false;
 		});
