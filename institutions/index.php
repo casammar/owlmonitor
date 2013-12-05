@@ -163,16 +163,16 @@
                                     </tbody>
                                     <thead>
                                       <tr>
-                                        <th>Extras</th>
+                                        <th>Optional Fees (can be assessed to the student)</th>
                                       </tr>
                                     </thead>
                                      <tbody>
                                       <tr>
-                                        <td>Take it Now</td>
+                                        <td>Take it Now (on-demand)</td>
                                         <td>$8.75</td>
                                       </tr>
                                       <tr>
-                                        <td>Take it Soon</td>
+                                        <td>Take it Soon (within 72 hours of a test)</td>
                                         <td>$5.00</td>
                                       </tr>
                                     </tbody>
