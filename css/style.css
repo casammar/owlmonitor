@@ -1007,6 +1007,7 @@ div.content-box.big div.content-box-info h3 {
 div.content-box.big div.content-box-info p {
 	text-align:center;
 	margin-top: 25px;
+	line-height:25px;
 }
 
 .service-reasons div.content-box.big {
@@ -1020,10 +1021,12 @@ div.content-box.big div.content-box-info p {
     line-height: 32px;
     margin: 0 0 5px;
     font-size:26px;
+
 }
 
 .main-content p,.content p {
     text-align: left;
+    line-height:28px;
 }
 
 
