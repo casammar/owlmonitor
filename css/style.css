@@ -1025,7 +1025,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .main-content p,.content p {
-    text-align: left;
+    text-align: justify;
     line-height:28px;
 }
 
