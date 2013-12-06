@@ -22,7 +22,7 @@ jQuery().waypoint && jQuery("body").imagesLoaded(function () {
                 var e = jQuery(this);
                 setTimeout(function () {
                     e.addClass("animate_start")
-                }, 20)
+                }, 10)
             }
         }, {
             offset: "85%",
@@ -455,8 +455,8 @@ jQuery(document).ready(function () {
 /*	Clients section Parallax
 /*----------------------------------------------------*/
 
-	jQuery('.clien').parallax("50%", 0.1);
-	jQuery('.service-reason').parallax("50%", 0.1);
+	jQuery('.client').parallax("50%", 0.1);
+	jQuery('.service-reasont').parallax("50%", 0.1);
 
 	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({overlay_gallery: false});
 

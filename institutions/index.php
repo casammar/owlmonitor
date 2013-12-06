@@ -10,7 +10,7 @@
 					<h3 class="title">Institutions</h3>
 					<div class="post-content">
 						<div class="img-content">
-							<img src="http://placehold.it/300" alt="">
+							<img src="../img/sandbox/college-doorway.jpg" alt="">
 						</div>
 						<p style="text-align:justify;">
                             For any online education program, balancing security of online tests vs. convenience, cost and technological sophistication is always a balancing act.  ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
@@ -27,7 +27,7 @@
 					<div class="step">
 						<h3 class="title">Simple</h3>
 						<p>
-							<img src="http://placehold.it/90" alt="step 1"/>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
+                            <i class="icon-laptop icon-5x" style="float:left;margin:5px 15px;"></i> Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
                             <br><br>
                         </p>
 
@@ -36,7 +36,7 @@
 					<div class="step">
 						<h3 class="title">Secure</h3>
 						<p>
-							<img src="http://placehold.it/90" alt="step 2"/>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
+							<i class="icon-shield icon-5x" style="float:left;margin:5px 15px;"></i> Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
                             <br><br>
                         </p>
 
@@ -44,35 +44,23 @@
 					<div class="step">
 						<h3 class="title">Compliant</h3>
 						<p>
-							<img src="http://placehold.it/90" alt="step 3"/>Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
+							<i class="icon-certificate icon-5x" style="float:left;margin:5px 15px;"></i> Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
                             <br><br>
                         </p>
 
 					</div>
 				</div>
-				<!-- Skill Section Start -->
+
+                <!-- Skill Section Start -->
 			</div>
+             <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <br>
+                        <a class="scrolldown" href="#quotes" style="cursor: pointer; display: inline;text-decoration:none;"><i class="icon-chevron-down icon-3x"></i></a>
+                    </div>
+                </div>
 		</div>
 	</div>
-	<!-- Slogan Start-->
-            <div class="slogan">
-               <div class="container">
-                  <div class="row">
-                     <div class="slogan-content">
-<!--                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                           <h3>Having Trouble? Call us today at <b>(123)456-7890</b> or Email us at <a href="mailto:info@examhawk.com">info@examhawk.com</a></h3>
-                        </div>-->
-                        <div class="col-lg-12 col-md-12">
-                           <div class="get-started">
-                              <a class="scrolldown" href="#quotes" style="cursor: pointer; display: inline;text-decoration:none;"><i class="icon-chevron-down icon-2x"></i></a>
-                           </div>
-                        </div>
-                        <div class="clearfix"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Slogan End-->
 	<!-- 3 Column Services -->
 	<div class="service-reasons" id="quotes">
 		<div class="container">
@@ -83,7 +71,7 @@
 				<div class="divider">
 				</div>-->
 				<div class="reasons" >
-					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d1">
+					<div class="col-lg-4 col-md-4 col-sm-4">
 						<div class="content-box big ch-item bottom-pad-small" style="width:90%;">
 							<div class="content-box-info client-quote">
 								<blockquote>
@@ -93,7 +81,7 @@
                             </div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d2">
+					<div class="col-lg-4 col-md-4 col-sm-4">
 						<div class="content-box big ch-item bottom-pad-small" style="width:90%;">
 							<div class="content-box-info client-quote">
 								<blockquote>
@@ -103,7 +91,7 @@
                             </div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 animate_afc d3">
+					<div class="col-lg-4 col-md-4 col-sm-4">
 						<div class="content-box big ch-item" style="width:90%;">
 							<div class="content-box-info client-quote">
 								<blockquote>
