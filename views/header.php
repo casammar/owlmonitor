@@ -32,6 +32,8 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
+      <!-- Horizontal Nav-->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/horizontal-nav.css">
 
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
@@ -91,11 +93,35 @@
                         <li>
                            <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/live-demo.php')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
                         </li>
-		     </ul>
-		  </nav>
-		  <!-- Menu End -->
+                    </ul>
+                 </nav>
+                 <!-- Menu End -->
                </div>
+
+                <!-- About horizontal nav start-->
+                <?php
+                $mystring = $_SERVER['REQUEST_URI'];
+                $findme   = 'about';
+                $pos = strpos($mystring, $findme);
+
+                if ($pos === false) {
+                    //show nothing
+                } else { ?>
+                    <div class="container">
+                        <ul class="category-list slide">
+                           <li><a href="<?php echo BASE_URL; ?>/about/faq.php#teachers-faq">Teacher FAQ's</a></li>
+                           <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQ's</a></li>
+                           <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
+                           <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
+                           <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
+                           <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
+                        </ul>
+                    </div>
+                <?php } ?>
+                <!-- About horizontal nav end-->
+
             </div>
             <!-- Main Header End -->
+
          </header>
          <!-- Header End -->

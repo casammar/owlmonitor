@@ -1,0 +1,20 @@
+.category-list  ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+.category-list li
+{
+float:left;
+}
+.category-list ul li:before {
+    content:none;
+}
+.category-list a
+{
+display:block;
+width:185px;
+
+text-align:center;
+}
