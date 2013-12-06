@@ -117,8 +117,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="divider">
-	</div>
+
 	<!-- 3 Column Big Services -->
 	<div class="services-big">
 		<div class="container">
@@ -133,50 +132,48 @@
 								<li class="header_row_1 align_center">
 								<h2 class="col1">ExamHawk Pricing</h2>
 								</li>
-<!--								<li class="header_row_2 align_center">
-                                    <h3 class="col1">as low as</h3>
-								<h1 class="col1">$<span>10</span></h1>
-								<h3 class="col1">per test</h3>
-								</li>-->
-								<!-- data rows -->
-                                </ul>
-                                   <table class="table table-striped">
-                                    <thead>
-                                      <tr>
-                                        <th>Exam Length</th>
-                                        <th>Per Test</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td>120 Minutes or Less</td>
-                                        <td>$10.00</td>
-                                      </tr>
-                                      <tr>
-                                        <td>120-180 Minutes</td>
-                                        <td>$15.00</td>
-                                      </tr>
-                                      <tr>
-                                        <td>181 Minutes or More</td>
-                                        <td>$20.00</td>
-                                      </tr>
-                                    </tbody>
-                                    <thead>
-                                      <tr>
-                                        <th>Optional Fees (can be assessed to the student)</th>
-                                      </tr>
-                                    </thead>
-                                     <tbody>
-                                      <tr>
-                                        <td>Take it Now (on-demand)</td>
-                                        <td>$8.75</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Take it Soon (within 72 hours of a test)</td>
-                                        <td>$5.00</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
+                            </ul>
+                            <table class="table table-striped">
+                             <thead>
+                               <tr>
+                                 <th>Exam Length</th>
+                                 <th>Per Test</th>
+                               </tr>
+                             </thead>
+                             <tbody>
+                               <tr>
+                                 <td>120 Minutes or Less</td>
+                                 <td>$10.00</td>
+                               </tr>
+                               <tr>
+                                 <td>120-180 Minutes</td>
+                                 <td>$15.00</td>
+                               </tr>
+                               <tr>
+                                 <td>181 Minutes or More</td>
+                                 <td>$20.00</td>
+                               </tr>
+                               <tr>
+                                   <td>&nbsp;</td>
+                                   <td>&nbsp;</td>
+                               </tr>
+                             </tbody>
+                             <thead>
+                               <tr>
+                                 <th>Optional Fees (can be assessed to the student)</th>
+                               </tr>
+                             </thead>
+                              <tbody>
+                               <tr>
+                                 <td>Take it Now (on-demand)</td>
+                                 <td>$8.75</td>
+                               </tr>
+                               <tr>
+                                 <td>Take it Soon (within 72 hours of a test)</td>
+                                 <td>$5.00</td>
+                               </tr>
+                             </tbody>
+                           </table>
 						</div>
 					</div>
 					<div class="clearfix">
@@ -225,8 +222,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="divider">
-	</div>
+
 	<!-- Main Content end-->
 </div>
 <!-- Content End -->
