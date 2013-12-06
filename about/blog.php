@@ -5,22 +5,7 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                     <!-- Sidebar Begin -->
-                     <?php include '../views/about-sidebar.php'; ?>
-                      <!-- Category Widget Start -->
-<!--                        <div class="widget category">
-                           <h3 class="title">Categories</h3>
-                           <ul class="category-list slide">
-                              <li><a href="#">Web Design</a></li>
-                              <li><a href="#">Graphic Design</a></li>
-                              <li><a href="#">Illustration</a></li>
-                              <li><a href="#">Logo Design</a></li>
-                              <li><a href="#">Wordpress Themes</a></li>
-                           </ul>
-                        </div>-->
-                        <!-- Category Widget End -->
-                     <!-- Sidebar End -->
-                    <div class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="posts-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <article class="post hentry">
                            <div class="post-image">
                               <a href="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" data-rel="prettyPhoto">

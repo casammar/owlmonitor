@@ -5,10 +5,7 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                     <!-- Sidebar Begin -->
-                     <?php include '../views/about-sidebar.php'; ?>
-                     <!-- Sidebar End -->
-                     <div class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                     <div class="posts-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <article class="post entry">
                            <h3 class="title">What is ExamHawk</h3>
                            <div class="post-content">

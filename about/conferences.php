@@ -5,10 +5,7 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                     <!-- Sidebar Begin -->
-                     <?php include '../views/about-sidebar.php'; ?>
-                     <!-- Sidebar End -->
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div id="col_01">
                             <h3 class="title">Conferences</h3>
                             <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">

@@ -5,10 +5,7 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                     <!-- Sidebar Begin -->
-                     <?php include '../views/about-sidebar.php'; ?>
-                     <!-- Sidebar End -->
-                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-form">
+                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="contact-form">
                         <h3 class="title">Send Us an Email</h3>
                         <p>
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
