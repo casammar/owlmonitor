@@ -6,64 +6,66 @@
                <div class="container">
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div id="col_01">
-                            <h3 class="title">Conferences</h3>
-                            <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_01_text_padding p">
-                                    12/01/2013 - 12/6/2013
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <h2>Conference A</h2>
                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_02" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_02_text_padding">
-                                    <h1>Conference A</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Duis elit diam, varius ut dignissim eget, semper quis elit.</p>
-                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_01_text_padding p">
-                                    12/01/2013 - 12/6/2013
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>12/01/2013 - 12/6/2013</p>
+                                    <p>Anywhere, USA</p>
                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_02" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_02_text_padding">
-                                    <h1>Conference B</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Duis elit diam, varius ut dignissim eget, semper quis elit.</p>
-                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_01_text_padding p">
-                                    12/01/2013 - 12/6/2013
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <button type="button" class="btn btn-info">Join Us</button>
                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_02" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_02_text_padding">
-                                    <h1>Conference C</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Duis elit diam, varius ut dignissim eget, semper quis elit.</p>
-                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_01_text_padding p">
-                                    12/01/2013 - 12/6/2013
-                                </div>
-                            </div>
-                            <div class="schedule_grid_col_02" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_02_text_padding">
-                                    <h1>Conference D</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Duis elit diam, varius ut dignissim eget, semper quis elit.</p>
-                                 </div>
-                            </div>
-                            <div class="schedule_grid_col_01" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_01_text_padding p">
-                                    12/01/2013 - 12/6/2013
-                                </div>
-                            </div>
-                            <div class="schedule_grid_col_02" style="border-top-style:solid;border-top-width: 4px;border-top-color: #000;padding-top:3px;">
-                                <div class="schedule_grid_col_02_text_padding">
-                                    <h1>Conference E</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Duis elit diam, varius ut dignissim eget, semper quis elit.</p>
-                                 </div>
-                            </div>
+                           </div>
                         </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <h2>Conference B</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>12/01/2013 - 12/6/2013</p>
+                                    <p>Anywhere, USA</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <button type="button" class="btn btn-info">Join Us</button>
+                                </div>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <h2>Conference C</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>12/01/2013 - 12/6/2013</p>
+                                    <p>Anywhere, USA</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <button type="button" class="btn btn-info">Join Us</button>
+                                </div>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <h2>Conference D</h2>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <p>12/01/2013 - 12/6/2013</p>
+                                    <p>Anywhere, USA</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <button type="button" class="btn btn-info">Join Us</button>
+                                </div>
+                           </div>
+                        </div>
+                        <hr>
                     </div>
                </div>
             </div>
