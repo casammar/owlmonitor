@@ -1,4 +1,4 @@
-* ==================== PRICING TABLE  ==================== */
+/* ==================== PRICING TABLE  ==================== */
 /* --- base --- */
 div.p_table {
     width: 100%;
@@ -237,7 +237,7 @@ div.p_table div.column_1, div.p_table div.column_2, div.p_table div.column_3, di
 
 div.p_table {
 	margin: 0 -1%;
-	height: 430px;
+	height: 465px;
 }
 
 

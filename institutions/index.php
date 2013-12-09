@@ -27,7 +27,7 @@
 					<div class="step">
 						<h3 class="title">Simple</h3>
 						<p>
-                            <i class="icon-laptop icon-5x" style="float:left;margin:5px 15px;"></i> Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
+                            <i class="icon-laptop icon-5x" style="float:left;margin:5px 15px;height:87px;width:87px;"></i> Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
                             <br><br>
                         </p>
 
@@ -36,7 +36,7 @@
 					<div class="step">
 						<h3 class="title">Secure</h3>
 						<p>
-							<i class="icon-shield icon-5x" style="float:left;margin:5px 15px;"></i> Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
+							<i class="icon-shield icon-5x" style="float:left;margin:5px 15px;height:87px;width:87px;"></i> Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.
                             <br><br>
                         </p>
 
@@ -44,7 +44,7 @@
 					<div class="step">
 						<h3 class="title">Compliant</h3>
 						<p>
-							<i class="icon-certificate icon-5x" style="float:left;margin:5px 15px;"></i> Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
+							<i class="icon-ok icon-5x" style="float:left;margin:5px 15px;height:87px;width:87px;"></i> Our authentication & test security system  is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.
                             <br><br>
                         </p>
 
@@ -196,15 +196,14 @@
 								</div>
 							</div>
 						</fieldset>
-						<button class="btn-normal btn-color submit bottom-pad pull-right" type="submit">Send</button>
+						<button class="btn-normal btn-color submit pull-right" type="submit">Send</button>
 						<div class="success alert-success alert" style="display:none">
 							Your message has been sent successfully.
 						</div>
 						<div class="error alert-error alert" style="display:none">
 							E-mail must be valid and message must be longer than 100 characters.
 						</div>
-						<div class="clearfix">
-						</div>
+
 					</form>
 				</div>
 			</div>

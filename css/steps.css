@@ -18,7 +18,8 @@
 }
 
 .step p{
-    text-align:justify
+    text-align:justify;
+    letter-spacing:1px;
 }
 
 .step h3.title{
