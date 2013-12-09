@@ -4,25 +4,35 @@
             <div class="footer-top">
                <div class="container">
                   <div class="row">
-		     <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-one">
-		         <h3>Product</h3>
-			 <ul>
-			     <li><a href="institutions">Institutions</a></li>
-			     <li><a href="test-takers">Test Takers</a></li>
-			     <li><a href="institutions/live-demo.php">Live Demo</a></li>
-			 </ul>
-		     </section>
-		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three">
-		         <h3>About</h3>
-			 <ul>
-			     <li><a href="about/mission.php">Mission / Vision</a></li>
-                             <li><a href="about/team.php">Team</a></li>
-                             <li><a href="about/contact.php">Contact</a></li>
-                             <li><a href="about/conferences.php">Conferences</a></li>
-			     <li><a href="about/blog.php">Blog</a></li>
-			 </ul>
-		     </section>
-		      <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4 footer-three contact-us">
+                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+                            <h3>Institutions</h3>
+                        <ul>
+                            <li><a href="institutions">Pricing</a></li>
+                            <li><a href="about/faq.php#institutions-faq">Institution FAQs</a></li>
+                            <li><a href="institutions/live-demo.php">Live Demo</a></li>
+                        </ul>
+                        </section>
+                        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+                            <h3>Test Takers</h3>
+                        <ul>
+                            <li><a href="test-takers">How it Works</a></li>
+                            <li><a href="about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
+                            <li><a href="test-takers">Download</a></li>
+                        </ul>
+                        </section>
+
+                         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                            <h3>About</h3>
+                        <ul>
+                            <li><a href="about/mission.php">Mission / Vision</a></li>
+                                        <li><a href="about/team.php">Team</a></li>
+                                        <li><a href="about/contact.php">Contact</a></li>
+                                        <li><a href="about/conferences.php">Conferences</a></li>
+                            <li><a href="about/blog.php">Blog</a></li>
+                        </ul>
+                        </section>
+
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three contact-us">
                         <h3>Contact Us</h3>
                         <ul>
                            <li>

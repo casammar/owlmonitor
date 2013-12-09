@@ -1458,6 +1458,10 @@ span.color {
 
 
 /* Footer */
+footer{
+    text-align: center;
+}
+
 .footer-top {
     background: #323B44;
 	border-bottom: 1px solid #414f5a;
