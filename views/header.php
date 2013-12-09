@@ -112,7 +112,7 @@
                     <div class="container">
                             <table class="horizontal-table">
                                 <tr>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#teachers-faq">Teacher FAQs</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></td>
                                     <td><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></td>
                                     <td><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></td>
                                     <td><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></td>

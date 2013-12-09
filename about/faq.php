@@ -71,7 +71,7 @@
                               </div>
                            </div>
                            <div class="divider"></div>
-                           <h3 class="title"><a id="teachers-faq">Teachers FAQs</a></h3>
+                           <h3 class="title"><a id="institution-faq">Institution FAQs</a></h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">Question 1</h4>
