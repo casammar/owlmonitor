@@ -109,14 +109,16 @@
                     //show nothing
                 } else { ?>
                     <div class="container">
-                        <ul class="category-list slide">
-                           <li><a href="<?php echo BASE_URL; ?>/about/faq.php#teachers-faq">Teacher FAQ's</a></li>
-                           <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQ's</a></li>
-                           <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
-                           <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
-                           <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                           <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
-                        </ul>
+                            <table class="horizontal-table">
+                                <tr>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#teachers-faq">Teacher FAQs</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></td>
+                                </tr>
+                            </table>
                     </div>
                 <?php } ?>
                 <!-- About horizontal nav end-->

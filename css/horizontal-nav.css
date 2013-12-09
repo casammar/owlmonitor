@@ -1,20 +1,29 @@
-.category-list  ul{
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
+.category-list ul {
+    list-style:none;
+    margin:0;
+    padding:0;
 }
-.category-list li
-{
-float:left;
+.category-list li {
+    float:left;
+    width:188px;
+    text-align:right;
 }
-.category-list ul li:before {
-    content:none;
+.category-list li + .category-list li {
+    border-left:1px solid #ccc;
 }
-.category-list a
-{
-display:block;
-width:185px;
+.category-list a {
+    display:block;
+    padding:7px 10px;
 
-text-align:center;
+    color:#FFFFFF;
+
+    text-decoration:none;
+}
+.category-list a:hover {
+    color:#fff;
+
+}
+.category-list a:active {
+    color:#fff;
+
 }
