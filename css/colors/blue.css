@@ -273,10 +273,12 @@ transform: skew(15deg) rotate(6deg); }
     font-size: 0;
     line-height: 0;
     vertical-align: middle;
-    background-size: 100%;
-    background-position:left center;
+/*    background-size: 100%;*/
+    background-position:22% center;
     background-repeat: no-repeat;
-    background-image:url('../../img/slider/slider-bg-1-alt.jpg');
+    /*background-image:url('../../img/slider/slider-bg-1-alt.jpg');*/
+    background-image:url('../../img/sandbox/lg-owl.png');
+    background-color: rgb(228, 228, 241);
 
 }
 
