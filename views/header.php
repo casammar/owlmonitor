@@ -35,7 +35,7 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Horizontal Nav-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/horizontal-nav.css">
+<!--      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/horizontal-nav.css">-->
 
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
@@ -109,7 +109,7 @@
                 if ($pos === false) {
                     //show nothing
                 } else { ?>
-                    <div class="container">
+<!--                    <div class="container">
                             <table class="horizontal-table">
                                 <tr>
                                     <td><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></td>
@@ -120,7 +120,7 @@
                                     <td><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></td>
                                 </tr>
                             </table>
-                    </div>
+                    </div>-->
                 <?php } ?>
                 <!-- About horizontal nav end-->
 

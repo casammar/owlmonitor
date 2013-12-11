@@ -5,7 +5,27 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="contact-form">
+                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                         <h3 class="title">Quick Contact</h3>
+                         <ul class="contact-us">
+                           <li>
+                              <i class="icon-map-marker"></i>
+                              <p>
+                                 <strong>Address:</strong>
+                                 Philadelphia, PA
+                              </p>
+                           </li>
+                           <li>
+                              <i class="icon-phone"></i>
+                              <p><strong>Phone:</strong>123-456-7890</p>
+                           </li>
+                           <li>
+                              <i class="icon-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:info@examhawk.com">info@examhawk.com</a></p>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-form">
                         <h3 class="title">Send Us an Email</h3>
                         <p>
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
@@ -49,26 +69,10 @@
 						</div>
 					</form>
                      </div>
-                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                         <h3 class="title">Quick Contact</h3>
-                         <ul class="contact-us">
-                           <li>
-                              <i class="icon-map-marker"></i>
-                              <p>
-                                 <strong>Address:</strong>
-                                 Philadelphia, PA
-                              </p>
-                           </li>
-                           <li>
-                              <i class="icon-phone"></i>
-                              <p><strong>Phone:</strong>123-456-7890</p>
-                           </li>
-                           <li>
-                              <i class="icon-envelope"></i>
-                              <p><strong>Email:</strong><a href="mailto:info@examhawk.com">info@examhawk.com</a></p>
-                           </li>
-                        </ul>
-                     </div>
+                      <!-- Sidebar Begin -->
+                     <?php include '../views/about-sidebar.php'; ?>
+                     <!-- Sidebar End -->
+
                   </div>
                </div>
             </div>

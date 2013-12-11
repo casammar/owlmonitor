@@ -5,7 +5,7 @@
             <div class="content">
                <div class="container">
                   <div class="row">
-                    <div class="posts-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="posts-block col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <article class="post hentry">
                            <div class="post-image">
                               <a href="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" data-rel="prettyPhoto">
@@ -145,6 +145,9 @@
                         </div>
                      </div>
                      <!-- Left Section End -->
+                     <!-- Sidebar Begin -->
+                     <?php include '../views/about-sidebar.php'; ?>
+                     <!-- Sidebar End -->
                   </div>
                </div>
             </div>
