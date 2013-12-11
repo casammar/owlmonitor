@@ -8,7 +8,7 @@
                             <h3>Institutions</h3>
                         <ul>
                             <li><a href="institutions">Pricing</a></li>
-                            <li><a href="about/faq.php#institution-faq">Institution FAQs</a></li>
+                            <li><a href="institutions/faq.php">Institution FAQs</a></li>
                             <li><a href="institutions/live-demo.php">Live Demo</a></li>
                         </ul>
                         </section>
@@ -16,7 +16,7 @@
                             <h3>Test Takers</h3>
                         <ul>
                             <li><a href="test-takers">How it Works</a></li>
-                            <li><a href="about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
+                            <li><a href="test-takers/faq.php">Test Taker FAQs</a></li>
                             <li><a href="test-takers">Download</a></li>
                         </ul>
                         </section>
@@ -25,10 +25,10 @@
                             <h3>About</h3>
                         <ul>
                             <li><a href="about/mission.php">Mission / Vision</a></li>
-                                        <li><a href="about/team.php">Team</a></li>
-                                        <li><a href="about/contact.php">Contact</a></li>
-                                        <li><a href="about/conferences.php">Conferences</a></li>
-                            <li><a href="about/blog.php">Blog</a></li>
+                            <li><a href="about/team.php">Team</a></li>
+                            <li><a href="about/contact.php">Contact</a></li>
+                            <li><a href="about/conferences.php">Conferences</a></li>
+                            <li><a href="about/news.php">News</a></li>
                         </ul>
                         </section>
 
