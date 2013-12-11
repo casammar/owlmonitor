@@ -1,6 +1,6 @@
 <?php include '../views/header.php'; ?>
         <!-- Content Start -->
-        <div id="main" <!--style="background-image:url('<?php echo BASE_URL; ?>/img/img-bg-blur.jpg');"--> >
+        <div id="main" >
             <div class="content">
                <div class="container">
                   <div class="row">
@@ -58,10 +58,6 @@
                </div>
             </div>
             <!-- Slogan End-->
-
-            <div class="chat-window">
-                chris
-            </div>
             <!-- Main Content end-->
          </div>
          <!-- Content End -->
