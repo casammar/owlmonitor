@@ -507,7 +507,14 @@ jQuery(document).ready(function () {
 
 		jQuery('.scrolldown').click(function () {
 			jQuery("html, body").animate({
-				scrollTop: 1000
+				scrollTop: 675
+			}, 600);
+			return false;
+		});
+
+		jQuery('.product-tour').click(function () {
+			jQuery("html, body").animate({
+				scrollTop: 375
 			}, 600);
 			return false;
 		});
