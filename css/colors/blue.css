@@ -274,12 +274,6 @@ transform: skew(15deg) rotate(6deg); }
     background-color: #BFCDF1;
 }
 
-#background-banner-overlay{
-    height:100%;
-    Width:100%;
-    background:url('../../img/sandbox/lg-owl.png') no-repeat 22% center;
-}
-
 #background-banner h3{
     color:#1D3599;
     text-align:right;
