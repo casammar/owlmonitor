@@ -267,6 +267,11 @@ transform: skew(15deg) rotate(6deg); }
     margin-top:50px !important;
 }
 
+#hawkee-logo{
+    display:block;
+    margin:auto;
+}
+
 #background-banner{
     display: inline-block;
     width: 100%;
