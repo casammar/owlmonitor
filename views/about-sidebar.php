@@ -1,7 +1,7 @@
 <div class="sidebar col-lg-3 col-md-3 col-sm-3 col-xs-12">
     <!-- Left nav Widget Start -->
     <div class="widget category">
-       <h3 class="title">ExamHawk</h3>
+       <h3 class="title">examhawk</h3>
        <ul class="category-list slide">
           <li><a href="<?php echo BASE_URL; ?>/about/index.php">About</a></li>
           <li><a href="<?php echo BASE_URL; ?>/institutions/faq.php">Institution FAQs</a></li>
