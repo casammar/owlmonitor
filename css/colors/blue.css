@@ -270,16 +270,14 @@ transform: skew(15deg) rotate(6deg); }
 #background-banner{
     display: inline-block;
     width: 100%;
-    font-size: 0;
-    line-height: 0;
     vertical-align: middle;
-/*    background-size: 100%;*/
-    background-position:22% center;
-    background-repeat: no-repeat;
-    /*background-image:url('../../img/slider/slider-bg-1-alt.jpg');*/
-    background-image:url('../../img/sandbox/lg-owl.png');
-    background-color: rgb(228, 228, 241);
+    background-color: #BFCDF1;
+}
 
+#background-banner-overlay{
+    height:100%;
+    Width:100%;
+    background:url('../../img/sandbox/lg-owl.png') no-repeat 22% center;
 }
 
 #background-banner h3{
