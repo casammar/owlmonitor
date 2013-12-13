@@ -7,7 +7,7 @@
                   <div class="row">
                      <!-- FAQ Start -->
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                           <h3 class="title"><a>Test Taker FAQs</a></h3>
+                           <h3 class="title">Test Taker FAQs</h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">How Secure is examhawk?</h4>
