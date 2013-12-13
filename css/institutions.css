@@ -1,0 +1,94 @@
+/*
+    Document   : institutions
+    Created on : Dec 13, 2013, 10:50:34 AM
+    Author     : Chris
+    Description:
+        Stylesheet to be applied to new institution LP currently in sandbox
+*/
+
+.institution-background{
+    background: url('../img/sandbox/professor-arms-crossed.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:1000px;
+}
+
+.institution-background h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:800;
+    font-style:italic;
+    font-size:46px;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.institution-background dt, dd{
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.institution-background dt{
+    font-weight:800;
+    font-size:32px;
+}
+
+.institution-background dd{
+    font-weight:400;
+    font-size:22px;
+    font-style:italic;
+}
+.institution-background blockquote{
+    color:#00BDFF;
+}
+
+
+
+.institution-background-alt{
+    background: url('../img/sandbox/professor-arms-crossed2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:1000px;
+}
+
+.institution-background-alt h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:800;
+    font-style:italic;
+    font-size:46px;
+    color:#727272;
+    text-align:center;
+}
+
+.institution-background-alt h2 small{
+    font-weight:400;
+    font-size:28px;
+    font-style:none;
+}
+
+.institution-background-alt dt, dd{
+    font-family: 'Roboto', sans-serif;
+    color:#727272;
+}
+
+.institution-background-alt dt{
+    font-weight:800;
+    font-size:32px;
+    font-style:italic;
+    text-align:center;
+    color:#1D3599;
+}
+
+.institution-background-alt dd{
+    font-weight:400;
+    font-size:22px;
+    text-align:justify;
+}
+.institution-background-alt blockquote{
+    color:#00BDFF;
+}
+

@@ -15,6 +15,7 @@
       <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,800italic,400italic,700italic' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -34,8 +35,8 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-      <!-- Horizontal Nav-->
-<!--      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/horizontal-nav.css">-->
+      <!-- Institutions-->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
 
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
