@@ -48,7 +48,7 @@
                            </li>
                            <li>
                               <i class="icon-envelope"></i>
-                              <p><strong>Email:</strong><a href="mailto:info@examhawk.com">info@examhawk.com</a></p>
+                              <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
                            </li>
                         </ul>
                      </section>
@@ -60,7 +60,7 @@
             <div class="footer-bottom">
                <div class="container">
                   <div class="row">
-                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by <a href="#">examhawk</a>. All Rights Reserved. </div>
+                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by <a href="#">ExamHawk</a>. All Rights Reserved. </div>
                   </div>
                </div>
             </div>

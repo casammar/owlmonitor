@@ -5,9 +5,9 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>examhawk</title>
-      <meta name="description" content="examhawk application">
-      <meta name="author" content="examhawk development team">
+      <title>ExamHawk</title>
+      <meta name="description" content="ExamHawk application">
+      <meta name="author" content="ExamHawk development team">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
@@ -70,7 +70,7 @@
                   <!-- Logo Start -->
                   <div class="logo pull-left">
                       <a href="<?php echo BASE_URL; ?>">
-                         <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png">
+                         <img src="<?php echo BASE_URL; ?>/img/005-ExamHawk-logo.png">
                       </a>
                   </div>
                   <!-- Logo End -->

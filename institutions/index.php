@@ -13,7 +13,7 @@
 							<img src="../img/sandbox/college-doorway.jpg" alt="">
 						</div>
 						<p style="text-align:justify;">
-                            For any online education program, balancing security of online tests vs. convenience, cost and technological sophistication is always a balancing act.  examhawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
+                            For any online education program, balancing security of online tests vs. convenience, cost and technological sophistication is always a balancing act.  ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
                         </p>
                         <p>
                             Have more questions? Check out our FAQs, or Product Tour
@@ -27,7 +27,7 @@
 					<div class="step">
 						<h3 class="title">Simple</h3>
 						<p>
-                            <i class="icon-laptop icon-5x" style="float:left;margin:5px 15px;height:87px;width:87px;"></i> Engaging and setting up examhawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
+                            <i class="icon-laptop icon-5x" style="float:left;margin:5px 15px;height:87px;width:87px;"></i> Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.
                             <br><br>
                         </p>
 
@@ -66,7 +66,7 @@
 		<div class="container">
 			<div class="row">
 <!--				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h3 class="title">Three Reasons examhawk is Awesome</h3>
+					<h3 class="title">Three Reasons ExamHawk is Awesome</h3>
 				</div>
 				<div class="divider">
 				</div>-->
@@ -118,7 +118,7 @@
 							<ul>
 								<!-- column header -->
 								<li class="header_row_1 align_center">
-								<h2 class="col1">examhawk Pricing</h2>
+								<h2 class="col1">ExamHawk Pricing</h2>
 								</li>
                             </ul>
                             <table class="table table-striped">

@@ -12,7 +12,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <dl>
                     <dt>Simple</dt>
-                    <dd>Engaging and setting up examhawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
+                    <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
                     <dt>Secure</dt>
                     <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
                     <dt>Compliant</dt>

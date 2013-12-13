@@ -10,7 +10,7 @@
                           <h3 class="title">Institution FAQs</h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What is examhawk?</h4>
+                                 <h4 class="accordion-toggle">What is ExamHawk?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
@@ -18,7 +18,7 @@
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What are examhawk's security features</h4>
+                                 <h4 class="accordion-toggle">What are ExamHawk's security features</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         During an exam:<br>
@@ -62,7 +62,7 @@
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">How is examhawk implemented?</h4>
+                                 <h4 class="accordion-toggle">How is ExamHawk implemented?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         ExamHawk works with any LMS or test delivery system and ExamHawk representatives will work with your institution to make the delivery process as seamless as possible
@@ -70,7 +70,7 @@
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">How much does examhawk cost?</h4>
+                                 <h4 class="accordion-toggle">How much does ExamHawk cost?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         exam starts at $10 per examination!

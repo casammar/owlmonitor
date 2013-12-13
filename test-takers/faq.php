@@ -10,7 +10,7 @@
                            <h3 class="title">Test Taker FAQs</h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">How Secure is examhawk?</h4>
+                                 <h4 class="accordion-toggle">How Secure is ExamHawk?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         <ul>
