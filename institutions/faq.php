@@ -13,7 +13,7 @@
                                  <h4 class="accordion-toggle">What is examhawk?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                        examhawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
+                                        ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
                                     </p>
                                  </section>
                               </div>
@@ -57,7 +57,7 @@
                                  <h4 class="accordion-toggle">Is technical support available?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                        examhawk’s technical support is available to all examinees through live online sessions, telephone and email 24 hours a day, seven days per week
+                                        ExamHawk’s technical support is available to all examinees through live online sessions, telephone and email 24 hours a day, seven days per week
                                     </p>
                                  </section>
                               </div>
@@ -65,7 +65,7 @@
                                  <h4 class="accordion-toggle">How is examhawk implemented?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                        examhawk works with any LMS or test delivery system and examhawk representatives will work with your institution to make the delivery process as seamless as possible
+                                        ExamHawk works with any LMS or test delivery system and ExamHawk representatives will work with your institution to make the delivery process as seamless as possible
                                     </p>
                                  </section>
                               </div>
