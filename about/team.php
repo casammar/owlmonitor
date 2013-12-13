@@ -13,7 +13,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <img alt="" style="height:100%;" src="http://m.c.lnkd.licdn.com/mpr/pub/image-pJdq08BYi8MHY3zGf5zIydXbyfvEwupQpGdQypBDyBnE7_NcpJdQJZaYyXkXwPOLdEDQ/guy-friedman.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
@@ -23,8 +23,8 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Jeffrey Lebowski</h4>
-                                       <div class="team-member-role">CEO</div>
+                                       <h4 class="team-member-name">Guy Friedman</h4>
+                                       <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
@@ -38,7 +38,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <img alt="" style="height:100%" src="http://m.c.lnkd.licdn.com/mpr/pub/image-TtG0f9l-CRqrL1m2mhgjKiQC3bVxJwmUTfb5MxMG3tuBHLQ3TtG59Lp-3hGeHwieCTFL/matthew-jaeh.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
@@ -48,8 +48,8 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Walter Sobchak</h4>
-                                       <div class="team-member-role">CMO</div>
+                                       <h4 class="team-member-name">Matt Jaeh</h4>
+                                       <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
@@ -63,7 +63,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" src="<?php echo BASE_URL; ?>/img/team/team-member.jpg">
+                                       <img alt="" style="height:100%;" src="http://cdn.slidesharecdn.com/profile-photo-chrissammarco-96x96.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
@@ -73,8 +73,8 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Theodore Donald Kerabatsos</h4>
-                                       <div class="team-member-role">CFO</div>
+                                       <h4 class="team-member-name">Chris Sammarco</h4>
+                                       <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
