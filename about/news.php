@@ -7,15 +7,8 @@
                   <div class="row">
                     <div class="posts-block col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <article class="post hentry">
-                           <div class="post-image">
-                              <a href="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" data-rel="prettyPhoto">
-                              <span class="img-hover"></span>
-                              <span class="fullscreen"><i class="icon-search"></i></span>
-                              <img src="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" alt="">
-                              </a>
-                           </div>
                            <header class="post-header">
-                              <h3 class="content-title">Blog post title</h3>
+                              <h3 class="content-title">News Article 1</h3>
                               <div class="blog-entry-meta">
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
@@ -49,15 +42,8 @@
                         </article>
                         <div class="blog-divider"></div>
                         <article class="post hentry">
-                           <div class="post-image">
-                              <a href="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" data-rel="prettyPhoto">
-                              <span class="img-hover"></span>
-                              <span class="fullscreen"><i class="icon-search"></i></span>
-                              <img src="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" alt="">
-                              </a>
-                           </div>
                            <header class="post-header">
-                              <h3 class="content-title">Blog post title</h3>
+                              <h3 class="content-title">News Article 2</h3>
                               <div class="blog-entry-meta">
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
@@ -91,15 +77,8 @@
                         </article>
                         <div class="blog-divider"></div>
                         <article class="post hentry">
-                           <div class="post-image">
-                              <a href="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" data-rel="prettyPhoto">
-                              <span class="img-hover"></span>
-                              <span class="fullscreen"><i class="icon-search"></i></span>
-                              <img src="<?php echo BASE_URL; ?>/img/blog/blog-post1.jpg" alt="">
-                              </a>
-                           </div>
                            <header class="post-header">
-                              <h3 class="content-title">Blog post title</h3>
+                               <h3 class="content-title">News Article 3</h3>
                               <div class="blog-entry-meta">
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
