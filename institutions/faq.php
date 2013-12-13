@@ -10,58 +10,70 @@
                           <h3 class="title"><a>Institution FAQs</a></h3>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 1</h4>
+                                 <h4 class="accordion-toggle">What is examhawk?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        examhawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 2</h4>
+                                 <h4 class="accordion-toggle">What are examhawk's security features</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        During an exam:<br>
+                                        The test-taker’s webcam feed, audio feed, screenshots are all recorded<br>
+                                        A live person will monitor the test-taker for any infractions and will be available for customer service issues via<br>
+                                        chat or video chat directly with the test-taker<br>
+                                        The application tracks facial engagement, audio analysis, keystrokes, and ping
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 3</h4>
+                                 <h4 class="accordion-toggle">How does it work?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <ol>
+                                            <li>1. Before an exam, the test-taker downloads a small application</li>
+                                            <li>2. The application will run a system test on the examinee’s webcam, audio feed and Internet speed</li>
+                                            <li>3. The application will take the user through an ID and authentication check</li>
+                                            <li>4. The test-taker then takes their exam through a secure browser within their LMS</li>
+                                        </ol>
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 4</h4>
+                                 <h4 class="accordion-toggle">How are suspicious activities handled?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        A partner institution representative will be alerted to any suspicious activity or incidents within minutes of a suspicious incident.
+                                    </p>
+                                    <p>
+                                        A detailed incident report containing a brief summary, photographs, screen capture images and the corresponding details will be emailed to the contact person within two business days of the incident
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 5</h4>
+                                 <h4 class="accordion-toggle">Is technical support available?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        examhawk’s technical support is available to all examinees through live online sessions, telephone and email 24 hours a day, seven days per week
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 6</h4>
+                                 <h4 class="accordion-toggle">How is examhawk implemented?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        examhawk works with any LMS or test delivery system and examhawk representatives will work with your institution to make the delivery process as seamless as possible
                                     </p>
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">Question 7</h4>
+                                 <h4 class="accordion-toggle">How much does examhawk cost?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        exam starts at $10 per examination!
                                     </p>
                                  </section>
                               </div>
