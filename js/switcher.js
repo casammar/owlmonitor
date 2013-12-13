@@ -115,6 +115,19 @@ function updateFooterTop(color) {
     $("#background-banner").css("background", color.toHexString());
 }
 
+//Footer Top Color Change
+$(".title-bg").spectrum({
+    showInitial: true,
+	color: "#1D3599",
+	preferredFormat: "hex6",
+	showInput: true,
+	move: updateFooterTop
+});
+//Changing the header color instantly
+function updateFooterTop(color) {
+    $("#background-banner h3").css("color", color.toHexString());
+}
+
 
 
 
