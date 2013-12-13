@@ -6,6 +6,7 @@
                <div class="container">
                   <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <h3 class="title">Conferences</h3>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
