@@ -47,27 +47,27 @@
 
 
 .institution-background-alt{
-    background: url('../img/sandbox/professor-arms-crossed2.jpg') no-repeat center center;
+    background: url('../img/sandbox/chris-whiteboard.jpg') no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:1000px;
 }
 
 .institution-background-alt h2{
+    color:#2C2C2C;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight:800;
-    font-style:italic;
     font-size:46px;
-    color:#727272;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align:center;
 }
 
 .institution-background-alt h2 small{
+    text-shadow: none;
     font-weight:400;
-    font-size:28px;
-    font-style:none;
+    font-size:26px;
+    font-style:italic;
 }
 
 .institution-background-alt dt, dd{
@@ -79,8 +79,7 @@
     font-weight:800;
     font-size:32px;
     font-style:italic;
-    text-align:center;
-    color:#1D3599;
+    color:#2C2C2C;
 }
 
 .institution-background-alt dd{
