@@ -1,0 +1,93 @@
+/*
+    Document   : test takers
+    Created on : Dec 13, 2013, 10:50:34 AM
+    Author     : Chris
+    Description:
+        Stylesheet to be applied to new test takers LP currently in sandbox
+*/
+
+.institution-background{
+    background: url('../img/sandbox/college-girl-laptop.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:1000px;
+}
+
+.institution-background h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:800;
+    font-style:italic;
+    font-size:46px;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.institution-background dt, dd{
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.institution-background dt{
+    font-weight:800;
+    font-size:32px;
+}
+
+.institution-background dd{
+    font-weight:400;
+    font-size:22px;
+    font-style:italic;
+}
+.institution-background blockquote{
+    color:#00BDFF;
+}
+
+
+
+.institution-background-alt{
+    background: url('../img/sandbox/college-girl-laptop.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.institution-background-alt h2{
+    color:#2C2C2C;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:800;
+    font-size:46px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.institution-background-alt h2 small{
+    text-shadow: none;
+    font-weight:400;
+    font-size:26px;
+    font-style:italic;
+}
+
+.institution-background-alt dt, dd{
+    font-family: 'Roboto', sans-serif;
+    color:#727272;
+}
+
+.institution-background-alt dt{
+    font-weight:800;
+    font-size:32px;
+    font-style:italic;
+    color:#2C2C2C;
+}
+
+.institution-background-alt dd{
+    font-weight:400;
+    font-size:22px;
+    text-align:justify;
+}
+.institution-background-alt blockquote{
+    color:#00BDFF;
+}
+
