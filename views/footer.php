@@ -3,8 +3,8 @@
             <!-- Footer Top Start -->
             <div class="footer-top">
                <div class="container">
-                  <div class="row">
-                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+                  <div class="row contact-us">
+                      <section class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-one">
                             <h3>Institutions</h3>
                         <ul>
                             <li><a href="institutions">Pricing</a></li>
@@ -12,7 +12,7 @@
                             <li><a href="institutions/live-demo.php">Live Demo</a></li>
                         </ul>
                         </section>
-                        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+                        <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-two">
                             <h3>Test Takers</h3>
                         <ul>
                             <li><a href="test-takers">How it Works</a></li>
@@ -21,7 +21,7 @@
                         </ul>
                         </section>
 
-                         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                         <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-three">
                             <h3>About</h3>
                         <ul>
                             <li><a href="about/mission.php">Mission / Vision</a></li>
@@ -32,7 +32,7 @@
                         </ul>
                         </section>
 
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three contact-us">
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3  footer-three">
                         <h3>Contact Us</h3>
                         <ul>
                            <li>
