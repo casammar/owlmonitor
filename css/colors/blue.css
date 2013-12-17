@@ -142,6 +142,9 @@ a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active {
 .content-box-info h3 {
     color:#1D3599 !important;
     font-weight: bold;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
 }
 
 h3.title {
@@ -182,10 +185,24 @@ h3.title {
 
 #footer a:hover{color:#FFFFFF;}
 
-.main-content, .content, .services-big{
-    padding: 60px 0;
-    background-image: url('../../img/cream_dust.png');
-    background-repeat:repeat;
+.background-owl{
+    position: relative;
+}
+
+.background-owl:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../img/sandbox/lg-owl.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity:0.20;
+    height:100%;
+    width:100%;
 }
 
 .student-header{

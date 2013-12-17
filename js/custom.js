@@ -690,8 +690,33 @@ $("#contact").submit(function (e) {
 /*	Browser & OS Detect
 /*----------------------------------------------------*/
 
+//	jQuery(document).ready(function(){
+//	    $("#user-os").append( BrowserDetect.OS);
+//	    $("#user-browser").append( BrowserDetect.browser);
+//	    $("#user-version").append( BrowserDetect.version);
+//	});
+
+
+/*----------------------------------------------------*/
+/*	Browser & OS Detect
+/*----------------------------------------------------*/
+
 	jQuery(document).ready(function(){
-	    $("#user-os").append( BrowserDetect.OS);
-	    $("#user-browser").append( BrowserDetect.browser);
-	    $("#user-version").append( BrowserDetect.version);
+	    //initialize slider
+	    $('.slider').slider()
+
+	    .on('slide', function(ev){
+
+		//change opacity on slide
+		var styles = '' +
+		    '.background-owl:after{' +
+			'opacity:' + (ev.value/100) + ';' +
+		     '}';
+
+		//append style to bottom of header
+		$('head').append(
+		    $('<style>', {text: styles})
+		);
+
+	    });
 	});
