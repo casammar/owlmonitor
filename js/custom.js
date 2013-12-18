@@ -714,9 +714,9 @@ $("#contact").submit(function (e) {
 		     '}';
 
 		//append style to bottom of header
-		$('head').append(
-		    $('<style>', {text: styles})
-		);
+//		$('head').append(
+//		    $('<style>', {text: styles})
+//		);
 
 	    });
 	});
