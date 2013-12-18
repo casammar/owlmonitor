@@ -514,7 +514,7 @@ jQuery(document).ready(function () {
 
 		jQuery('.product-tour').click(function () {
 			jQuery("html, body").animate({
-				scrollTop: 375
+				scrollTop: 800
 			}, 600);
 			return false;
 		});

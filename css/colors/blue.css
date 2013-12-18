@@ -290,15 +290,17 @@ transform: skew(15deg) rotate(6deg); }
 }
 
 #background-banner{
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
-    background-color: #BFCDF1;
+    background: url('../../img/sandbox/professor-arms-crossed-whiteboard.png') no-repeat center 15%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:850px;
 }
 
 #background-banner h3{
     color:#1D3599;
-    text-align:right;
+    text-align:center;
     font-size:48px;
 }
 
@@ -322,4 +324,8 @@ transform: skew(15deg) rotate(6deg); }
     text-decoration:none;
     color:#00BDFF;
     border-bottom:3px solid #00BDFF ;
+}
+
+.btn-special{
+    min-width: 200px;
 }
