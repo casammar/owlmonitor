@@ -1,64 +1,166 @@
-<?php include '../views/header.php'; ?>
-        <!-- Content Start -->
-        <div id="main" >
-            <div class="content">
+<?php include '../views/baseurl.php'; ?>
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <title>ExamHawk</title>
+      <meta name="description" content="ExamHawk application">
+      <meta name="author" content="ExamHawk development team">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,800italic,400italic,700italic' rel='stylesheet' type='text/css'>
+      <!-- Library CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/team-member.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/pricing-table.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <!-- Steps -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
+      <!-- Schedule Grid -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
+      <!-- Institutions-->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/test-takers.css">
+
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
+      <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/ie.css">
+      <![endif]-->
+   </head>
+   <body class="home">
+      <div class="wrap">
+         <!-- Header Start -->
+         <header id="header">
+            <!-- Main Header Start -->
+            <div class="main-header">
                <div class="container">
-                  <div class="row">
-                     <!-- Skill Section Start -->
-                     <div class="choice col-lg-3 col-md-4 col-sm-4 col-xs-12 ">
-                        <h3 class="title">ExamHawk Info</h3>
-                        <ul class="check-list why">
-                           <li>How it Works</li>
-                           <li>Technical Specifications</li>
-                           <li>FAQs</li>
-                        </ul>
-                        <br>
-                        <h3 class="title">Your Computer</h3>
-                        <ul class="check-list why">
-                           <li id="user-os">Operating System: </li>
-                           <li id="user-browser">Browser Type: </li>
-                           <li id="user-version">Browser Version: </li>
-                        </ul>
-                        <br>
-                        <a class="btn-special btn-new-light-blue" href="#" style="font-size:12px;color:#FFFFFF;">Download ExamHawk</a>
-                     </div>
-                     <!-- Skill Section Start -->
-                     <!-- Right Section Start -->
-                     <div class="posts-block col-lg-9 col-md-8 col-sm-8 col-xs-12">
-                        <article>
-                            <img src="../img/sandbox/girl-laptop.png">
-                           <h2 class="student-header">Easy and Convenient</h2>
-                           <div class="post-content">
-                              <p style="text-align: justify;">
-                                  Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page.  For more information about technical requirements, the experience and company, check out our FAQs.
-                              </p>
-                           </div>
-                        </article>
-                     </div>
-                     <!-- Right Section End -->
+                  <!-- TopNav Start -->
+                  <div class="topnav navbar-header">
+                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                     <i class="icon-angle-down icon-current"></i>
+                     </a>
                   </div>
-               </div>
-            </div>
-            <!-- Slogan Start-->
-            <div class="slogan">
-               <div class="container">
-                  <div class="row">
-                     <div class="slogan-content">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                           <h3>Having Trouble? Call us today at <b>(123)456-7890</b> or Email us at <a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></h3>
-                        </div>
-<!--                        <div class="col-lg-3 col-md-3">
-                           <div class="get-started">
-                              <button class="btn btn-special btn-color pull-right">Contact Us</button>
-                           </div>
-                        </div>-->
-                        <div class="clearfix"></div>
-                     </div>
+                  <!-- TopNav End -->
+                  <!-- Logo Start -->
+                  <div class="logo pull-left">
+                      <a href="<?php echo BASE_URL; ?>">
+                         <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png">
+                      </a>
                   </div>
+                  <!-- Logo End -->
+                  <!-- Mobile Menu Start -->
+                  <div class="mobile navbar-header">
+                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                     <i class="icon-reorder icon-2x"></i>
+                     </a>
+                  </div>
+                  <!-- Mobile Menu End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
+                        </li>
+                        <li>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/test-takers/')?'current':''?>" href="<?php echo BASE_URL; ?>/test-takers">Test Takers</a>
+                        </li>
+                        <li>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/about/')?'current':''?>" href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
+                        </li>
+                        <li>
+                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/live-demo.php')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                        </li>
+                    </ul>
+                 </nav>
+                 <!-- Menu End -->
                </div>
+
+                <!-- About horizontal nav start-->
+                <?php
+                $mystring = $_SERVER['REQUEST_URI'];
+                $findme   = 'about';
+                $pos = strpos($mystring, $findme);
+
+                if ($pos === false) {
+                    //show nothing
+                } else { ?>
+<!--                    <div class="container">
+                            <table class="horizontal-table">
+                                <tr>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></td>
+                                    <td><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></td>
+                                </tr>
+                            </table>
+                    </div>-->
+                <?php } ?>
+                <!-- About horizontal nav end-->
+
             </div>
-            <!-- Slogan End-->
-            <!-- Main Content end-->
-         </div>
-         <!-- Content End -->
+            <!-- Main Header End -->
+
+         </header>
+         <!-- Header End -->
+<!-- Content Start -->
+<div id="main" class="institution-background-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right">
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2><small>Exam Monitoring for </small><br> Test Takers</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <dl>
+                            <dt>Easy and Convenient</dt>
+                            <dd>Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <button type="button" class="btn btn-info btn-lg">Download ExamHawk</button>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="divider"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main End -->
 <?php include '../views/footer.php'; ?>

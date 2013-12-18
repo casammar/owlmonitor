@@ -47,11 +47,12 @@
 
 
 .institution-background-alt{
-    background: url('../img/sandbox/college-girl-laptop.jpg') no-repeat center center;
+    background: url('../img/sandbox/college-girl-laptop.jpg') no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height:1000px;
 }
 
 .institution-background-alt h2{
