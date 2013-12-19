@@ -698,7 +698,7 @@ $("#contact").submit(function (e) {
 
 
 /*----------------------------------------------------*/
-/*	Browser & OS Detect
+/*	STYLE SWITCHER SLIDER
 /*----------------------------------------------------*/
 
 	jQuery(document).ready(function(){
@@ -706,17 +706,27 @@ $("#contact").submit(function (e) {
 	    $('.slider').slider()
 
 	    .on('slide', function(ev){
-
-		//change opacity on slide
-		var styles = '' +
-		    '.background-owl:after{' +
-			'opacity:' + (ev.value/100) + ';' +
-		     '}';
-
-		//append style to bottom of header
-//		$('head').append(
-//		    $('<style>', {text: styles})
-//		);
-
+		switch(ev.value) {
+		    case (1):
+			var shadow = 'none';
+			$("#background-title").css("text-shadow", shadow);
+			break;
+		    case (2):
+			var shadow = '2px 4px 3px rgba(0,0,0,0.3)';
+			$("#background-title").css("text-shadow", shadow);
+			break;
+		    case (3):
+			var shadow = '6px 6px 0px rgba(0,0,0,0.2)';
+			$("#background-title").css("text-shadow", shadow);
+			break;
+		    case (4):
+			var shadow = '0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1)';
+			$("#background-title").css("text-shadow", shadow);
+			break;
+		    case (5):
+			var shadow = '2px 8px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3)';
+			$("#background-title").css("text-shadow", shadow);
+			break;
+		}
 	    });
 	});
