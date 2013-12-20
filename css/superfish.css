@@ -97,13 +97,13 @@
 .ie8 #current:after {
 	display:none;
 }
-.menu ul li a {
+/*.menu ul li a {
 	-webkit-transition:border 150ms ease-in-out,background-color 150ms ease-in-out;
 	-moz-transition:border 150ms ease-in-out,background-color 150ms ease-in-out;
 	-o-transition:border 150ms ease-in-out,background-color 150ms ease-in-out;
 	-ms-transition:border 150ms ease-in-out,background-color 150ms ease-in-out;
 	transition:border 150ms ease-in-out,background-color 150ms ease-in-out;
-}
+}*/
 .menu ul ul {
 	background-color:#252c34;
 	z-index:999;

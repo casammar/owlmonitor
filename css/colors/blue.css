@@ -295,7 +295,7 @@ transform: skew(15deg) rotate(6deg); }
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:850px;
+    height:950px;
 }
 
 #background-title{
@@ -343,4 +343,13 @@ transform: skew(15deg) rotate(6deg); }
 
 .btn-special{
     min-width: 200px;
+}
+
+.menu ul>li>a {
+    letter-spacing: 2px;
+    color: #1D3599;
+}
+
+.menu ul>li>a:hover {
+    border-bottom:none;
 }
