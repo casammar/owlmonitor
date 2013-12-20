@@ -55,11 +55,10 @@
    </head>
    <body class="home">
       <div class="wrap">
-         <!-- Header Start -->
-         <header id="header">
-            <!-- Main Header Start -->
-            <div class="main-header">
-               <div class="container">
+
+<!-- Content Start -->
+<div id="main" class="institution-background-alt">
+    <div class="container">
                   <!-- TopNav Start -->
                   <div class="topnav navbar-header">
                      <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
@@ -69,11 +68,11 @@
                   <!-- TopNav End -->
                   <!-- Logo Start -->
                   <div class="logo pull-left">
-                      <a href="<?php echo BASE_URL; ?>">
-                         <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png">
-                      </a>
+		      <a href="<?php echo BASE_URL; ?>">
+			  <img src="../img/005-examhawk-logo.png" alt="ExamHawk">
+		      </a>
                   </div>
-                  <!-- Logo End -->
+		  <!-- Logo End -->
                   <!-- Mobile Menu Start -->
                   <div class="mobile navbar-header">
                      <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
@@ -81,71 +80,39 @@
                      </a>
                   </div>
                   <!-- Mobile Menu End -->
-                  <!-- Menu Start -->
+		  <!-- Menu Start -->
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
                         <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions">Institutions</a>
+                           <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
                         </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/test-takers/')?'current':''?>" href="<?php echo BASE_URL; ?>/test-takers">Test Takers</a>
+			<li>
+                           <a href="<?php echo BASE_URL; ?>/test-takers" class="" style="color:#00BDFF;">Test Takers</a>
                         </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/about/')?'current':''?>" href="<?php echo BASE_URL; ?>/about" class="sf-with-ul">About</a>
+			<li>
+                           <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
                         </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/live-demo.php')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+			<li>
+                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
                         </li>
-                    </ul>
-                 </nav>
-                 <!-- Menu End -->
+		     </ul>
+		  </nav>
+		  <!-- Menu End -->
                </div>
-
-                <!-- About horizontal nav start-->
-                <?php
-                $mystring = $_SERVER['REQUEST_URI'];
-                $findme   = 'about';
-                $pos = strpos($mystring, $findme);
-
-                if ($pos === false) {
-                    //show nothing
-                } else { ?>
-<!--                    <div class="container">
-                            <table class="horizontal-table">
-                                <tr>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></td>
-                                </tr>
-                            </table>
-                    </div>-->
-                <?php } ?>
-                <!-- About horizontal nav end-->
-
-            </div>
-            <!-- Main Header End -->
-
-         </header>
-         <!-- Header End -->
-<!-- Content Start -->
-<div id="main" class="institution-background-alt">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right">
                 <div class="divider"></div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2><small>Exam Monitoring for </small><br> Test Takers</h2>
+                        <h2 style="color:#00BDFF;"><small style="color:#1D3599;">Online Exam Monitoring for </small><br> Test Takers</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <dl>
-                            <dt>Easy and Convenient</dt>
-                            <dd>Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
+                            <dt style="color:#1D3599;text-align:center;">Easy and Convenient</dt>
+                            <dd style="color:#000000;text-align:justify;">Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
                         </dl>
                     </div>
                 </div>
