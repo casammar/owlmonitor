@@ -353,3 +353,7 @@ transform: skew(15deg) rotate(6deg); }
 .menu ul>li>a:hover {
     border-bottom:none;
 }
+
+.content {
+    min-height: 800px;
+}
