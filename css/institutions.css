@@ -7,7 +7,7 @@
 */
 
 .institution-background{
-    background: url('../img/sandbox/professor-arms-crossed.png') no-repeat center center;
+    background: url('../img/sandbox/college-professor-chalk-board.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,11 +47,12 @@
 
 
 .institution-background-alt{
-    background: url('../img/sandbox/chris-whiteboard.jpg') no-repeat center top;
+    background: url('../img/sandbox/college-professor-chalk-board.png') no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height:1000px;
 }
 
 .institution-background-alt h2{
