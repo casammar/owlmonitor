@@ -118,6 +118,11 @@
                 </dl>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-6  col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                <button type="button" class="btn btn-warning btn-lg">Live Demo</button>
+            </div>
+        </div>
 <!--         <div class="divider"></div>
        <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
