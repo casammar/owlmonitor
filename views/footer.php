@@ -5,7 +5,7 @@
                <div class="container">
                   <div class="row contact-us">
                       <section class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-one">
-                            <h3>Institutions</h3>
+                            <h3 style="color:#00BDFF;">Institutions</h3>
                         <ul>
                             <li><a href="institutions">Pricing</a></li>
                             <li><a href="institutions/faq.php">Institution FAQs</a></li>
@@ -13,7 +13,7 @@
                         </ul>
                         </section>
                         <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-two">
-                            <h3>Test Takers</h3>
+                            <h3 style="color:#00BDFF;">Test Takers</h3>
                         <ul>
                             <li><a href="test-takers">How it Works</a></li>
                             <li><a href="test-takers/faq.php">Test Taker FAQs</a></li>
@@ -22,9 +22,9 @@
                         </section>
 
                          <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-three">
-                            <h3>About</h3>
+                            <h3 style="color:#00BDFF;">About</h3>
                         <ul>
-                            <li><a href="about/mission.php">Mission / Vision</a></li>
+                            <li><a href="about">Vision</a></li>
                             <li><a href="about/team.php">Team</a></li>
                             <li><a href="about/contact.php">Contact</a></li>
                             <li><a href="about/conferences.php">Conferences</a></li>
@@ -33,7 +33,7 @@
                         </section>
 
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3  footer-three">
-                        <h3>Contact Us</h3>
+                        <h3 style="color:#00BDFF;">Contact Us</h3>
                         <ul>
                            <li>
                               <i class="icon-map-marker"></i>
