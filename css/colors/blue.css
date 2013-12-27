@@ -305,13 +305,27 @@ transform: skew(15deg) rotate(6deg); }
     margin:auto;
 }
 
-#background-banner{
-    background: url('../../img/sandbox/professor-arms-crossed-whiteboard.png') no-repeat center 15%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:950px;
+.background-banner{
+	background-image: url('../../img/sandbox/chris-whiteboard2.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: table;
+	position: relative;
+}
+
+.institution-background-banner{
+	background-image: url('../../img/sandbox/campus4.jpg');
+}
+
+.test-taker-background-banner{
+	background-image: url('../../img/sandbox/college-girl-laptop.jpg');
 }
 
 #background-title{
