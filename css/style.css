@@ -1565,8 +1565,8 @@ a.scrollup:hover i,a.scrollup:focus i {
 }
 
 .contact-us {
-    background: url("../img/contact-map.png") no-repeat center top;
-    background-size: 60%;
+    background: url("../img/sandbox/dotted-worldmap2.png") no-repeat center center;
+    background-size: cover;
 }
 
 footer .contact-us a {

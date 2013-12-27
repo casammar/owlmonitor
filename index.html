@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="en"> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
       <title>ExamHawk</title>
@@ -111,17 +111,17 @@
 		  <!-- Menu End -->
                </div>
 		<div class="container" style="padding-top: 200px;">
-		    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
 			    <h3 id="background-title">Live & Recorded</h3>
 			    <h3 id="background-subtitle">Online Exam Monitoring</h3>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-color product-tour" style="margin-left:82px;" >Learn More</a>
+				<a class="btn btn-special btn-lg btn-color product-tour" >Learn More</a>
 			    </div>
 			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-warning" href="institutions/live-demo.php" style="margin-right: 60px;">Live Demo</a>
+				<a class="btn btn-special btn-lg btn-warning" href="institutions/live-demo.php" >Live Demo</a>
 			    </div>
 			</div>
 			 <blockquote class="pull-right" style="color:#2B2B2B;border-right:none;margin-top: 300px;">
@@ -236,36 +236,33 @@
          <footer id="footer">
             <!-- Footer Top Start -->
             <div class="footer-top">
-               <div class="container">
-                  <div class="row">
+               <div class="container contact-us">
+                  <div class="row bottom-pad">
 		     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-		         <h3>Institutions</h3>
+			 <a href="institutions"><h3 class="footer-heading">Institutions</h3></a>
 			 <ul>
-			     <li><a href="institutions">Pricing</a></li>
 			     <li><a href="about/faq.php#institution-faq">Institution FAQs</a></li>
 			     <li><a href="institutions/live-demo.php">Live Demo</a></li>
 			 </ul>
 		     </section>
 		     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-		         <h3>Test Takers</h3>
+		         <a href="test-takers"><h3>Test Takers</h3></a>
 			 <ul>
-			     <li><a href="test-takers">How it Works</a></li>
 			     <li><a href="about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
 			     <li><a href="test-takers">Download</a></li>
 			 </ul>
 		     </section>
 
 		      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-		         <h3>About</h3>
+		         <a href="about"><h3>About</h3></a>
 			 <ul>
-			     <li><a href="about/mission.php">Mission / Vision</a></li>
                              <li><a href="about/team.php">Team</a></li>
                              <li><a href="about/contact.php">Contact</a></li>
                              <li><a href="about/conferences.php">Conferences</a></li>
 			     <li><a href="about/blog.php">Blog</a></li>
 			 </ul>
 		     </section>
-		      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three contact-us">
+		      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
                         <h3>Contact Us</h3>
                         <ul >
                            <li>
@@ -293,7 +290,7 @@
             <div class="footer-bottom">
                <div class="container">
                   <div class="row">
-                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by <a href="#">ExamHawk</a>. All Rights Reserved. </div>
+                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by ExamHawk. All Rights Reserved. </div>
                   </div>
                </div>
             </div>
@@ -351,8 +348,8 @@
       -->
       <script>
 	  $(window).bind("resize", function() {
-	      $(".background-banner").css("height", $(window).height() - 0);
-	      console.log($(window).height() - 0);
+	     // $(".background-banner").css("height", $(window).height() - 0);
+	      //console.log($(window).height() - 0);
 	  });
       </script>
    </body>
