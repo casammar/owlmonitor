@@ -26,6 +26,7 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Switcher CSS -->
@@ -47,8 +48,10 @@
       <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
    </head>
-   <body class="home">
-      <div class="wrap">
+   <body >
+
+       <div class="background-banner institution-background-banner">
+
          <!-- Header Start -->
 
          <!-- Header End -->
@@ -67,10 +70,11 @@
             </div>-->
 	 <!-- mobile CTA's end -->
          <!-- Content Start -->
-         <div id="main">
+
 	    <!-- background image row start -->
-	    <div class="row background-banner institution-background-banner">
-		<div class="container">
+        <div class="container">
+	    <div class="row">
+
                   <!-- TopNav Start -->
                   <div class="topnav navbar-header">
                      <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
@@ -111,30 +115,22 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-		<div class="container" style="padding-top: 200px;">
-		    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-			    <h3 id="background-title">Live & Recorded</h3>
-			    <h3 id="background-subtitle">Online Exam Monitoring</h3>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-color product-tour" style="margin-left:82px;" >Learn More</a>
-			    </div>
-			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-warning" href="institutions/live-demo.php" style="margin-right: 60px;">Live Demo</a>
-			    </div>
-			</div>
-			 <blockquote class="pull-right" style="color:#2B2B2B;border-right:none;margin-top: 300px;">
-			   <p>"For the value, convenience and technical sophistication, ExamHawk can't be beat."</p>
-			   <small>- Alfred E Neuman, Head of digital learning<br><br><br></small>
-			 </blockquote>
-		    </div>
+		<div class="row" style="padding-top: 100px;">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <dl>
+                    <dt>Simple</dt>
+                    <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
+                    <dt>Secure</dt>
+                    <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
+                    <dt>Compliant</dt>
+                    <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
+                </dl>
+            </div>
 		</div>
 	    </div>
 	    <!-- background image row end -->
 
-         </div>
+       </div>
          <!-- Content End -->
          <!-- Footer Start -->
          <footer id="footer">
@@ -203,9 +199,7 @@
             </div>
             <!-- Footer Bottom End -->
          </footer>
-         <!-- Scroll To Top -->
-         <a href="#" class="scrollup"><i class="icon-angle-up"></i></a>
-      </div>
+
       <!-- Wrap End -->
       <section id="style-switcher">
         <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>

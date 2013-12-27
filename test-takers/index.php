@@ -26,6 +26,7 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/test-takers.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Switcher CSS -->
@@ -47,8 +48,8 @@
       <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
    </head>
-   <body class="home">
-      <div class="wrap">
+   <body>
+      <div class="background-banner test-taker-background-banner">
          <!-- Header Start -->
 
          <!-- Header End -->
@@ -67,10 +68,11 @@
             </div>-->
 	 <!-- mobile CTA's end -->
          <!-- Content Start -->
-         <div id="main">
+
 	    <!-- background image row start -->
-	    <div class="row background-banner test-taker-background-banner">
-		<div class="container">
+        <div class="container">
+	    <div class="row">
+
                   <!-- TopNav Start -->
                   <div class="topnav navbar-header">
                      <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
@@ -111,7 +113,7 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-		<div class="container" style="padding-top: 200px;">
+		<div class="row">
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right">
                 <div class="divider"></div>
                 <div class="row">
@@ -210,9 +212,7 @@
             </div>
             <!-- Footer Bottom End -->
          </footer>
-         <!-- Scroll To Top -->
-         <a href="#" class="scrollup"><i class="icon-angle-up"></i></a>
-      </div>
+
       <!-- Wrap End -->
       <section id="style-switcher">
         <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>

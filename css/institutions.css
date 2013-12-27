@@ -6,56 +6,7 @@
         Stylesheet to be applied to new institution LP currently in sandbox
 */
 
-.institution-background{
-    background: url('../img/sandbox/college-professor-chalk-board.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:1000px;
-}
-
-.institution-background h2{
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight:800;
-    font-style:italic;
-    font-size:46px;
-    color:#FFFFFF;
-    text-align:center;
-}
-
-.institution-background dt, dd{
-    font-family: 'Roboto', sans-serif;
-    color:#FFFFFF;
-    text-align:center;
-}
-
-.institution-background dt{
-    font-weight:800;
-    font-size:32px;
-}
-
-.institution-background dd{
-    font-weight:400;
-    font-size:22px;
-    font-style:italic;
-}
-.institution-background blockquote{
-    color:#00BDFF;
-}
-
-
-
-.institution-background-alt{
-    background: url('../img/sandbox/college-professor-chalk-board.png') no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:1000px;
-}
-
-.institution-background-alt h2{
+.institution-background-banner h2{
     color:#2C2C2C;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight:800;
@@ -64,31 +15,31 @@
     text-align:center;
 }
 
-.institution-background-alt h2 small{
+.institution-background-banner h2 small{
     text-shadow: none;
     font-weight:400;
     font-size:26px;
     font-style:italic;
 }
 
-.institution-background-alt dt, dd{
+.institution-background-banner dt, dd{
     font-family: 'Roboto', sans-serif;
-    color:#727272;
+    color:#FFFFFF;
 }
 
-.institution-background-alt dt{
+.institution-background-banner dt{
     font-weight:800;
     font-size:32px;
     font-style:italic;
-    color:#2C2C2C;
+    color:#FFFFFF;
 }
 
-.institution-background-alt dd{
+.institution-background-banner dd{
     font-weight:400;
     font-size:22px;
     text-align:justify;
 }
-.institution-background-alt blockquote{
+.institution-background-banner blockquote{
     color:#00BDFF;
 }
 
