@@ -49,10 +49,27 @@
    <body class="home">
       <div class="wrap">
          <!-- Header Start -->
-         <header id="header">
-            <!-- Main Header Start -->
-            <div class="main-header">
-               <div class="container">
+
+         <!-- Header End -->
+	 <!-- mobile CTA's start -->
+<!--	    <div class="container">
+		<div class="row">
+		   <div class="mobile-content" style="display:none;">
+		      <div class="col-lg-12 col-md-12 col-sm-12">
+			<a class="btn btn-primary btn-lg btn-block" href="#online-proctoring">Online Proctoring</a>
+			<a class="btn btn-primary btn-lg btn-block" href="#all-features">ExamHawk Features</a>
+			<a class="btn btn-primary btn-lg btn-block" href="#contact-form">Free Consultation</a>
+		      </div>
+		      <div class="clearfix"></div>
+		   </div>
+		</div>
+            </div>-->
+	 <!-- mobile CTA's end -->
+         <!-- Content Start -->
+         <div id="main">
+	    <!-- background image row start -->
+	    <div class="row background-banner">
+		<div class="container">
                   <!-- TopNav Start -->
                   <div class="topnav navbar-header">
                      <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
@@ -78,13 +95,13 @@
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
                         <li>
-                           <a href="institutions" class="" style="color:#FFFFFF;letter-spacing:1px;">Institutions</a>
+                           <a href="institutions" class="">Institutions</a>
                         </li>
 			<li>
-                           <a href="test-takers" class="" style="color:#FFFFFF;letter-spacing:1px;">Test Takers</a>
+                           <a href="test-takers" class="">Test Takers</a>
                         </li>
 			<li>
-                           <a href="about" class="" style="color:#FFFFFF;letter-spacing:1px;">About</a>
+                           <a href="about" class="">About</a>
                         </li>
 			<li>
                            <a href="institutions/live-demo.php" class="demo-link">Live Demo</a>
@@ -93,36 +110,19 @@
 		  </nav>
 		  <!-- Menu End -->
                </div>
-            </div>
-            <!-- Main Header End -->
-         </header>
-         <!-- Header End -->
-	 <!-- mobile CTA's start -->
-<!--	    <div class="container">
-		<div class="row">
-		   <div class="mobile-content" style="display:none;">
-		      <div class="col-lg-12 col-md-12 col-sm-12">
-			<a class="btn btn-primary btn-lg btn-block" href="#online-proctoring">Online Proctoring</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#all-features">ExamHawk Features</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#contact-form">Free Consultation</a>
-		      </div>
-		      <div class="clearfix"></div>
-		   </div>
-		</div>
-            </div>-->
-	 <!-- mobile CTA's end -->
-         <!-- Content Start -->
-         <div id="main">
-	    <!-- background image row start -->
-	    <div class="row" id="background-banner">
-		<div class="container" style="padding-top: 100px;">
-
+		<div class="container" style="padding-top: 200px;">
 		    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
-			<h3 id="background-title">Live & Recorded</h3>
-			<h3 id="background-subtitle">Online Exam Monitoring</h3>
-			<div style="margin-top:40px;text-align:center;">
-			 <a class="btn btn-special btn-color product-tour"  style="margin-left:20px;">Product Tour</a>
-			 <a class="btn btn-special btn-warning" href="institutions/live-demo.php">Live Demo</a>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
+			    <h3 id="background-title">Live & Recorded</h3>
+			    <h3 id="background-subtitle">Online Exam Monitoring</h3>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+				<a class="btn btn-special btn-color product-tour" style="margin-left:82px;" >Learn More</a>
+			    </div>
+			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+				<a class="btn btn-special btn-warning" href="institutions/live-demo.php" style="margin-right: 60px;">Live Demo</a>
+			    </div>
 			</div>
 			 <blockquote class="pull-right" style="color:#2B2B2B;border-right:none;margin-top: 300px;">
 			   <p>"For the value, convenience and technical sophistication, ExamHawk can't be beat."</p>
@@ -133,7 +133,7 @@
 	    </div>
 	    <!-- background image row end -->
 	    <!-- Demo Video Start -->
-	    <div class="content">
+	    <div class="content" style="background: url('img/cream_dust.png') repeat;">
 		<div class="container">
 		  <div class="divider"></div>
 		  <div class="row features-row">
@@ -213,7 +213,7 @@
 		    <div class="divider"></div>
 		    <div class="row" id="product_tour">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 web css wp item">
-			    <h3 class="title">ExamHawk Demo Video</h3>
+			    <h3 class="title">See ExamHawk in Action</h3>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad web css wp item">
 			    <div class="portfolio-item">
@@ -346,6 +346,14 @@
       <script src="js/switcher.js"></script>
       <script src="js/bootstrap-slider.js"></script>
       <script src="js/custom.js"></script>
+      <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
+      -->
+      <script>
+	  $(window).bind("resize", function() {
+	      $(".background-banner").css("height", $(window).height() - 0);
+	      console.log($(window).height() - 0);
+	  });
+      </script>
    </body>
 </html>
