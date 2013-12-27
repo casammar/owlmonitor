@@ -5,7 +5,7 @@
                <div class="container">
                   <div class="row contact-us">
                       <section class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-one">
-                            <h3 style="color:#00BDFF;">Institutions</h3>
+                            <h3>Institutions</h3>
                         <ul>
                             <li><a href="institutions">Pricing</a></li>
                             <li><a href="institutions/faq.php">Institution FAQs</a></li>
@@ -13,7 +13,7 @@
                         </ul>
                         </section>
                         <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-two">
-                            <h3 style="color:#00BDFF;">Test Takers</h3>
+                            <h3>Test Takers</h3>
                         <ul>
                             <li><a href="test-takers">How it Works</a></li>
                             <li><a href="test-takers/faq.php">Test Taker FAQs</a></li>
@@ -22,9 +22,8 @@
                         </section>
 
                          <section class="col-lg-2 col-md-2 col-xs-12 col-sm-2 footer-three">
-                            <h3 style="color:#00BDFF;">About</h3>
+                            <h3>About</h3>
                         <ul>
-                            <li><a href="about">Vision</a></li>
                             <li><a href="about/team.php">Team</a></li>
                             <li><a href="about/contact.php">Contact</a></li>
                             <li><a href="about/conferences.php">Conferences</a></li>
@@ -33,7 +32,7 @@
                         </section>
 
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3  footer-three">
-                        <h3 style="color:#00BDFF;">Contact Us</h3>
+                        <h3>Contact Us</h3>
                         <ul>
                            <li>
                               <i class="icon-map-marker"></i>
@@ -60,7 +59,7 @@
             <div class="footer-bottom">
                <div class="container">
                   <div class="row">
-                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by <a href="#">ExamHawk</a>. All Rights Reserved. </div>
+                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 by ExamHawk. All Rights Reserved. </div>
                   </div>
                </div>
             </div>
@@ -89,6 +88,8 @@
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/browser-os-detect.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
+<!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
-   </body>
+    -->
+    </body>
 </html>
