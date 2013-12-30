@@ -394,3 +394,13 @@ html, body, .background-banner{
 .content {
     min-height: 800px;
 }
+
+.accordionMod ul>li{
+    list-style-type:disc;
+}
+.panel-body {
+    padding: 0 35px;
+}
+
+
+
