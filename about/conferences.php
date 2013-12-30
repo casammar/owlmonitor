@@ -10,26 +10,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2>Conference A</h2>
+                                    <h2><a href="http://educonphilly.org/" target="_blank">Educon</a></h2>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>12/01/2013 - 12/6/2013</p>
-                                    <p>Anywhere, USA</p>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <button type="button" class="btn btn-info">Join Us</button>
-                                </div>
-                           </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2>Conference B</h2>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>12/01/2013 - 12/6/2013</p>
-                                    <p>Anywhere, USA</p>
+                                    <p>01/24/2014 - 01/26/2014</p>
+                                    <p>Philadelphia, PA</p>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <button type="button" class="btn btn-info">Join Us</button>
@@ -40,11 +25,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2>Conference C</h2>
+                                    <h2><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h2>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>12/01/2013 - 12/6/2013</p>
-                                    <p>Anywhere, USA</p>
+                                    <p>01/28/2014 - 01/31/2014</p>
+                                    <p>Orlando, FL</p>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <button type="button" class="btn btn-info">Join Us</button>
@@ -55,11 +40,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2>Conference D</h2>
+                                    <h2><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h2>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>12/01/2013 - 12/6/2013</p>
-                                    <p>Anywhere, USA</p>
+                                    <p>02/06/2014 - 02/07/2014</p>
+                                    <p>Marina Del Ray, CA</p>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <button type="button" class="btn btn-info">Join Us</button>
