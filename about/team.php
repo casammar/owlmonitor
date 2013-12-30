@@ -26,7 +26,7 @@
                                        <h4 class="team-member-name">Guy Friedman</h4>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p>Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
                                        </div>
                                     </div>
                                  </div>
