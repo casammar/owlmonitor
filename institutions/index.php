@@ -116,7 +116,7 @@
                  <!-- Menu End -->
                </div>
 		<div class="row" style="padding-top: 100px;">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="background-color:#000000;opacity:0.7;">
                 <dl>
                     <dt>Simple</dt>
                     <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
