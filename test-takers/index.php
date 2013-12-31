@@ -121,7 +121,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <dl>
                             <dt>Easy and Convenient</dt>
-                            <dd>Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
+                            <dd>With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.</dd>
                         </dl>
                     </div>
                 </div>
