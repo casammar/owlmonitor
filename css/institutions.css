@@ -31,7 +31,7 @@
     font-weight:800;
     font-size:32px;
     font-style:italic;
-    color:#FFFFFF;
+    color:#00BDFF ;
 }
 
 .institution-background-banner dd{
@@ -39,7 +39,17 @@
     font-size:22px;
     text-align:justify;
 }
+
 .institution-background-banner blockquote{
     color:#00BDFF;
+}
+
+.institution-content{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#000000;
+    opacity:0.7;
 }
 
