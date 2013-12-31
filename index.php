@@ -44,7 +44,7 @@
       <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">
       <link rel="apple-touch-icon" sizes="120x120" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-120x120.png" />
       <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL; ?>/img/ic/apple-touch-icon-152x152.png" />
       <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -133,11 +133,11 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-lg btn-color product-tour" >Learn More</a>
+                    <a class="btn btn-info btn-lg product-tour" style="min-width:200px;" href="institutions/live-demo.php" >Learn More</a>
 			    </div>
 			    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-				<a class="btn btn-special btn-lg btn-warning" href="institutions/live-demo.php" >Live Demo</a>
-			    </div>
+                    <a class="btn btn-warning btn-lg" style="min-width:200px;" href="institutions/live-demo.php" >Live Demo</a>
+                </div>
 			</div>
 		    </div>
 	    </div>
