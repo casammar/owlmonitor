@@ -283,7 +283,7 @@
                            </li>
                            <li>
                               <i class="icon-phone"></i>
-                              <p><strong>Phone:</strong>123-456-7890</p>
+                              <p><strong>Phone:</strong> 215-995-6893</p>
                            </li>
                            <li>
                               <i class="icon-envelope"></i>

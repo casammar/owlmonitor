@@ -127,7 +127,7 @@
                 </div>
                 <div class="divider"></div>
                 <div class="row">
-                
+
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
                             <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
                         </div>
@@ -192,7 +192,7 @@
                            </li>
                            <li>
                               <i class="icon-phone"></i>
-                              <p><strong>Phone:</strong>123-456-7890</p>
+                              <p><strong>Phone:</strong>215-995-6893</p>
                            </li>
                            <li>
                               <i class="icon-envelope"></i>
