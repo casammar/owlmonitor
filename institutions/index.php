@@ -85,7 +85,7 @@
                   <!-- Logo Start -->
                   <div class="logo pull-left">
 		      <a href="<?php echo BASE_URL; ?>/index.html">
-			  <img src="<?php echo BASE_URL; ?>/img/004-examhawk-logo.png" alt="ExamHawk">
+			  <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
 		      </a>
                   </div>
 		  <!-- Logo End -->
