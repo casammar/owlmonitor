@@ -18,14 +18,14 @@
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+<!--      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">-->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">

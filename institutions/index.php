@@ -25,7 +25,7 @@
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">

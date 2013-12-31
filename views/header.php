@@ -28,7 +28,7 @@
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/colors/blue.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
       <!-- Steps -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
       <!-- Schedule Grid -->
