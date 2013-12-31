@@ -29,10 +29,6 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-      <!-- Switcher CSS -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/switcher.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/spectrum.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/slider.css">
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
       <link rel="icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
@@ -90,8 +86,8 @@
                   <!-- TopNav End -->
                   <!-- Logo Start -->
                   <div class="logo pull-left">
-		      <a href="<?php echo BASE_URL; ?>/index.html">
-			  <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
+		      <a href="<?php echo BASE_URL; ?>">
+                <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
 		      </a>
                   </div>
 		  <!-- Logo End -->
@@ -311,27 +307,7 @@
          </footer>
 
       <!-- Wrap End -->
-      <section id="style-switcher">
-        <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>
-        <div>
-           <h3>Header Color</h3>
-           <div class="header-color">
-              <input type='text' class="header-bg" />
-           </div>
-           <h3>Background Banner</h3>
-           <div class="header-color">
-              <input type='text' class="banner-bg" />
-           </div>
-	   <h3>Title Color</h3>
-           <div class="header-color">
-              <input type='text' class="title-bg" />
-           </div>
-	   <div class="header-color">
-	       <h3>Title Shadow</h3>
-	       <input type="text"  class="slider" value="" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
-	   </div>
-        </div>
-     </section>
+
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
@@ -350,9 +326,6 @@
       <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/spectrum.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/switcher.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/bootstrap-slider.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
       <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
