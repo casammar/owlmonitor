@@ -56,7 +56,7 @@
    </head>
    <body >
 
-       <div class="background-banner">
+       <div class="background-banner front-page-background-banner">
 
          <!-- Header Start -->
 
