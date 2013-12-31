@@ -11,17 +11,10 @@
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
@@ -44,54 +37,18 @@
       <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
    </head>
-   <body >
-
+   <body>
+       <!-- background banner start -->
        <div class="background-banner institution-background-banner">
-
-         <!-- Header Start -->
-
-         <!-- Header End -->
-	 <!-- mobile CTA's start -->
-<!--	    <div class="container">
-		<div class="row">
-		   <div class="mobile-content" style="display:none;">
-		      <div class="col-lg-12 col-md-12 col-sm-12">
-			<a class="btn btn-primary btn-lg btn-block" href="#online-proctoring">Online Proctoring</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#all-features">ExamHawk Features</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#contact-form">Free Consultation</a>
-		      </div>
-		      <div class="clearfix"></div>
-		   </div>
-		</div>
-            </div>-->
-	 <!-- mobile CTA's end -->
-         <!-- Content Start -->
-
-	    <!-- background image row start -->
-        <div class="container">
-	    <div class="row">
-
-                  <!-- TopNav Start -->
-                  <div class="topnav navbar-header">
-                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
-                     <i class="icon-angle-down icon-current"></i>
-                     </a>
+           <div class="container">
+	           <div class="row">
+                   <!-- Logo Start -->
+                   <div class="logo pull-left">
+                       <a href="<?php echo BASE_URL; ?>">
+                           <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
+                       </a>
                   </div>
-                  <!-- TopNav End -->
-                  <!-- Logo Start -->
-                  <div class="logo pull-left">
-		      <a href="<?php echo BASE_URL; ?>">
-			  <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
-		      </a>
-                  </div>
-		  <!-- Logo End -->
-                  <!-- Mobile Menu Start -->
-                  <div class="mobile navbar-header">
-                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
-                     <i class="icon-reorder icon-2x"></i>
-                     </a>
-                  </div>
-                  <!-- Mobile Menu End -->
+                  <!-- Logo End -->
                   <!-- Menu Start -->
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
@@ -111,107 +68,105 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-            <div class="row" style="padding-top: 100px;">
-
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 institution-content">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 style="color:#00BDFF;"><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Institutions</h2>
-                    </div>
-                    <dl>
-                        <dt>Simple</dt>
-                        <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
-                        <dt>Secure</dt>
-                        <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
-                        <dt>Compliant</dt>
-                        <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
-                    </dl>
+               <div class="row" style="padding-top: 100px;">
+                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 institution-content">
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <h2 style="color:#00BDFF;"><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Institutions</h2>
+                       </div>
+                       <dl>
+                           <dt>Simple</dt>
+                           <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
+                           <dt>Secure</dt>
+                           <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
+                           <dt>Compliant</dt>
+                           <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
+                       </dl>
+                   </div>
                 </div>
-            </div>
-            <div class="divider"></div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                        <a class="btn btn-warning btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-warning btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-	    </div>
-	    <!-- background image row end -->
-
+	       </div>
+           <!-- container end -->
        </div>
-         <!-- Content End -->
-         <!-- Footer Start -->
-         <footer id="footer">
-            <!-- Footer Top Start -->
-            <div class="footer-top">
-               <div class="container contact-us">
-                  <div class="row">
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-                        <h3>Institutions</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions">Pricing</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
-                    </ul>
-                    </section>
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-                        <h3>Test Takers</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/test-takers">How it Works</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/test-takers">Download</a></li>
-                    </ul>
-                    </section>
+	   <!-- background image row end -->
 
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-                        <h3>About</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/about/mission.php">Mission / Vision</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
-                    </ul>
-                    </section>
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-                        <h3>Contact Us</h3>
-                        <ul >
-                           <li>
-                              <i class="icon-map-marker"></i>
-                              <p>
-                                 <strong>Address:</strong>
-                                 Philadelphia, PA
-                              </p>
-                           </li>
-                           <li>
-                              <i class="icon-phone"></i>
-                              <p><strong>Phone:</strong>215-995-6893</p>
-                           </li>
-                           <li>
-                              <i class="icon-envelope"></i>
-                              <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
-                           </li>
+        <!-- Footer Start -->
+        <footer id="footer">
+           <!-- Footer Top Start -->
+           <div class="footer-top">
+              <div class="container contact-us">
+                 <div class="row">
+                   <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3">
+                       <h3>Institutions</h3>
+                        <ul>
+                            <li><a href="<?php echo BASE_URL; ?>/institutions">Pricing</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
                         </ul>
-                     </section>
-                  </div>
-               </div>
-            </div>
-            <!-- Footer Top End -->
-            <!-- Footer Bottom Start -->
-            <div class="footer-bottom">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 ExamHawk. All Rights Reserved. </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Footer Bottom End -->
-         </footer>
+                   </section>
+                   <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3">
+                       <h3>Test Takers</h3>
+                        <ul>
+                            <li><a href="<?php echo BASE_URL; ?>/test-takers">How it Works</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/test-takers">Download</a></li>
+                        </ul>
+                   </section>
 
-      <!-- Wrap End -->
+                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3">
+                       <h3>About</h3>
+                        <ul>
+                            <li><a href="<?php echo BASE_URL; ?>/about/mission.php">Mission / Vision</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
+                        </ul>
+                   </section>
+                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3">
+                       <h3>Contact Us</h3>
+                       <ul >
+                          <li>
+                             <i class="icon-map-marker"></i>
+                             <p>
+                                <strong>Address:</strong>
+                                Philadelphia, PA
+                             </p>
+                          </li>
+                          <li>
+                             <i class="icon-phone"></i>
+                             <p><strong>Phone:</strong>215-995-6893</p>
+                          </li>
+                          <li>
+                             <i class="icon-envelope"></i>
+                             <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
+                          </li>
+                       </ul>
+                    </section>
+                 </div>
+              </div>
+           </div>
+           <!-- Footer Top End -->
+           <!-- Footer Bottom Start -->
+           <div class="footer-bottom">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2013 ExamHawk. All Rights Reserved. </div>
+                 </div>
+              </div>
+           </div>
+           <!-- Footer Bottom End -->
+        </footer>
+
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
