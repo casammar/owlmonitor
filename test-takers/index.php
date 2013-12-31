@@ -109,28 +109,34 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-		<div class="row">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right">
-                <div class="divider"></div>
+		<div class="row" style="padding-top: 100px;">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right test-taker-content">
+
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 style="color:#00BDFF;"><small style="color:#1D3599;">Online Exam Monitoring for </small><br> Test Takers</h2>
+                        <h2 style="color:#00BDFF;"><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Test Takers</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <dl>
-                            <dt style="color:#1D3599;text-align:center;">Easy and Convenient</dt>
-                            <dd style="color:#000000;text-align:justify;">Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
+                            <dt>Easy and Convenient</dt>
+                            <dd>Everything you need to take your next online test is in the Exam Application application (click the big blue button to the left!) With ExamHawk, you can take your test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company, check out our FAQs.</dd>
                         </dl>
                     </div>
                 </div>
                 <div class="divider"></div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <button type="button" class="btn btn-info btn-lg">Download ExamHawk</button>
-                    </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-warning btn-lg" style="min-width:200px;" href="#" >Download ExamHawk</a>
+                        </div>
+
                 </div>
+
                 <div class="divider"></div>
                 <div class="divider"></div>
 

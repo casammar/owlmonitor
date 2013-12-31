@@ -24,14 +24,13 @@
 
 .test-taker-background-banner dt, dd{
     font-family: 'Roboto', sans-serif;
-    color:#727272;
 }
 
 .test-taker-background-banner dt{
     font-weight:800;
     font-size:32px;
     font-style:italic;
-    color:#2C2C2C;
+    color:#00BDFF;
 }
 
 .test-taker-background-banner dd{
@@ -41,5 +40,15 @@
 }
 .test-taker-background-banner blockquote{
     color:#00BDFF;
+}
+
+.test-taker-content{
+    color:#FFFFFF;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#000000;
+    opacity:0.7;
 }
 
