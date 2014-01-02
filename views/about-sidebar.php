@@ -1,4 +1,4 @@
-<div class="sidebar col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
     <!-- Left nav Widget Start -->
     <div class="widget category">
        <h3 class="title">ExamHawk</h3>
@@ -70,4 +70,3 @@
     </div>
      <? } ?>
     <!-- Tab End -->
- </div>

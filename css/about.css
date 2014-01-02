@@ -1,0 +1,74 @@
+/*
+    Document   : about
+    Created on : Dec 13, 2013, 10:50:34 AM
+    Author     : Chris
+    Description:
+        Stylesheet to be applied to new institution LP currently in sandbox
+*/
+
+.about-background-banner h2{
+    color:#2C2C2C;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:800;
+    font-size:46px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.about-background-banner h2 small{
+    text-shadow: none;
+    font-weight:400;
+    font-size:26px;
+    font-style:italic;
+}
+
+.about-background-banner dt, dd{
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
+}
+
+.about-background-banner dt{
+    font-weight:800;
+    font-size:32px;
+    font-style:italic;
+    color:#00BDFF ;
+}
+
+.about-background-banner dd{
+    font-weight:400;
+    font-size:22px;
+    text-align:left;
+}
+
+.about-background-banner blockquote{
+    color:#00BDFF;
+}
+
+.about-content{
+    padding:10px 30px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#000000;
+    opacity:0.7;
+    min-height:500px;
+
+}
+
+.about-sidebar{
+    padding:10px 30px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:#000000;
+    opacity:0.7;
+    min-height:500px;
+
+}
+
+.about-background-banner{
+    background-image: url('../img/sandbox/campus4.jpg');
+    background-position: center 30%;
+}
