@@ -10,7 +10,7 @@
  */
 
 // Bootstrap the library / register autoloader
-require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
+require_once ('../SEOstats/bootstrap.php');
 
 try {
     $url = 'http://www.examhawk.com/';
