@@ -333,7 +333,8 @@ html, body, .background-banner{
 }
 
 #front-page-background-banner{
-    background-image: url('../img/sandbox/IMG_1472-2.jpg');
+/*    background-image: url('../img/sandbox/IMG_1472-2.jpg');*/
+    background-image: url('../img/sandbox/Campus_web.jpg');
     background-position: center 20%;
 }
 

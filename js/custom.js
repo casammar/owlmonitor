@@ -702,27 +702,115 @@ $("#contact").submit(function (e) {
 /*----------------------------------------------------*/
 
 	jQuery(document).ready(function(){
+
+	    //Header Color Change
+	    $(".header-bg").spectrum({
+		showInitial: true,
+		    color: "#00BDFF",
+		    preferredFormat: "hex6",
+		showInput: true,
+		    move: updateHeader
+	    });
+	    //Changing the header color instantly
+	    function updateHeader(color) {
+		$(".content-container h2").css("color", color.toHexString());
+	    }
+
+	    $("#content-box-style").on('change', function() {
+		var align = $(this).val();
+
+		if (align == 2){
+		    console.log('remove left');
+		    console.log('add right');
+
+		    $( ".content-container" ).removeClass( "pull-left" );
+		    $( ".content-container" ).addClass( "pull-right" );
+		}
+
+		else if(align == 1){
+		    console.log('remove right');
+		    console.log('add left');
+
+		    $( ".content-container" ).removeClass( "pull-right" );
+		    $( ".content-container" ).addClass( "pull-left" );
+		}
+
+
+
+
+	    });
+
 	    //initialize slider
 	    $('.slider').slider()
 
 	    .on('slide', function(ev){
 		switch(ev.value) {
 		    case (1):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1461_small.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web.jpg')");
 			break;
 		    case (2):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1464_small.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-2.jpg')");
 			break;
 		    case (3):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1471_small.jpg')");
-			$("#front-page-background-banner").css("background-position", "center top");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-3.jpg')");
 			break;
 		    case (4):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1472_small.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-4.jpg')");
 			break;
 		    case (5):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1481_small.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-5.jpg')");
+		        break;
+		    case (6):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-6.jpg')");
 			break;
+		    case (7):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-7.jpg')");
+			break;
+		    case (8):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-8.jpg')");
+			break;
+		    case (9):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-9.jpg')");
+			 break;
+		    case (10):
+			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-10.jpg')");
+			 break;
+		    case (11):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-11.jpg')");
+			break;
+		    case (12):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-12.jpg')");
+			break;
+		    case (13):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-13.jpg')");
+			break;
+		    case (14):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-14.jpg')");
+			break;
+		    case (15):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-15.jpg')");
+		        break;
+		    case (16):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-16.jpg')");
+			break;
+		    case (17):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-17.jpg')");
+			break;
+		    case (18):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-18.jpg')");
+			break;
+		    case (19):
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-19.jpg')");
+			 break;
+		    case (20):
+			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-20.jpg')");
+			 break;
+		    case (21):
+			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-21.jpg')");
+			 break;
+	            case (22):
+			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-22.jpg')");
+			 break;
 		}
 	    });
 	});
