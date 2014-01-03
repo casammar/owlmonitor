@@ -52,17 +52,17 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h2>Administrator table of contents</h2>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-alexa-graphs.php">Alexa Graphs</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-alexa-metrics.php">Alexa Metrics</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-google-pagerank.php">Google PageRank</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-google-pagespeed-analysis.php">Google PageSpeed</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-google-serps.php">Google Serps</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-mozscape-metrics.php">Mozilla Metrics</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-opensiteexplorer-metrics.php">OpenSite Explorer Metrics</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-semrush-graphs.php">SEMrush Graphs</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-semrush-metrics.php">SEMrush Metrics</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-sistrix-visibilityindex.php">Sistrix Visibility</a><br>
-                    <a href="../seo-stats/SEOstats-dev-253/example/get-social-metrics.php">Social Metrics</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-alexa-graphs.php">Alexa Graphs</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-alexa-metrics.php">Alexa Metrics</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-google-pagerank.php">Google PageRank</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-google-pagespeed-analysis.php">Google PageSpeed</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-google-serps.php">Google Serps</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-mozscape-metrics.php">Mozilla Metrics</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-opensiteexplorer-metrics.php">OpenSite Explorer Metrics</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-semrush-graphs.php">SEMrush Graphs</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-semrush-metrics.php">SEMrush Metrics</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-sistrix-visibilityindex.php">Sistrix Visibility</a><br>
+                    <a href="../seo-stats/SEOstats/example/get-social-metrics.php">Social Metrics</a><br>
                 </div>
              </div>
         </div>
