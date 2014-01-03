@@ -341,11 +341,11 @@
         // Usage:
 
         preload([
-            'img/sandbox/frontpage/IMG_1461.jpg',
-            'img/sandbox/frontpage/IMG_1464.jpg',
-            'img/sandbox/frontpage/IMG_1471.jpg',
-            'img/sandbox/frontpage/IMG_1472.jpg',
-            'img/sandbox/frontpage/IMG_1481.jpg',
+            'img/sandbox/IMG_1461.jpg',
+            'img/sandbox/IMG_1464.jpg',
+            'img/sandbox/IMG_1471.jpg',
+            'img/sandbox/IMG_1472.jpg',
+            'img/sandbox/IMG_1481.jpg',
         ]);
       </script>
    </body>
