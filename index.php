@@ -10,6 +10,8 @@
       <meta name="author" content="ExamHawk development team">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Verification -->
+      <meta name="google-site-verification" content="I65w_rleeBlQuYO8sDSqX-13h19KL1oPMz34-67sw8w" />
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
