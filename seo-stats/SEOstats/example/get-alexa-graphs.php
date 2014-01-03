@@ -11,10 +11,8 @@
 
 // Bootstrap the library / register autoloader
 
-print_r(__DIR__);
-exit();
 
-require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
+require_once ('\..') . '\SEOstats\bootstrap.php';
 
 use \SEOstats\Services\Alexa as Alexa;
 
