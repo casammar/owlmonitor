@@ -103,13 +103,10 @@
                  <!-- Menu End -->
                </div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:100px;">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="img/sandbox/lg-owl.png" style="width:200px;height:250px;" class="pull-left"/>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h3 id="background-title">Live & Recorded</h3>
-                    <h3 id="background-subtitle">Online Exam Monitoring</h3>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 id="background-title">Live & Recorded Online Exam Monitoring</h3>
+<!--                    <h3 id="background-subtitle">Online Exam Monitoring</h3>-->
                 </div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
@@ -233,27 +230,18 @@
             <div class="footer-top">
                <div class="container contact-us">
                   <div class="row">
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-                        <h3>Institutions</h3>
+                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
+                        <h3>The Platform</h3>
                     <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/institutions">Pricing</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/institutions">Institutions</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/test-takers">Test Takers</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
-                    </ul>
-                    </section>
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-                        <h3>Test Takers</h3>
-                    <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/test-takers">How it Works</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/test-takers">Download</a></li>
                     </ul>
                     </section>
 
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-                        <h3>About</h3>
+                        <h3>About ExamHawk</h3>
                     <ul>
-                        <li><a href="<?php echo BASE_URL; ?>/about/mission.php">Mission / Vision</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
@@ -280,6 +268,9 @@
                            </li>
                         </ul>
                      </section>
+                      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                    </div>
                   </div>
                </div>
             </div>
