@@ -5,9 +5,9 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | Online Exam Monitoring | Institutions</title>
-      <meta name="description" content="ExamHawk application">
-      <meta name="author" content="ExamHawk development team">
+      <title>ExamHawk | Team</title>
+      <meta name="description" content="Meet the ExamHawk team.">
+      <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->

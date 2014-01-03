@@ -5,13 +5,15 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk</title>
-      <meta name="description" content="ExamHawk application">
-      <meta name="author" content="ExamHawk development team">
+      <title>ExamHawk | Institutions</title>
+      <meta name="description" content="Setting up ExamHawk for institutions is simple, secure, and compliant. ExamHawk is learning management system agnostic and all data is stored under the FERPA and Safe Harbor regulations.">
+      <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">

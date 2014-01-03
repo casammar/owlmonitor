@@ -5,9 +5,9 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | Online Exam Monitoring</title>
-      <meta name="description" content="ExamHawk application">
-      <meta name="author" content="ExamHawk development team">
+      <title>ExamHawk | Live and Recorded Online Exam Monitoring</title>
+      <meta name="description" content="ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment.">
+      <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Verification -->
