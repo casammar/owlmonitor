@@ -1,7 +1,6 @@
 
     <!-- Left nav Widget Start -->
     <div class="widget category">
-       <h3 class="title">ExamHawk</h3>
        <ul class="category-list slide">
           <li><a href="<?php echo BASE_URL; ?>/about/index.php">About</a></li>
           <li><a href="<?php echo BASE_URL; ?>/institutions/faq.php">Institution FAQs</a></li>

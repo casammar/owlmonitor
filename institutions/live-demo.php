@@ -1,41 +1,95 @@
-<?php include '../views/header.php'; ?>
-        <!-- Content Start -->
-        <div id="main">
-          <!-- Main Content start-->
-            <div class="content">
-               <div class="container">
-                  <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <h3 class="title">Contact Us</h3>
-                        <div>
-                        <ul class="contact-us">
-                           <li>
-                              <i class="icon-map-marker"></i>
-                              <p>
-                                 <strong>Address:</strong>
-                                 Philadelphia, PA
-                              </p>
-                           </li>
-                           <li>
-                              <i class="icon-phone"></i>
-                              <p><strong>Phone:</strong>123-456-7890</p>
-                           </li>
-                           <li>
-                              <i class="icon-envelope"></i>
-                              <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
-                           </li>
-                        </ul>
-                      </div>
-                        <div class="divider"></div>
-                        <div id="maps" class="google-maps">
-                            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=philadelphia+pa&amp;aq=&amp;sll=40.002498,-75.118033&amp;sspn=0.467072,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=Philadelphia,+Pennsylvania&amp;ll=40.002372,-75.118332&amp;spn=0.467414,1.056747&amp;t=m&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=philadelphia+pa&amp;aq=&amp;sll=40.002498,-75.118033&amp;sspn=0.467072,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=Philadelphia,+Pennsylvania&amp;ll=40.002372,-75.118332&amp;spn=0.467414,1.056747&amp;t=m&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                        </div>
-                     </div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-form">
-                        <h3 class="title">Send Us an Email</h3>
-                        <p>
+<?php include '../views/baseurl.php'; ?>
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <title>ExamHawk | Contact</title>
+      <meta name="description" content="Get in touch with members of ExamHawk.">
+      <meta name="author" content="">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+           <!-- Library CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/team-member.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/pricing-table.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
+      <!-- Steps -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
+      <!-- Schedule Grid -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
+      <!-- Institutions-->
+
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
+      <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+   </head>
+   <body>
+       <!-- background banner start -->
+       <div class="background-banner institution-background-banner">
+           <div class="container">
+	           <div class="row">
+                   <!-- Logo Start -->
+                   <div class="logo pull-left">
+                       <a href="<?php echo BASE_URL; ?>">
+                           <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
+                       </a>
+                  </div>
+                  <!-- Logo End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li>
+                           <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
+                        </li>
+                        <li>
+                           <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
+                        </li>
+                        <li>
+                           <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
+                        </li>
+                        <li>
+                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                        </li>
+                    </ul>
+                 </nav>
+                 <!-- Menu End -->
+               </div>
+               <div class="row">
+
+                     <div class="content-container col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-form">
+                        <h3 class="title" style="text-align:center;">Complete the Form to</h3>
+                        <h3 class="title" style="text-align:center;">Schedule a Live Demo!</h3>
+<!--                        <p>
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
-                        </p>
+                        </p>-->
                         <div class="divider"></div>
                         <form method="post" class="reply" id="contact">
 						<fieldset>
@@ -64,7 +118,12 @@
 								</div>
 							</div>
 						</fieldset>
-						<button class="btn-normal btn-color submit bottom-pad pull-right" type="submit">Send</button>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
+                                </div>
+                            </div>
+
 						<div class="success alert-success alert" style="display:none">
 							Your message has been sent successfully.
 						</div>
@@ -75,11 +134,96 @@
 						</div>
 					</form>
                      </div>
+
+                </div>
+	       </div>
+           <!-- container end -->
+       </div>
+	   <!-- background image row end -->
+
+        <!-- Footer Start -->
+        <footer id="footer">
+           <!-- Footer Top Start -->
+           <div class="footer-top">
+              <div class="container contact-us">
+                 <div class="row">
+                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
+                        <h3>The Platform</h3>
+                    <ul>
+                        <li><a href="<?php echo BASE_URL; ?>/institutions">Institutions</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/test-takers">Test Takers</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
+                    </ul>
+                    </section>
+
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3>About ExamHawk</h3>
+                    <ul>
+                        <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></li>
+                    </ul>
+                    </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3>Contact Us</h3>
+                        <ul >
+                           <li>
+                              <i class="icon-map-marker"></i>
+                              <p>
+                                 <strong>Address:</strong>
+                                 Philadelphia, PA
+                              </p>
+                           </li>
+                           <li>
+                              <i class="icon-phone"></i>
+                              <p><strong>Phone:</strong> 215-995-6893</p>
+                           </li>
+                           <li>
+                              <i class="icon-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
+                           </li>
+                        </ul>
+                     </section>
+                      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                    </div>
                   </div>
-                  <div class="divider"></div>
-               </div>
-            </div>
-            <!-- Main Content end-->
-         </div>
-         <!-- Content End -->
-<?php include '../views/footer.php'; ?>
+              </div>
+           </div>
+           <!-- Footer Top End -->
+           <!-- Footer Bottom Start -->
+           <div class="footer-bottom">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2014 ExamHawk. All Rights Reserved. </div>
+                 </div>
+              </div>
+           </div>
+           <!-- Footer Bottom End -->
+        </footer>
+
+      <!-- The Scripts -->
+      <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.parallax.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/modernizr-2.6.2.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.nivo.slider.pack.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.prettyPhoto.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.isotope.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/superfish.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/tweetMachine.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/tytabs.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.gmap.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/circularnav.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.sticky.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
+      <!--
+      <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
+      -->
+   </body>
+</html>

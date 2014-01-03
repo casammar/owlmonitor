@@ -8,22 +8,23 @@
 
 .institution-background-banner h2{
     color:#2C2C2C;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merienda One', cursive;
     font-weight:800;
-    font-size:46px;
+    font-size:48px;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align:center;
+    font-style:italic;
 }
 
 .institution-background-banner h2 small{
     text-shadow: none;
     font-weight:400;
     font-size:26px;
-    font-style:italic;
+    font-style:normal;
 }
 
 .institution-background-banner dt, dd{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merienda One', cursive;
     color:#FFFFFF;
 }
 
@@ -35,9 +36,10 @@
 }
 
 .institution-background-banner dd{
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight:400;
     font-size:22px;
-    text-align:justify;
+    text-align:left;
 }
 
 .institution-background-banner blockquote{
@@ -45,11 +47,20 @@
 }
 
 .institution-content{
+    padding:10px 30px;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -o-border-radius: 10px;
     background-color:#000000;
-    opacity:0.7;
+     /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
 }
 

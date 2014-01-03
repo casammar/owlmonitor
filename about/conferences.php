@@ -12,6 +12,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
            <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -32,7 +35,7 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Institutions-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/about.css">
+
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -79,13 +82,13 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-               <div class="row" style="padding-top: 100px;">
-                   <div class="about-content col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                        <h3 class="title">Conferences</h3>
+               <div class="row">
+                   <div class="content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <h2 class="title">Conferences</h2>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2><a href="http://educonphilly.org/" target="_blank">Educon</a></h2>
+                                    <h3><a href="http://educonphilly.org/" target="_blank">Educon</a></h3>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <p>01/24/2014 - 01/26/2014</p>
@@ -100,7 +103,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h2>
+                                    <h3><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h3>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <p>01/28/2014 - 01/31/2014</p>
@@ -115,7 +118,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h2><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h2>
+                                    <h3><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h3>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <p>02/06/2014 - 02/07/2014</p>

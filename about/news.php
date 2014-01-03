@@ -12,6 +12,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
            <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -31,8 +34,7 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-      <!-- Institutions-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/about.css">
+
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -79,11 +81,11 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-               <div class="row" style="padding-top: 100px;">
-                   <div class="posts-block about-content col-lg-9 col-md-9 col-sm-9 col-xs-12">
+               <div class="row">
+                   <div class="posts-block content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <article class="post hentry">
                            <header class="post-header">
-                              <h3 class="content-title">News Article 1</h3>
+                              <h3 class="content-title">ExamHawk.com Launches!</h3>
                               <div class="blog-entry-meta">
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
@@ -112,38 +114,7 @@
                               </p>
                            </div>
                         </article>
-                        <div class="blog-divider"></div>
-                        <article class="post hentry">
-                           <header class="post-header">
-                              <h3 class="content-title">News Article 2</h3>
-                              <div class="blog-entry-meta">
-                                 <div class="blog-entry-meta-date">
-                                    <i class="icon-time"></i>
-                                    <span class="blog-entry-meta-date-month">August</span>
-                                    <span class="blog-entry-meta-date-day">23,</span>
-                                    <span class="blog-entry-meta-date-year">2013</span>
-                                 </div>
-                                 <div class="blog-entry-meta-author">
-                                    <i class="icon-user"></i>
-                                    <a href="#" class="blog-entry-meta-author">John Doe</a>
-                                 </div>
-                                 <div class="blog-entry-meta-tags">
-                                    <i class="icon-tags"></i>
-                                    <a href="#">Web Design</a>,
-                                    <a href="#">Branding</a>
-                                 </div>
-                                 <div class="blog-entry-meta-comments">
-                                    <i class="icon-comments"></i>
-                                    <a href="#" class="blog-entry-meta-comments">3 comments</a>
-                                 </div>
-                              </div>
-                           </header>
-                           <div class="post-content">
-                              <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen not only five centuries, but also the leap essentially.
-                              </p>
-                           </div>
-                        </article>
+
 
                         <div class="blog-divider"></div>
                         <div class="pagination-centered">

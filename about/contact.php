@@ -12,6 +12,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
            <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -32,7 +35,7 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Institutions-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/about.css">
+
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -79,8 +82,8 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-               <div class="row" style="padding-top: 100px;">
-                   <div class="about-content col-lg-3 col-md-3 col-sm-3 col-xs-12">
+               <div class="row">
+                   <div class="content-container col-lg-3 col-md-3 col-sm-3 col-xs-12">
                          <h3 class="title">Quick Contact</h3>
                          <ul class="contact-us">
                            <li>
@@ -100,7 +103,7 @@
                            </li>
                         </ul>
                      </div>
-                     <div class="about-content col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5 col-xs-12" id="contact-form">
+                     <div class="content-container col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5 col-xs-12" id="contact-form">
                         <h3 class="title">Send Us an Email</h3>
 <!--                        <p>
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
@@ -133,7 +136,12 @@
 								</div>
 							</div>
 						</fieldset>
-						<button class="btn-normal btn-color submit bottom-pad pull-right" type="submit">Send</button>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
+                                </div>
+                            </div>
+
 						<div class="success alert-success alert" style="display:none">
 							Your message has been sent successfully.
 						</div>

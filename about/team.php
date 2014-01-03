@@ -12,6 +12,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
            <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -32,7 +35,7 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Institutions-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/about.css">
+
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -79,9 +82,9 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-               <div class="row" style="padding-top: 100px;">
-                   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 about-content">
-                        <h3 class="title">ExamHawk Team</h3>
+               <div class="row">
+                   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-container">
+                        <h2>The ExamHawk Team</h2>
                         <div class="row team">
                            <!-- item 1 -->
                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d1">
@@ -98,10 +101,10 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Guy Friedman</h4>
+                                       <h3 class="team-member-name">Guy<br> Friedman</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p>Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
+                                          <p style="text-align:justify">Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
                                        </div>
                                     </div>
                                  </div>
@@ -123,10 +126,10 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Matt Jaeh</h4>
+                                       <h3 class="team-member-name">Matt<br> Jaeh</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -148,10 +151,10 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h4 class="team-member-name">Chris Sammarco</h4>
+                                       <h3 class="team-member-name">Chris Sammarco</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
                                     </div>
                                  </div>
