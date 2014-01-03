@@ -269,7 +269,7 @@
                         </ul>
                      </section>
                       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <img src="img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
                     </div>
                   </div>
                </div>
