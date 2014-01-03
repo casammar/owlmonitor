@@ -21,7 +21,7 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
+
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Favicons -->
@@ -70,11 +70,15 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-               <div class="row" style="padding-top: 100px;">
-                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 institution-content">
-                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                           <h2 style="color:#00BDFF;"><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Institutions</h2>
-                       </div>
+               <div class="row">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content-container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Institutions</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
                        <dl>
                            <dt>Simple</dt>
                            <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
@@ -83,19 +87,25 @@
                            <dt>Compliant</dt>
                            <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
                        </dl>
-                   </div>
-                </div>
-                <div class="divider"></div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-warning btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
-                        </div>
                     </div>
                 </div>
+                <div class="row bottom-pad text-center cta-container">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+		</div>
+
+
+                <div class="divider"></div>
+
 	       </div>
            <!-- container end -->
        </div>

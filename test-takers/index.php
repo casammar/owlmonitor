@@ -14,7 +14,10 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+     
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -26,7 +29,6 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/test-takers.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Favicons -->
@@ -109,37 +111,30 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-		<div class="row" style="padding-top: 100px;">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right test-taker-content">
-
+		<div class="row">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right content-container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 style="color:#00BDFF;"><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Test Takers</h2>
+                        <h2><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Test Takers</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <dl>
-                            <dt>Easy and Convenient</dt>
-                            <dd>With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.</dd>
-                        </dl>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
+                        <br>
+                        <h3>Easy and Convenient</h3>
+                        <p>
+                            With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
+                        </p>
                     </div>
                 </div>
-                <div class="divider"></div>
-                <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-info btn-lg" style="min-width:200px;" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-warning btn-lg" style="min-width:200px;" href="#" >Download ExamHawk</a>
-                        </div>
-
+                <div class="row bottom-pad text-center cta-container">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a class="btn btn-warning btn-lg" href="#" >Download ExamHawk</a>
+                    </div>
                 </div>
-
-                <div class="divider"></div>
-                <div class="divider"></div>
-
             </div>
 		</div>
 	    </div>
