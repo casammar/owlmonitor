@@ -13,7 +13,7 @@
 require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
 
 try {
-    $url = 'http://www.proctoru.com/';
+    $url = 'http://www.examhawk.com/';
 
     // Get the Google PageRank for the given URL.
     $pagerank = \SEOstats\Services\Google::getPageRank($url);

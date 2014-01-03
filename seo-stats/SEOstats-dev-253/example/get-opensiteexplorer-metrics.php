@@ -13,7 +13,7 @@
 require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
 
 try {
-    $url = 'http://www.proctoru.com/';
+    $url = 'http://www.examhawk.com/';
 
     // Get Open-Site-Explorer metrics for the given URL.
     $ose = \SEOstats\Services\OpenSiteExplorer::getPageMetrics($url);

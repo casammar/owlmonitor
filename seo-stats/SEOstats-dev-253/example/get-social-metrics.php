@@ -15,7 +15,7 @@ require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
 use \SEOstats\Services\Social as Social;
 
 try {
-    $url = 'http://www.google.com/';
+    $url = 'http://www.examhawk.com/';
 
     // Create a new SEOstats instance.
     $seostats = new \SEOstats\SEOstats;

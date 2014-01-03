@@ -13,7 +13,7 @@
 require_once (__DIR__ . '\..') . '\SEOstats\bootstrap.php';
 
 try {
-    $url = 'http://www.proctoru.com/';
+    $url = 'http://www.examhawk.com/';
 
     /**
      *  Get the Google Pagespeed Analysis metrics for the given URL.
