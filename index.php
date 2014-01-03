@@ -5,22 +5,16 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk</title>
+      <title>ExamHawk | Online Exam Monitoring</title>
       <meta name="description" content="ExamHawk application">
       <meta name="author" content="ExamHawk development team">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-<!--      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">-->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
@@ -29,6 +23,10 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
+      <!-- Switcher CSS -->
+      <link rel="stylesheet" href="css/switcher.css">
+      <link rel="stylesheet" href="css/spectrum.css">
+      <link rel="stylesheet" href="css/slider.css">
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
       <link rel="icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
@@ -52,30 +50,18 @@
    </head>
    <body >
 
-       <div class="background-banner front-page-background-banner">
+       <div class="background-banner" id="front-page-background-banner">
 
          <!-- Header Start -->
 
          <!-- Header End -->
-	 <!-- mobile CTA's start -->
-<!--	    <div class="container">
-		<div class="row">
-		   <div class="mobile-content" style="display:none;">
-		      <div class="col-lg-12 col-md-12 col-sm-12">
-			<a class="btn btn-primary btn-lg btn-block" href="#online-proctoring">Online Proctoring</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#all-features">ExamHawk Features</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#contact-form">Free Consultation</a>
-		      </div>
-		      <div class="clearfix"></div>
-		   </div>
-		</div>
-            </div>-->
-	 <!-- mobile CTA's end -->
+
          <!-- Content Start -->
 
 	    <!-- background image row start -->
         <div class="container">
 	    <div class="row">
+
 
                   <!-- TopNav Start -->
                   <div class="topnav navbar-header">
@@ -91,13 +77,10 @@
 		      </a>
                   </div>
 		  <!-- Logo End -->
-                  <!-- Mobile Menu Start -->
-                  <div class="mobile navbar-header">
-                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
-                     <i class="icon-reorder icon-2x"></i>
-                     </a>
-                  </div>
-                  <!-- Mobile Menu End -->
+
+
+
+
                   <!-- Menu Start -->
                   <nav class="collapse navbar-collapse menu">
                      <ul class="nav navbar-nav sf-menu">
@@ -119,9 +102,13 @@
                </div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:100px;">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-			    <img src="img/sandbox/lg-owl.png" style="width:200px;height:250px;" class="pull-left"/>
-			    <h3 id="background-title">Live & Recorded</h3>
-			    <h3 id="background-subtitle">Online Exam Monitoring</h3>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="img/sandbox/lg-owl.png" style="width:200px;height:250px;" class="pull-left"/>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h3 id="background-title">Live & Recorded</h3>
+                    <h3 id="background-subtitle">Online Exam Monitoring</h3>
+                </div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
 			    <p style="text-align:justify;">ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
@@ -308,6 +295,15 @@
 
       <!-- Wrap End -->
 
+      <section id="style-switcher">
+        <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>
+        <div>
+            <div class="header-color">
+                <h3>Background Picture</h3>
+                <input type="text"  class="slider" value="" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+            </div>
+        </div>
+     </section>
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
@@ -326,9 +322,31 @@
       <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/spectrum.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/switcher.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/bootstrap-slider.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
       <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
       -->
+      <script>
+        function preload(arrayOfImages) {
+            $(arrayOfImages).each(function(){
+            $('<img/>')[0].src = this;
+            // Alternatively you could use:
+            // (new Image()).src = this;
+            });
+        }
+
+        // Usage:
+
+        preload([
+            'img/sandbox/frontpage/IMG_1461.jpg',
+            'img/sandbox/frontpage/IMG_1464.jpg',
+            'img/sandbox/frontpage/IMG_1471.jpg',
+            'img/sandbox/frontpage/IMG_1472.jpg',
+            'img/sandbox/frontpage/IMG_1481.jpg',
+        ]);
+      </script>
    </body>
 </html>
