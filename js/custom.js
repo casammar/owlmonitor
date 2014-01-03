@@ -708,20 +708,20 @@ $("#contact").submit(function (e) {
 	    .on('slide', function(ev){
 		switch(ev.value) {
 		    case (1):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1461.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1461_small.jpg')");
 			break;
 		    case (2):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1464.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1464_small.jpg')");
 			break;
 		    case (3):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1471.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1471_small.jpg')");
 			$("#front-page-background-banner").css("background-position", "center top");
 			break;
 		    case (4):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1472.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1472_small.jpg')");
 			break;
 		    case (5):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1481.jpg')");
+			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/IMG_1481_small.jpg')");
 			break;
 		}
 	    });
