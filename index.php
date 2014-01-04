@@ -138,7 +138,7 @@
 
        </div>
 
-        <div class="content" style="background: url('img/cream_dust.png') repeat;">
+        <div class="content" style="background: url('img/cream_dust.png') repeat;min-height:1px;padding-top:100px;padding-bottom:50px;">
 		<div class="container">
 
 		  <div class="row features-row">
