@@ -275,7 +275,7 @@
                            </li>
                            <li>
                               <i class="icon-envelope"></i>
-                              <p><strong>Email:</strong><a href="mailto:info@ExamHawk.com">info@ExamHawk.com</a></p>
+                              <p><strong>Email:</strong><a href="mailto:guy@ExamHawk.com">guy@ExamHawk.com</a></p>
                            </li>
                         </ul>
                      </section>

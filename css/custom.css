@@ -10,6 +10,8 @@
  /*Dark blue #1D3599 */
  /*Light blue #00BDFF */
 
+ @font-face { font-family: 'bemio'; src: url('http://www.new-leaf.co/fonts/bemio.eot'); src: url('http://www.new-leaf.co/fonts/bemio.eot?#iefix') format('embedded-opentype'), url('http://www.new-leaf.co/fonts/bemio.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
 .alt-btn:focus, .subscribe-btn, .progress .progress-bar, .accordionMod .panel-heading .current, #current:after, .tp-leftarrow.default:hover,.tp-rightarrow.default:hover, .nivo-prevNav:hover, .nivo-nextNav:hover, .contact-box:hover, #options li a.selected, .ch-info .ch-info-back {
     background: #FA6900;
 }
@@ -454,13 +456,13 @@ html, body, .background-banner{
 }
 
 .content-container h2{
-    color:#00BDFF;
-    font-family: 'Merienda One', cursive;
+    color:#1D3599;
+    font-family: 'bemio', sans-serif;
     font-weight: 800;
     font-size: 48px;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align: center;
-    font-style: italic;
+
 }
 
 .content-container h2>small{
@@ -472,10 +474,9 @@ html, body, .background-banner{
 }
 
 .content-container dt{
-    font-family: 'Merienda One', cursive;
+    font-family: 'bemio', sans-serif;
     font-weight:800;
     font-size:32px;
-    font-style:italic;
     color:#00BDFF ;
 }
 
@@ -488,10 +489,9 @@ html, body, .background-banner{
 }
 
 .content-container h3{
-     font-family: 'Merienda One', cursive;
+    font-family: 'bemio', sans-serif;
     font-weight:800;
     font-size:32px;
-    font-style:italic;
     color:#00BDFF;
     line-height: 40px;
 }
