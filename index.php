@@ -140,7 +140,7 @@
 
         <div class="content" style="background: url('img/cream_dust.png') repeat;">
 		<div class="container">
-		  <div class="divider"></div>
+
 		  <div class="row features-row">
                      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="content-box big ch-item bottom-pad-small">
@@ -215,7 +215,7 @@
                         </div>
                      </div>
                   </div>
-		    <div class="divider"></div>
+<!--		    <div class="divider"></div>
 		    <div class="row" id="product_tour">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 web css wp item">
 			    <h3 class="title">See ExamHawk in Action</h3>
@@ -230,7 +230,7 @@
 				<div class="clearfix"></div>
 			     </div>
 			</div>
-		    </div>
+		    </div>-->
 		</div>
 	    </div>
 
