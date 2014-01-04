@@ -240,7 +240,7 @@
             <!-- Footer Top Start -->
             <div class="footer-top">
                <div class="container contact-us">
-                  <div class="row">
+                  <div class="row footer-padding">
                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
                         <h3>The Platform</h3>
                     <ul>
@@ -346,24 +346,6 @@
       <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
       -->
-      <script>
-        function preload(arrayOfImages) {
-            $(arrayOfImages).each(function(){
-            $('<img/>')[0].src = this;
-            // Alternatively you could use:
-            // (new Image()).src = this;
-            });
-        }
 
-        // Usage:
-
-        preload([
-            'img/sandbox/IMG_1461_small.jpg',
-            'img/sandbox/IMG_1464_small.jpg',
-            'img/sandbox/IMG_1471_small.jpg',
-            'img/sandbox/IMG_1472_small.jpg',
-            'img/sandbox/IMG_1481_small.jpg',
-        ]);
-      </script>
    </body>
 </html>

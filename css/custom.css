@@ -162,7 +162,7 @@ h3.title {
 
 #footer h3 {
     color: #EDEDEF;
-    text-align:left;
+    text-align:center;
     text-transform:uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -172,7 +172,7 @@ h3.title {
 
 .footer-heading{
     color: #EDEDEF;
-    text-align:left;
+    text-align:center;
     text-transform:uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -182,12 +182,12 @@ h3.title {
 
 #footer a{
     color: #9F9F9F;
-    display: table;
     font-size: 14px;
     line-height: 26px;
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
     transition: color 0.1s ease 0s;
+    width:100%;
 }
 
 .btn-new-dark-blue{
@@ -418,16 +418,17 @@ html, body, .background-banner{
 
 
 .content-container{
-    color:#FFFFFF;
+
+    color:#000000;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -o-border-radius: 10px;
-    background-color:#000000;
+    background-color:#FFFFFF;
      /* Fallback for web browsers that don't support RGBa */
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     /* RGBa with 0.6 opacity */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
@@ -477,7 +478,7 @@ html, body, .background-banner{
     font-family: 'bemio', sans-serif;
     font-weight:800;
     font-size:32px;
-    color:#00BDFF ;
+    color:#1D3599;
 }
 
 .content-container dd{
@@ -492,7 +493,7 @@ html, body, .background-banner{
     font-family: 'bemio', sans-serif;
     font-weight:800;
     font-size:32px;
-    color:#00BDFF;
+    color:#1D3599;
     line-height: 40px;
 }
 .content-container p{
@@ -546,4 +547,9 @@ html, body, .background-banner{
 }
 .category-list a:hover{
     color: #FFFFFF;
+}
+
+.footer-padding{
+    margin-top:55px;
+    text-align:center !important;
 }

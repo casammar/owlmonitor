@@ -146,7 +146,7 @@
            <!-- Footer Top Start -->
            <div class="footer-top">
               <div class="container contact-us">
-                 <div class="row">
+                 <div class="row footer-padding">
                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
                         <h3>The Platform</h3>
                     <ul>

@@ -24,6 +24,10 @@
 
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
+            <!-- Switcher CSS -->
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/switcher.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/spectrum.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/slider.css">
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -41,7 +45,7 @@
    </head>
    <body>
        <!-- background banner start -->
-       <div class="background-banner institution-background-banner">
+       <div class="background-banner institution-background-banner" id="institutions-page-background-banner">
            <div class="container">
 	           <div class="row">
                    <!-- Logo Start -->
@@ -89,7 +93,7 @@
                        </dl>
                     </div>
                 </div>
-                <div class="row bottom-pad text-center cta-container">
+                <div class="row text-center cta-container">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
                             <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
@@ -116,7 +120,7 @@
            <!-- Footer Top Start -->
            <div class="footer-top">
               <div class="container contact-us">
-                 <div class="row">
+                 <div class="row footer-padding">
                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
                         <h3>The Platform</h3>
                     <ul>
@@ -173,6 +177,29 @@
            <!-- Footer Bottom End -->
         </footer>
 
+      <section id="style-switcher">
+        <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>
+        <div>
+            <div class="header-color">
+                <h3>Background Picture</h3>
+                <input type="text"  class="slider" value="" data-slider-min="1" data-slider-max="22" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+            </div>
+            <div class="layout-style">
+              <h3>Content Box</h3>
+              <select autocomplete="off" id="content-box-style">
+                 <option value="1">Left</option>
+                 <option value="2">Right</option>
+              </select>
+           </div>
+            <div class="title-color">
+                <h3>Header Color</h3>
+                <div class="header-color">
+                   <input type='text' class="header-bg" />
+                </div>
+            </div>
+        </div>
+     </section>
+
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
@@ -191,6 +218,9 @@
       <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/spectrum.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/switcher.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/bootstrap-slider.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
       <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>

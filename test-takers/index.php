@@ -17,7 +17,7 @@
       <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-     
+
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -111,7 +111,7 @@
                  </nav>
                  <!-- Menu End -->
                </div>
-		<div class="row">
+		<div class="row" style="height:100%;">
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right content-container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -147,7 +147,7 @@
             <!-- Footer Top Start -->
             <div class="footer-top">
                <div class="container contact-us">
-                  <div class="row">
+                  <div class="row footer-padding">
                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
                         <h3>The Platform</h3>
                     <ul>
