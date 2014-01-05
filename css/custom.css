@@ -453,7 +453,7 @@ html, body, .background-banner{
     color:#00BDFF;
     font-family: 'bemio', sans-serif;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 40px;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align: center;
 
@@ -546,4 +546,18 @@ html, body, .background-banner{
 .footer-padding{
     margin-top:55px;
     text-align:center !important;
+}
+
+.feature-boxes{
+    background: url('../img/cream_dust.png') repeat;
+    min-height:1px;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.hawkee-footer{
+    width:150px;
+    height:200px;
+    margin:0 auto;
+    text-align:center;
 }

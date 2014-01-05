@@ -170,8 +170,8 @@ header .top-bar {
 }
 
 .mobile.navbar-header {
-    display:none;
-    margin-bottom: 30px;
+    float: none;
+    margin-top:50px;
 }
 
 .topnav a.navbar-toggle {
