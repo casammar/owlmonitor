@@ -37,13 +37,13 @@
       <link rel="icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
       <link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-57x57.png" />
-      <link rel="apple-touch-icon" sizes="60x60" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-60x60.png" />
-      <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-72.png">
+<!--      <link rel="apple-touch-icon" sizes="60x60" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-72.png">-->
       <link rel="apple-touch-icon" sizes="76x76" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-76x76.png" />
-      <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">
+<!--      <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">-->
       <link rel="apple-touch-icon" sizes="120x120" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-120x120.png" />
-      <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL; ?>/img/ic/apple-touch-icon-152x152.png" />
+<!--      <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL; ?>/img/ic/apple-touch-icon-152x152.png" />-->
       <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -106,7 +106,7 @@
                  <!-- Menu End -->
                </div>
             <div class="row">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content-container front-content-container">
+		    <div class="col-lg-6 col-md-6 col-sm-12 content-container front-content-container pull-right">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h2 style="font-size:40px;">Live & Recorded Online Exam Monitoring</h2>
@@ -343,7 +343,7 @@
       <script src="<?php echo BASE_URL; ?>/js/switcher.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/bootstrap-slider.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
-      <script>
+<!--      <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -352,7 +352,7 @@
         ga('create', 'UA-46859115-1', 'examhawk.com');
         ga('send', 'pageview');
 
-      </script>
+      </script>-->
       <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
       -->

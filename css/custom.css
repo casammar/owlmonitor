@@ -147,13 +147,6 @@ a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active {
     background:#1D3599;
 }
 
-.content-box-info h3 {
-    color:#1D3599 !important;
-    font-weight: bold;
-    zoom: 1;
-    filter: alpha(opacity=50);
-    opacity: 0.5;
-}
 
 h3.title {
     color:#1D3599;
@@ -336,7 +329,7 @@ html, body, .background-banner{
 
 #front-page-background-banner{
 /*    background-image: url('../img/sandbox/IMG_1472-2.jpg');*/
-    background-image: url('../img/sandbox/Campus_web.jpg');
+    background-image: url('../img/sandbox/campus/campus-3.jpg');
     background-position: center 20%;
 }
 
@@ -457,7 +450,7 @@ html, body, .background-banner{
 }
 
 .content-container h2{
-    color:#1D3599;
+    color:#00BDFF;
     font-family: 'bemio', sans-serif;
     font-weight: 800;
     font-size: 48px;
@@ -502,6 +495,7 @@ html, body, .background-banner{
     font-size:22px;
     text-align:left;
     line-height: 1.4;
+    color:#FFFFFF;
 }
 
 .cta-container .btn{

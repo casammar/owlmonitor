@@ -1002,10 +1002,15 @@ div.content-box.big div.content-box-info {
 }
 
 div.content-box.big div.content-box-info h3 {
-    color:#0488cd;
+    font-family: 'bemio', sans-serif;
+    font-weight:800;
+    font-size:32px;
+    color:#1D3599;
 }
 
 div.content-box.big div.content-box-info p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:18px;
 	text-align:center;
 	margin-top: 25px;
 	line-height:25px;
