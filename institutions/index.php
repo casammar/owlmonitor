@@ -130,7 +130,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <br>
+                                <br><br>
                                 <h3>Simple</h3>
                                 <p>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</p>
                                 <h3>Secure</h3>
