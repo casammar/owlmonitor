@@ -129,58 +129,59 @@
                 <!-- Header End -->
            <div class="container">
                <div class="row">
-
-                     <div class="content-container col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-form">
-                        <h3 class="title" style="text-align:center;">Complete the Form to</h3>
-                        <h3 class="title" style="text-align:center;">Schedule a Live Demo!</h3>
-<!--                        <p>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
-                        </p>-->
-                        <div class="divider"></div>
-                        <form method="post" class="reply" id="contact">
-						<fieldset>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Name: <span>*</span></label>
-									<input class="form-control" id="name" name="name" type="text" value="" required>
-								</div>
+                    <div class="col-lg-6 col-md-6 col-sm-12  pull-right content-container" id="live-demo-content-container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                <h2><small>Schedule a </small>Live Demo!</h2>
                             </div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Email: <span>*</span></label>
-									<input class="form-control" type="email" id="email" name="email" value="" required>
-								</div>
-							</div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Phone: <span>*</span></label>
-									<input class="form-control" type="text" id="phone" name="phone" value="" required>
-								</div>
-							</div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Company: <span>*</span></label>
-									<input class="form-control" type="text" id="company" name="company" value="" required>
-								</div>
-							</div>
-						</fieldset>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
+                        </div>
+                        <div class="row" style="padding:20px;">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                               <form method="post" class="reply" id="contact">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Name: <span>*</span></label>
+                                            <input class="form-control" id="name" name="name" type="text" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Email: <span>*</span></label>
+                                            <input class="form-control" type="email" id="email" name="email" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Phone: <span>*</span></label>
+                                            <input class="form-control" type="text" id="phone" name="phone" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Company: <span>*</span></label>
+                                            <input class="form-control" type="text" id="company" name="company" value="" required>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
+                                        </div>
+                                    </div>
+
+                                <div class="success alert-success alert" style="display:none">
+                                    Your message has been sent successfully.
                                 </div>
+                                <div class="error alert-error alert" style="display:none">
+                                    E-mail must be valid and message must be longer than 100 characters.
+                                </div>
+                                <div class="clearfix">
+                                </div>
+                            </form>
                             </div>
-
-						<div class="success alert-success alert" style="display:none">
-							Your message has been sent successfully.
-						</div>
-						<div class="error alert-error alert" style="display:none">
-							E-mail must be valid and message must be longer than 100 characters.
-						</div>
-						<div class="clearfix">
-						</div>
-					</form>
-                     </div>
-
+                        </div>
+                    </div>
                 </div>
 	       </div>
            <!-- container end -->

@@ -408,9 +408,21 @@ html, body, .background-banner{
     padding: 0 35px;
 }
 
+.reply label {
+    color: #1D3599;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
+}
 
 .content-container{
-
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font: 13px/18px Tahoma, Geneva, sans-serif;
     color:#000000;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -425,9 +437,43 @@ html, body, .background-banner{
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-    padding:30px;
-    margin-top:10%;
 }
+
+#live-demo-content-container{
+    height:475px;
+    width:450px;
+    position: absolute;
+    top: 18%;
+    right: 20%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+#test-takers-content-container{
+    width: 1140px;
+    height: 300px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+
+}
+
+
+#institutions-content-container{
+    width: 25%;
+    height: 86%;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+
+}
+
 
 .front-content-container{
     color:#000000;
@@ -458,7 +504,7 @@ html, body, .background-banner{
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
     background-color: rgba(102, 102, 102, 0.74);
 
 
@@ -488,11 +534,16 @@ html, body, .background-banner{
 }
 
 .content-container h3{
-    font-family: 'bemio', sans-serif;
-    font-weight:800;
+    font-family: 'Oswald',sans-serif;
     font-size:32px;
     color:#1D3599;
     line-height: 40px;
+    padding:0 50px;
+    margin:0;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
 }
 .content-container p{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -500,6 +551,7 @@ html, body, .background-banner{
     font-size:22px;
     text-align:left;
     line-height: 1.4;
+    padding:0 50px;
 }
 
 .cta-container .btn{
@@ -570,4 +622,8 @@ html, body, .background-banner{
 #header .phone-email {
     padding:0;
     color: #FFFFFF;
+}
+
+.cta-container{
+    margin-top: 10px;
 }

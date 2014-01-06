@@ -122,33 +122,32 @@
                 </header>
                 <!-- Header End -->
         <div class="container">
-
-		<div class="row" style="height:100%;">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right content-container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Test Takers</h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12  pull-right content-container" id="test-takers-content-container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 ">
+                            <h2><small>Online Exam Monitoring for </small> Test Takers</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-                        <br>
-                        <h3>Easy and Convenient</h3>
-                        <p>
-                            With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
-                        </p>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <br>
+                            <h3>Easy and Convenient</h3>
+                            <p>
+                                With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="row bottom-pad text-center cta-container">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a class="btn btn-warning btn-lg" href="#" >Download ExamHawk</a>
+                    <div class="row text-center cta-container">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a class="btn btn-warning btn-lg" href="#" >Download ExamHawk</a>
+                        </div>
                     </div>
                 </div>
             </div>
-		</div>
 	    </div>
 	    <!-- background image row end -->
 

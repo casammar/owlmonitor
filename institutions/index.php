@@ -122,22 +122,21 @@
                 <!-- Header End -->
            <div class="container">
                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 content-container pull-right">
+                    <div class="col-lg-12 col-md-12 col-sm-12 content-container pull-right" id="institutions-content-container">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h2><small>Online Exam Monitoring for </small><br> Institutions</h2>
+                                <h2><small>Online Exam Monitoring for </small> Institutions</h2>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-                               <dl>
-                                   <dt>Simple</dt>
-                                   <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
-                                   <dt>Secure</dt>
-                                   <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
-                                   <dt>Compliant</dt>
-                                   <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
-                               </dl>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <br>
+                                <h3>Simple</h3>
+                                <p>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</p>
+                                <h3>Secure</h3>
+                                <p>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.</p>
+                                <h3>Compliant</h3>
+                                <p>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.</p>
                             </div>
                         </div>
                         <div class="row text-center cta-container">
@@ -153,7 +152,6 @@
                         </div>
                     </div>
                 </div>
-              <div class="divider"></div>
 	       </div>
            <!-- container end -->
        </div>
