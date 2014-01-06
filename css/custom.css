@@ -329,9 +329,9 @@ html, body, .background-banner{
 
 #front-page-background-banner{
 /*    background-image: url('../img/sandbox/IMG_1472-2.jpg');*/
-    background-color:transparent;
-    background-image: url('../img/sandbox/Campus_web-3-small-blur.jpg');
-    background-position: center 20%;
+    background-color:#FFFFFF;
+    background-image: url('../img/sandbox/professor-arms-crossed-whiteboard2.jpg');
+    background-position: center -20%;
 }
 
 .institution-background-banner{
@@ -495,28 +495,34 @@ html, body, .background-banner{
 }
 
 .front-content-container{
-    position:relative;
-    color:#000000;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color:#000000;
-     /* Fallback for web browsers that don't support RGBa */
-    background-color: rgb(0, 0, 0);
-    /* RGBa with 0.6 opacity */
-    background-color: rgba(0, 0, 0, 0.0);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-    padding: 10px 30px;
     margin-top:10%;
+    background-color:transparent;
 }
+
+.front-content-container h2{
+    color:#3A3A3A;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing:8px;
+    line-height:60px;
+    font-size: 52px;
+    text-align:center;
+}
+
+.front-content-container p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding: 0 15px;
+    line-height: 35px;
+    margin:25px 0;
+
+}
+
 
 .content-container h2{
     background-color:#666;
-
+    border-radius: 5px;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align: center;
     text-transform: uppercase;
@@ -594,20 +600,6 @@ html, body, .background-banner{
 .about-sidebar{
     position:relative;
     color:#FFFFFF;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -o-border-radius: 10px;
-   background-color:#FFFFFF;
-     /* Fallback for web browsers that don't support RGBa */
-    background-color: rgb(255, 255, 255);
-    /* RGBa with 0.6 opacity */
-    background-color: rgba(102, 102, 102, 0.74);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; padding: 10px 30px;
-
     padding:0;
 }
 
@@ -663,23 +655,9 @@ html, body, .background-banner{
     margin-top: 10px;
 }
 
-.front-content-container h2{
-    font-family: 'Roboto',sans-serif;
-    color:#000000;
-    background-color:transparent;
-    font-size: 52px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    height: 90px;
-    letter-spacing:10px;
-    line-height:60px;
-}
-
 .product-tour{
-    position:relative;
-    top:150px;
-    padding: 20px 55px;
+    margin-top:50px;
+    padding: 20px 75px;
     font-size: 1.25em;
     font-weight:400;
     text-transform: uppercase;
@@ -687,12 +665,42 @@ html, body, .background-banner{
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    background: transparent;
-    border:1px solid #FFFFFF;
+    background: rgba(29, 53, 153, 0.75);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: color 1s;
+    -webkit-transition: color 1s; /* Safari */
+    transition: border 1s;
+    -webkit-transition: border 1s; /* Safari */
 }
 
 .product-tour:hover{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(29, 53, 153, 1);
     border:1px solid #FFFFFF;
+    color: #FFFFFF;
+}
 
+.live-demo{
+    margin-top:50px;
+    padding: 20px 75px;
+    font-size: 1.25em;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: rgba(255, 186, 0, 0.75);
+    color: #4E4E4E;
+    border: 1px solid #BBBBBB;
+    transition: color 1s;
+    -webkit-transition: color 1s; /* Safari */
+    transition: border 1s;
+    -webkit-transition: border 1s; /* Safari */
+}
+
+.live-demo:hover{
+    background-color:#FFBA00;
+    border:1px solid #272727;
+    color: #272727;
 }

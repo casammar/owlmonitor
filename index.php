@@ -16,6 +16,7 @@
             <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=ABeeZee|Merriweather+Sans:700,400|Archivo+Narrow:400,700|Amaranth:400,700' rel='stylesheet' type='text/css'>
             <!-- Library CSS -->
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -129,22 +130,25 @@
                   <div class="container">
                   <!-- Top Content Begin -->
                   <div class="row">
-                     <div class="col-lg-12 col-md-12 col-sm-12 content-container front-content-container pull-right">
+                     <div class="col-lg-7 col-md-7 col-sm-12  front-content-container ">
                         <div class="row">
                            <div class="col-lg-12 col-md-12 col-sm-12">
-                              <h2>Live & Recorded</h2>
-                              <h2>Online Exam Monitoring</h2>
+                              <h2>Live & Recorded Online Exam Monitoring</h2>
                            </div>
                         </div>
+
                         <div class="row">
                            <div class="col-lg-12 col-md-12 col-sm-12">
-                              <p style="color:white;">ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
+                              <p class="front-page-content">ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
                            </div>
                         </div>
 
                         <div class="row clearfix">
-                            <div class="col-lg-12 col-md-12 col-sm-12 bottom-pad text-center">
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
                                <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
+                               <a class="btn btn-info btn-lg live-demo" href="#" >Live Demo</a>
                             </div>
                         </div>
                      </div>
