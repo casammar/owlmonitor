@@ -129,6 +129,27 @@ nav.menu {
 
 
 @media (max-width: 767px) {
+.background-banner{
+    background-image:none !important;
+    background-color:#00a3ff !important;
+    min-height:900px !important;
+}
+
+.cta-container .btn {
+    font-size:18px !important;
+}
+
+.contact-us li p strong {
+    float:none;
+}
+
+.contact-us{
+    background-image:none;
+}
+
+.hawkee-footer{
+    max-width: 25%;
+}
 
 body.boxed {
     width: 100%;

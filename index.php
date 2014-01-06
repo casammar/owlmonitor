@@ -101,12 +101,12 @@
                               <p>ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
                            </div>
                         </div>
-                        <div class="row bottom-pad text-center cta-container">
+                        <div class="row text-center cta-container">
                            <div class="col-lg-12 col-md-12 col-sm-12">
-                              <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bottom-pad text-center">
                                  <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bottom-pad text-center">
                                  <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
                               </div>
                            </div>
@@ -202,7 +202,7 @@
                <div class="footer-top">
                   <div class="container contact-us">
                      <div class="row footer-padding">
-                        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
+                        <section class="col-lg-3 col-md-3 col-sm-6 footer-two text-center">
                            <h3>The Platform</h3>
                            <ul>
                               <li><a href="<?php echo BASE_URL; ?>/institutions">Institutions</a></li>
@@ -210,7 +210,7 @@
                               <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
                            </ul>
                         </section>
-                        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <section class="col-lg-3 col-md-3 col-sm-6 footer-three">
                            <h3>About ExamHawk</h3>
                            <ul>
                               <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
@@ -219,7 +219,7 @@
                               <li><a href="<?php echo BASE_URL; ?>/about/news.php">News</a></li>
                            </ul>
                         </section>
-                        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <section class="col-lg-3 col-md-3 col-sm-6 footer-three">
                            <h3>Contact Us</h3>
                            <ul >
                               <li>
@@ -239,8 +239,8 @@
                               </li>
                            </ul>
                         </section>
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                           <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" class="hawkee-footer" alt="ExamHawk Mascot Hawkee" />
+                        <div class="col-lg-3 col-md-3 col-sm-6">
+                            <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" class="hawkee-footer" alt="ExamHawk Mascot Hawkee" />
                         </div>
                      </div>
                   </div>

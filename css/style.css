@@ -1571,7 +1571,7 @@ a.scrollup:hover i,a.scrollup:focus i {
 
 .contact-us {
     background: url("../img/sandbox/dotted-worldmap4.png") no-repeat left center;
-    height:300px;
+    min-height:300px;
 }
 
 .contact-us2 {
