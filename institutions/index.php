@@ -134,77 +134,107 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                 <h3>Simple</h3>
-                                <p>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</p>
+                                <p>Engaging and setting up ExamHawk for your institution is painless. Our testing system is LMS and test delivery system agnostic, making exam set up easy and straightforward.</p>
                                 <h3>Secure</h3>
                                 <p>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored.</p>
                                 <h3>Compliant</h3>
-                                <p>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.</p>
+                                <p>Our authentication & test security system is key in proving an online program passes accreditation requirements. All data is stored under the FERPA and Safe Harbor regulations.</p>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
-                               <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                               <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Tour ExamHawk</a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
                                <button class="btn btn-info btn-lg live-demo" data-toggle="modal" data-target="#demo-form">Live Demo</button>
                             </div>
                         </div>
                     </div>
-
-
-                   <!-- Modal -->
-                    <div class="modal fade" id="demo-form" tabindex="-1" role="dialog" aria-labelledby="demo-form" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h2 class="modal-title" id="myModalLabel">Schedule a Live demo</h2>
-                          </div>
-                          <div class="modal-body">
-                              <form method="post" class="reply" id="contact">
-                                <div class="col-sm-12">
-                                    <div class="row form-group">
-                                        <div class="col-xs-12">
-                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-xs-12">
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-xs-12">
-                                            <input type="email" class="form-control" id="phone" name="phone" placeholder="Phone" required="">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-xs-12">
-                                            <input type="text" class="form-control" id="company" name="company" placeholder="Company" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                           </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Submit</button>
-                          </div>
-                            <div class="success alert-success alert" style="display:none">
-                            Your message has been sent successfully.
-                        </div>
-                        <div class="error alert-error alert" style="display:none">
-                            E-mail must be valid and message must be longer than 100 characters.
-                        </div>
-                        </div><!-- /.modal-content -->
-                      </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
                 </div>
 	       </div>
            <!-- container end -->
        </div>
 	   <!-- background image row end -->
-
+       <!-- Feature Box Begin -->
+            <div class="feature-boxes">
+               <div class="container">
+                  <div class="row features-row">
+                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-box big ch-item bottom-pad-small">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1" id="recorded"><i class="icon-eye-open" style="left:17%;"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-eye-open"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Recorded</h3>
+                              <p>
+                                 Our application records the user’s webcam feed, audio feed and screen throughout the entire test.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-box big ch-item bottom-pad-small">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-user" style="left:24%;"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-user"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Monitored</h3>
+                              <p>
+                                 Throughout a test, a live monitor watches in real-time to provide customer service and to prevent cheating.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-box big ch-item">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-laptop" style="left:14%;"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-laptop"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Simple</h3>
+                              <p>
+                                 All of our processes are designed to be easy to understand, minimizing the need for technical support.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-box big ch-item">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="icon-lock" style="left:29%;"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="icon-lock"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Secured</h3>
+                              <p>
+                                 Our live monitors can relay information about infractions in real-time to instructors, while our application tracks facial movement and audio spikes.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Feature Box Begin -->
         <!-- Footer Start -->
         <footer id="footer">
            <!-- Footer Top Start -->
@@ -288,6 +318,10 @@
             </div>
         </div>
      </section>
+
+    <!-- Demo form modal start-->
+        <?php include '../views/demo-form.php'; ?>
+    <!-- Demo form modal end-->
 
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>

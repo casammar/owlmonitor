@@ -1,12 +1,12 @@
 <?php include '../views/header.php'; ?>
         <!-- Content Start -->
-     
+
             <div class="content">
                <div class="container">
                   <div class="row">
                      <!-- FAQ Start -->
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                          <h3 class="title">Institution FAQs</h3>
+                        <div class="col-lg-9 col-md-9 col-sm-9 about-content-container content-container">
+                          <h2>Institution FAQs</h2>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">What is ExamHawk?</h4>
@@ -17,7 +17,7 @@
                                  </section>
                               </div>
                               <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What are ExamHawk's security features</h4>
+                                 <h4 class="accordion-toggle">What are ExamHawk's security features?</h4>
                                  <section class="accordion-inner panel-body">
                                     <p>
                                         During an exam:<br>

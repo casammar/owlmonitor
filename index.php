@@ -139,13 +139,13 @@
 
                         <div class="row">
                            <div class="col-lg-12 col-md-12 col-sm-12">
-                              <p class="front-page-content">ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
+                              <p class="front-page-content">ExamHawk is an online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
                            </div>
                         </div>
 
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
-                               <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
+                               <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/institutions" >Learn More</a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
                                <a class="btn btn-info btn-lg live-demo" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
@@ -157,86 +157,6 @@
                </div>
             </div>
             <!-- Background End -->
-            <!-- Feature Box Begin -->
-            <div class="feature-boxes">
-               <div class="container">
-                  <div class="row features-row">
-                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="content-box big ch-item bottom-pad-small">
-                           <div class="ch-info-wrap">
-                              <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1" id="recorded"><i class="icon-eye-open" style="left:17%;"></i></div>
-                                 <div class="ch-info-back">
-                                    <i class="icon-eye-open"></i>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="content-box-info">
-                              <h3>Recorded</h3>
-                              <p>
-                                 Our application records the user’s webcam feed, audio feed and screen throughout the entire test.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="content-box big ch-item bottom-pad-small">
-                           <div class="ch-info-wrap">
-                              <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="icon-user" style="left:24%;"></i></div>
-                                 <div class="ch-info-back">
-                                    <i class="icon-user"></i>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="content-box-info">
-                              <h3>Monitored</h3>
-                              <p>
-                                 Throughout a test, a live monitor watches in real-time to provide customer service and to prevent cheating.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="content-box big ch-item">
-                           <div class="ch-info-wrap">
-                              <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="icon-laptop" style="left:14%;"></i></div>
-                                 <div class="ch-info-back">
-                                    <i class="icon-laptop"></i>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="content-box-info">
-                              <h3>Simple</h3>
-                              <p>
-                                 All of our processes are designed to be easy to understand, minimizing the need for technical support.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="content-box big ch-item">
-                           <div class="ch-info-wrap">
-                              <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="icon-lock" style="left:29%;"></i></div>
-                                 <div class="ch-info-back">
-                                    <i class="icon-lock"></i>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="content-box-info">
-                              <h3>Secured</h3>
-                              <p>
-                                 Our live monitors can relay information about infractions in real-time to instructors, while our application tracks facial movement and audio spikes.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Feature Box Begin -->
             <!-- Footer Start -->
             <footer id="footer">
                <div class="footer-top">
@@ -319,6 +239,8 @@
                </div>
             </section>
             <!-- Style Switcher End-->
+
+
             <!-- The Scripts -->
             <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
