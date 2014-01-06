@@ -17,14 +17,15 @@
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
-
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-            <!-- Switcher CSS -->
+      <!-- Switcher CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/switcher.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/spectrum.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/slider.css">
@@ -46,70 +47,113 @@
    <body>
        <!-- background banner start -->
        <div class="background-banner institution-background-banner" id="institutions-page-background-banner">
+            <!-- Header Start -->
+                <header id="header">
+                   <!-- Header Top Bar Start -->
+                   <div class="top-bar">
+                      <div class="slidedown collapse">
+                         <div class="container">
+                            <div class="phone-email pull-left">
+                               <a><i class="icon-phone"></i> Call Us : 215-995-6893</a>
+                               <a href="info@examhawk.com"><i class="icon-envelope"></i> Email : info@examhawk.com</a>
+                            </div>
+                            <div class="pull-right">
+                               <ul class="social pull-left">
+                                  <li class="facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+                                  <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                                  <li class="linkedin"><a href="#"><i class="icon-linkedin"></i></a></li>
+                                  <li class="rss"><a href="#"><i class="icon-rss"></i></a></li>
+                               </ul>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <!-- Header Top Bar End -->
+                   <!-- Main Header Start -->
+                   <div class="main-header">
+                      <div class="container">
+                         <!-- TopNav Start -->
+                         <div class="topnav navbar-header">
+                            <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                            <i class="icon-angle-down icon-current"></i>
+                            </a>
+                         </div>
+                         <!-- TopNav End -->
+                         <!-- Logo Start -->
+                         <div class="logo pull-left">
+                            <h1>
+                               <a href="<?php echo BASE_URL; ?>">
+                                  <img src="<?php echo BASE_URL; ?>/img/004-examhawk-logo.png" alt="ExamHawk">
+                              </a>
+                            </h1>
+                         </div>
+                         <!-- Logo End -->
+                         <!-- Mobile Menu Start -->
+                         <div class="mobile navbar-header">
+                            <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                            <i class="icon-reorder icon-2x"></i>
+                            </a>
+                         </div>
+                         <!-- Mobile Menu End -->
+
+                         <!-- Menu Start -->
+                         <nav class="collapse navbar-collapse menu">
+                               <ul class="nav navbar-nav sf-menu">
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                  </li>
+                              </ul>
+                           </nav>
+                           <!-- Menu End -->
+
+                      </div>
+                   </div>
+                   <!-- Main Header End -->
+                </header>
+                <!-- Header End -->
            <div class="container">
-	           <div class="row">
-                   <!-- Logo Start -->
-                   <div class="logo pull-left">
-                       <a href="<?php echo BASE_URL; ?>">
-                           <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
-                       </a>
-                  </div>
-                  <!-- Logo End -->
-                  <!-- Menu Start -->
-                  <nav class="collapse navbar-collapse menu">
-                     <ul class="nav navbar-nav sf-menu">
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
-                        </li>
-                    </ul>
-                 </nav>
-                 <!-- Menu End -->
-               </div>
                <div class="row">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content-container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2><small style="color:#00BDFF;">Online Exam Monitoring for </small><br> Institutions</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
-                       <dl>
-                           <dt>Simple</dt>
-                           <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
-                           <dt>Secure</dt>
-                           <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
-                           <dt>Compliant</dt>
-                           <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
-                       </dl>
-                    </div>
-                </div>
-                <div class="row text-center cta-container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 content-container pull-right">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h2><small>Online Exam Monitoring for </small><br> Institutions</h2>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                            <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad">
+                               <dl>
+                                   <dt>Simple</dt>
+                                   <dd>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</dd>
+                                   <dt>Secure</dt>
+                                   <dd>Every test session is monitored by a live person and all webcam, audio and screen data is recorded and stored. </dd>
+                                   <dt>Compliant</dt>
+                                   <dd>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations. </dd>
+                               </dl>
+                            </div>
+                        </div>
+                        <div class="row text-center cta-container">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                                    <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                                    <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
-            </div>
-		</div>
-
-
-                <div class="divider"></div>
-
+              <div class="divider"></div>
 	       </div>
            <!-- container end -->
        </div>
@@ -121,7 +165,7 @@
            <div class="footer-top">
               <div class="container contact-us">
                  <div class="row footer-padding">
-                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
+                    <section class="col-lg-3 col-md-3 col-sm-12 footer-two text-center">
                         <h3>The Platform</h3>
                     <ul>
                         <li><a href="<?php echo BASE_URL; ?>/institutions">Institutions</a></li>
@@ -129,8 +173,7 @@
                         <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
                     </ul>
                     </section>
-
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                     <section class="col-lg-3 col-md-3 col-sm-12 footer-three">
                         <h3>About ExamHawk</h3>
                     <ul>
                         <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
@@ -139,7 +182,7 @@
                         <li><a href="<?php echo BASE_URL; ?>/about/news.php">News</a></li>
                     </ul>
                     </section>
-                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                     <section class="col-lg-3 col-md-3 col-sm-12 footer-three">
                         <h3>Contact Us</h3>
                         <ul >
                            <li>
@@ -159,7 +202,7 @@
                            </li>
                         </ul>
                      </section>
-                      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                      <div class="col-lg-3 col-md-3 col-sm-12">
                         <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
                     </div>
                   </div>

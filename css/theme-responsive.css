@@ -114,9 +114,7 @@ nav.menu {
 }
 
 .menu ul>li>a {
-    font-weight: 600;
-    font-size: 20px;
-    padding: 49px 18px 31px 18px;
+    padding: 34px 18px 31px 18px;
 }
 
 .menu ul>li>a:hover {

@@ -334,7 +334,7 @@ html, body, .background-banner{
 }
 
 .institution-background-banner{
-	background-image: url('../img/sandbox/Campus_web-18.jpg');
+	background-image: url('../img/sandbox/Campus_web-18-small.jpg');
 }
 
 .test-taker-background-banner{
@@ -390,8 +390,7 @@ html, body, .background-banner{
 }
 
 .menu ul>li>a {
-    letter-spacing: 2px;
-    color: #1D3599;
+    font-size:16px;
 }
 
 .menu ul>li>a:hover {
@@ -450,12 +449,18 @@ html, body, .background-banner{
 }
 
 .content-container h2{
-    color:#1D3599;
-    font-family: 'bemio', sans-serif;
-    font-weight: 800;
+    background-color:#666;
+    color:#FFFFFF;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
     font-size: 40px;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
     text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(102, 102, 102, 0.74);
+
 
 }
 
@@ -560,4 +565,9 @@ html, body, .background-banner{
     display: block;
     height: auto;
     max-width: 50%;
+}
+
+#header .phone-email {
+    padding:0;
+    color: #FFFFFF;
 }

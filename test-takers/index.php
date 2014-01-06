@@ -48,69 +48,81 @@
    </head>
    <body>
       <div class="background-banner test-taker-background-banner">
-         <!-- Header Start -->
+          <!-- Header Start -->
+                <header id="header">
+                   <!-- Header Top Bar Start -->
+                   <div class="top-bar">
+                      <div class="slidedown collapse">
+                         <div class="container">
+                            <div class="phone-email pull-left">
+                               <a><i class="icon-phone"></i> Call Us : 215-995-6893</a>
+                               <a href="info@examhawk.com"><i class="icon-envelope"></i> Email : info@examhawk.com</a>
+                            </div>
+                            <div class="pull-right">
+                               <ul class="social pull-left">
+                                  <li class="facebook"><a href="#"><i class="icon-facebook"></i></a></li>
+                                  <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                                  <li class="linkedin"><a href="#"><i class="icon-linkedin"></i></a></li>
+                                  <li class="rss"><a href="#"><i class="icon-rss"></i></a></li>
+                               </ul>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <!-- Header Top Bar End -->
+                   <!-- Main Header Start -->
+                   <div class="main-header">
+                      <div class="container">
+                         <!-- TopNav Start -->
+                         <div class="topnav navbar-header">
+                            <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                            <i class="icon-angle-down icon-current"></i>
+                            </a>
+                         </div>
+                         <!-- TopNav End -->
+                         <!-- Logo Start -->
+                         <div class="logo pull-left">
+                            <h1>
+                               <a href="<?php echo BASE_URL; ?>">
+                                  <img src="<?php echo BASE_URL; ?>/img/004-examhawk-logo.png" alt="ExamHawk">
+                              </a>
+                            </h1>
+                         </div>
+                         <!-- Logo End -->
+                         <!-- Mobile Menu Start -->
+                         <div class="mobile navbar-header">
+                            <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                            <i class="icon-reorder icon-2x"></i>
+                            </a>
+                         </div>
+                         <!-- Mobile Menu End -->
 
-         <!-- Header End -->
-	 <!-- mobile CTA's start -->
-<!--	    <div class="container">
-		<div class="row">
-		   <div class="mobile-content" style="display:none;">
-		      <div class="col-lg-12 col-md-12 col-sm-12">
-			<a class="btn btn-primary btn-lg btn-block" href="#online-proctoring">Online Proctoring</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#all-features">ExamHawk Features</a>
-			<a class="btn btn-primary btn-lg btn-block" href="#contact-form">Free Consultation</a>
-		      </div>
-		      <div class="clearfix"></div>
-		   </div>
-		</div>
-            </div>-->
-	 <!-- mobile CTA's end -->
-         <!-- Content Start -->
+                         <!-- Menu Start -->
+                         <nav class="collapse navbar-collapse menu">
+                               <ul class="nav navbar-nav sf-menu">
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                  </li>
+                              </ul>
+                           </nav>
+                           <!-- Menu End -->
 
-	    <!-- background image row start -->
+                      </div>
+                   </div>
+                   <!-- Main Header End -->
+                </header>
+                <!-- Header End -->
         <div class="container">
-	    <div class="row">
 
-                  <!-- TopNav Start -->
-                  <div class="topnav navbar-header">
-                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
-                     <i class="icon-angle-down icon-current"></i>
-                     </a>
-                  </div>
-                  <!-- TopNav End -->
-                  <!-- Logo Start -->
-                  <div class="logo pull-left">
-		      <a href="<?php echo BASE_URL; ?>">
-                <img src="<?php echo BASE_URL; ?>/img/005-examhawk-logo.png" alt="ExamHawk">
-		      </a>
-                  </div>
-		  <!-- Logo End -->
-                  <!-- Mobile Menu Start -->
-                  <div class="mobile navbar-header">
-                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
-                     <i class="icon-reorder icon-2x"></i>
-                     </a>
-                  </div>
-                  <!-- Mobile Menu End -->
-                  <!-- Menu Start -->
-                  <nav class="collapse navbar-collapse menu">
-                     <ul class="nav navbar-nav sf-menu">
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
-                        </li>
-                        <li>
-                           <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
-                        </li>
-                    </ul>
-                 </nav>
-                 <!-- Menu End -->
-               </div>
 		<div class="row" style="height:100%;">
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-right content-container">
                 <div class="row">

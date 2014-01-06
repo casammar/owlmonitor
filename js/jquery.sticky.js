@@ -36,9 +36,13 @@
 
         if (scrollTop <= etse) {
           if (s.currentTop !== null) {
+	    $('.logo img').animate({ "max-width": "100%" }, "fast" );
+	    $('.logo h1').css('margin', '16px 0');
+
             s.stickyElement
               .css('position', '')
-              .css('top', '');
+              .css('top', '')
+	      .css('height', '');
             s.stickyElement.parent().removeClass(s.className);
             s.currentTop = null;
           }
@@ -46,19 +50,24 @@
         else {
           var newTop = documentHeight - s.stickyElement.outerHeight()
             - s.topSpacing - s.bottomSpacing - scrollTop - extra;
-		  
+
 		  var fwidth = $(window).width();
 		  //alert(fwidth);
-		  
+
           if (newTop < 0) {
             newTop = newTop + s.topSpacing;
           } else {
             newTop = s.topSpacing;
           }
           if (s.currentTop != newTop && fwidth >= 980) {
+	    $( ".logo img" ).animate({ "max-width": "75%" }, "fast" );
+	    $('.logo h1').css('margin', '7px 0');
+	    $('.menu ul>li>a ').css('padding', '34px 18px 31px 18px');
+
             s.stickyElement
               .css('position', 'fixed')
-              .css('top', newTop);
+              .css('top', newTop)
+	      .css('height', '60px');
 
             if (typeof s.getWidthFrom !== 'undefined') {
               s.stickyElement.css('width', $(s.getWidthFrom).width());
@@ -79,7 +88,7 @@
         return this.each(function() {
           var stickyElement = $(this);
 
-		
+
 
           var stickyId = stickyElement.attr('id');
           var wrapper = $('<div></div>')
@@ -94,8 +103,8 @@
           if (stickyElement.css("float") == "right") {
             stickyElement.css({"float":"none"}).parent().css({"float":"right"});
           }
-		  
-		  
+
+
 
           var stickyWrapper = stickyElement.parent();
           //stickyWrapper.css('height', bdyHeight());
