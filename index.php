@@ -1,14 +1,8 @@
 <?php include './views/baseurl.php'; ?>
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html class="ie ie8">
-   <![endif]-->
-   <!--[if IE 9]>
-   <html class="ie ie9">
-      <![endif]-->
-      <!--[if gt IE 9]><!-->
-      <html>
-         <!--<![endif]-->
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
          <head>
             <meta charset="utf-8">
             <title>ExamHawk | Live and Recorded Online Exam Monitoring</title>
