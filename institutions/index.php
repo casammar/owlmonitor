@@ -14,6 +14,8 @@
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=ABeeZee|Merriweather+Sans:700,400|Archivo+Narrow:400,700|Amaranth:400,700' rel='stylesheet' type='text/css'>
+
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
@@ -46,7 +48,7 @@
    </head>
    <body>
        <!-- background banner start -->
-       <div class="background-banner institution-background-banner" id="institutions-page-background-banner">
+       <div class="background-banner" id="front-page-background-banner">
             <!-- Header Start -->
                 <header id="header">
                    <!-- Header Top Bar Start -->
@@ -120,17 +122,17 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container" style="height:100%;">
-               <div class="row" style="height:100%;">
-                    <div class="col-lg-6 col-md-6 col-sm-12 content-container " id="institutions-content-container">
-                        <div class="row">
+           <div class="container" >
+               <div class="row" style="height:100%;display:table;">
+                    <div class="col-lg-7 col-md-7 col-sm-7 institution-content-container" >
+                        <div class="row" style="margin-top:50px;">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-                                <h2 style="height:130px;"><small>Online Exam Monitoring for </small> Institutions</h2>
+                                <h2>ExamHawk for Institutions</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <br><br>
+
                                 <h3>Simple</h3>
                                 <p>Engaging and setting up ExamHawk for your institution is painless, just give us a call! Our testing system is LMS and test delivery system agnostic, making instructor set up straightforward.</p>
                                 <h3>Secure</h3>
@@ -139,19 +141,64 @@
                                 <p>Our authentication & test security system is key in proving an online program is reliable and top level. All data is stored under the FERPA and Safe Harbor regulations.</p>
                             </div>
                         </div>
-                        <div class="row text-center cta-container">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0 50px;">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <a class="btn btn-info btn-lg btn-block" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
-                                </div>
-                                <br>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <a class="btn btn-warning btn-lg btn-block" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
-                                </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
+                               <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
                             </div>
-
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
+                               <button class="btn btn-info btn-lg live-demo" data-toggle="modal" data-target="#demo-form">Live Demo</button>
+                            </div>
                         </div>
                     </div>
+
+
+                   <!-- Modal -->
+                    <div class="modal fade" id="demo-form" tabindex="-1" role="dialog" aria-labelledby="demo-form" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h2 class="modal-title" id="myModalLabel">Schedule a Live demo</h2>
+                          </div>
+                          <div class="modal-body">
+                              <form method="post" class="reply" id="contact">
+                                <div class="col-sm-12">
+                                    <div class="row form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-12">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-12">
+                                            <input type="email" class="form-control" id="phone" name="phone" placeholder="Phone" required="">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="company" name="company" placeholder="Company" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                           </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                          </div>
+                            <div class="success alert-success alert" style="display:none">
+                            Your message has been sent successfully.
+                        </div>
+                        <div class="error alert-error alert" style="display:none">
+                            E-mail must be valid and message must be longer than 100 characters.
+                        </div>
+                        </div><!-- /.modal-content -->
+                      </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
                 </div>
 	       </div>
            <!-- container end -->

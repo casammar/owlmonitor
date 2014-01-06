@@ -121,39 +121,37 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12  pull-right content-container" id="test-takers-content-container">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 ">
-                            <h2><small>Online Exam Monitoring for </small> Test Takers</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <br>
-                            <h3>Easy and Convenient</h3>
-                            <p style="padding: 0px 50px;">
-                                With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row text-center cta-container">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad" style="padding: 0 50px;">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <a class="btn btn-info btn-lg btn-block" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <a class="btn btn-warning btn-lg btn-block" href="#" >Download ExamHawk</a>
+                        <div class="col-lg-7 col-md-7 col-sm-7 institution-content-container pull-right" >
+                        <div class="row" style="margin-top:50px;">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                                <h2>ExamHawk for <br>Test Takers</h2>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h3>Easy and Convenient</h3>
+                                <p style="color: #000000;">
+                                    With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
+                               <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
+                               <button class="btn btn-info btn-lg live-demo" >Download</button>
+                            </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
-	    </div>
-	    <!-- background image row end -->
+            <!-- background image row end -->
 
-         </div>
+
          <!-- Content End -->
          <!-- Footer Start -->
          <footer id="footer">

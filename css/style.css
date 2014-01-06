@@ -96,7 +96,7 @@ a:hover,a:focus {
 
 /* Header */
 #header .main-header {
-    z-index: 9999;
+    z-index: 1000;
     width: 100%;
     position: relative;
     background:#323B44;

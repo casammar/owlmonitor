@@ -148,7 +148,7 @@
                                <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
-                               <a class="btn btn-info btn-lg live-demo" href="#" >Live Demo</a>
+                               <a class="btn btn-info btn-lg live-demo" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
                             </div>
                         </div>
                      </div>
