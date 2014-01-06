@@ -126,31 +126,23 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                   <div class="posts-block content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                        <article class="post hentry">
+           <div class="container" style="height:100%;display:table;">
+               <div class="row" style="display:table-cell;vertical-align:middle;">
+                   <div class="posts-block content-container about-content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <article class="post hentry" >
                            <header class="post-header">
-                              <h3 class="content-title">ExamHawk.com Launches!</h3>
-                              <div class="blog-entry-meta">
+                               <h2>ExamHawk News</h2>
+                              <h3 class="content-title"><a href="#">ExamHawk.com Launches!</a></h3>
+                              <div class="blog-entry-meta" style="padding-left: 50px;">
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
-                                    <span class="blog-entry-meta-date-month">August</span>
-                                    <span class="blog-entry-meta-date-day">12,</span>
-                                    <span class="blog-entry-meta-date-year">2013</span>
-                                 </div>
-                                 <div class="blog-entry-meta-author">
-                                    <i class="icon-user"></i>
-                                    <a href="#" class="blog-entry-meta-author">John Doe</a>
+                                    <span class="blog-entry-meta-date-month">January</span>
+                                    <span class="blog-entry-meta-date-day">6,</span>
+                                    <span class="blog-entry-meta-date-year">2014</span>
                                  </div>
                                  <div class="blog-entry-meta-tags">
                                     <i class="icon-tags"></i>
-                                    <a href="#">Web Design</a>,
-                                    <a href="#">Branding</a>
-                                 </div>
-                                 <div class="blog-entry-meta-comments">
-                                    <i class="icon-comments"></i>
-                                    <a href="#" class="blog-entry-meta-comments">4 comments</a>
+                                    <a href="#">Web Design</a>
                                  </div>
                               </div>
                            </header>

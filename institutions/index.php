@@ -120,9 +120,9 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 content-container pull-right" id="institutions-content-container">
+           <div class="container" style="height:100%;">
+               <div class="row" style="height:100%;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 content-container " id="institutions-content-container">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                                 <h2 style="height:130px;"><small>Online Exam Monitoring for </small> Institutions</h2>

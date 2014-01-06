@@ -127,9 +127,63 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                   <div class="content-container col-lg-3 col-md-3 col-sm-3 col-xs-12">
+         <div class="container" style="height:100%;display:table;">
+               <div class="row" style="display:table-cell;vertical-align:middle;">
+                   <div class="col-lg-9 col-md-9 col-sm-9  about-content-container content-container" >
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                <h2><small>Schedule a Live Demo!</small></h2>
+
+                            </div>
+                        </div>
+                        <div class="row" style="padding:20px;">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                               <form method="post" class="reply" id="contact">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Name: <span>*</span></label>
+                                            <input class="form-control" id="name" name="name" type="text" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Email: <span>*</span></label>
+                                            <input class="form-control" type="email" id="email" name="email" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Phone: <span>*</span></label>
+                                            <input class="form-control" type="text" id="phone" name="phone" value="" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label>Company: <span>*</span></label>
+                                            <input class="form-control" type="text" id="company" name="company" value="" required>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
+                                        </div>
+                                    </div>
+
+                                <div class="success alert-success alert" style="display:none">
+                                    Your message has been sent successfully.
+                                </div>
+                                <div class="error alert-error alert" style="display:none">
+                                    E-mail must be valid and message must be longer than 100 characters.
+                                </div>
+                                <div class="clearfix">
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+<!--                   <div class="content-container col-lg-3 col-md-3 col-sm-3 col-xs-12">
                          <h3 class="title">Quick Contact</h3>
                          <ul class="contact-us">
                            <li>
@@ -148,56 +202,8 @@
                               <p><strong>Email:</strong><a href="mailto:guy@ExamHawk.com">guy@ExamHawk.com</a></p>
                            </li>
                         </ul>
-                     </div>
-                     <div class="content-container col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5 col-xs-12" id="contact-form">
-                        <h3 class="title">Send Us an Email</h3>
-<!--                        <p>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, facilisis laoreet venenatis non, tincidunt eget nulla. In vulputate condimentum feugiat. Donec non leo leo. Maecenas pellentesque quis diam a ultrices. Curabitur est purus, ullamcorper ac justo et, dictum pulvinar ligula. Etiam ornare, eros sit amet vehicula fringilla, sem felis tristique diam, tincidunt cursus massa magna et sapien.
-                        </p>-->
-                        <div class="divider"></div>
-                        <form method="post" class="reply" id="contact">
-						<fieldset>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Name: <span>*</span></label>
-									<input class="form-control" id="name" name="name" type="text" value="" required>
-								</div>
-                            </div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Email: <span>*</span></label>
-									<input class="form-control" type="email" id="email" name="email" value="" required>
-								</div>
-							</div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Phone: <span>*</span></label>
-									<input class="form-control" type="text" id="phone" name="phone" value="" required>
-								</div>
-							</div>
-                            <div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<label>Company: <span>*</span></label>
-									<input class="form-control" type="text" id="company" name="company" value="" required>
-								</div>
-							</div>
-						</fieldset>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
-                                </div>
-                            </div>
+                     </div>-->
 
-						<div class="success alert-success alert" style="display:none">
-							Your message has been sent successfully.
-						</div>
-						<div class="error alert-error alert" style="display:none">
-							E-mail must be valid and message must be longer than 100 characters.
-						</div>
-						<div class="clearfix">
-						</div>
-					</form>
-                     </div>
                    <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
                        <!-- Sidebar Begin -->
                        <?php include '../views/about-sidebar.php'; ?>

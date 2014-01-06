@@ -17,6 +17,8 @@
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
+         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
@@ -115,9 +117,9 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-container" style="min-height:500px;">
+           <div class="container" style="height:100%;display:table;">
+               <div class="row" style="display:table-cell;vertical-align:middle;">
+                  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-container about-content-container">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2>What is ExamHawk?</h2>

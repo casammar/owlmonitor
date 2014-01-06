@@ -5,14 +5,14 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | Conferences</title>
-      <meta name="description" content="See what conferences ExamHawk will be at.">
+      <title>ExamHawk | News</title>
+      <meta name="description" content="View current and past news articles about ExamHawk.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
            <!-- Library CSS -->
@@ -34,7 +34,6 @@
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-      <!-- Institutions-->
 
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
@@ -127,56 +126,70 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                   <div class="content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                        <h2 class="title">Conferences</h2>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h3><a href="http://educonphilly.org/" target="_blank">Educon</a></h3>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>01/24/2014 - 01/26/2014</p>
-                                    <p>Philadelphia, PA</p>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <button type="button" class="btn btn-info">Join Us</button>
-                                </div>
-                           </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h3><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h3>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>01/28/2014 - 01/31/2014</p>
-                                    <p>Orlando, FL</p>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <button type="button" class="btn btn-info">Join Us</button>
-                                </div>
-                           </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <h3><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h3>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <p>02/06/2014 - 02/07/2014</p>
-                                    <p>Marina Del Ray, CA</p>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <button type="button" class="btn btn-info">Join Us</button>
-                                </div>
-                           </div>
-                        </div>
-                        <hr>
-                    </div>
+           <div class="container" style="height:100%;display:table;">
+               <div class="row" style="display:table-cell;vertical-align:middle;">
+                   <div class="posts-block content-container about-content-container col-lg-9 col-md-9 col-sm-9 col-xs-12" >
+                        <article class="post hentry" >
+                           <header class="post-header" >
+                              <h2>Conferences</h2>
+                              <h3 class="content-title"><a href="http://educonphilly.org/" target="_blank">Educon</a></h3>
+                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                                 <div class="blog-entry-meta-date">
+                                    <i class="icon-time"></i>
+                                    <span class="blog-entry-meta-date-month">January</span>
+                                    <span class="blog-entry-meta-date-day">24 - 26,</span>
+                                    <span class="blog-entry-meta-date-year">2014</span>
+                                 </div>
+                                  <div class="blog-entry-meta-date">
+                                    <i class="icon-map-marker"></i>
+                                    <span class="blog-entry-meta-date-month">Philadelphia, PA</span>
+                                 </div>
+
+                              </div>
+                           </header>
+
+                        </article>
+                       <hr>
+                       <article class="post hentry" >
+                           <header class="post-header">
+                              <h3 class="content-title"><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h3>
+                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                                 <div class="blog-entry-meta-date">
+                                    <i class="icon-time"></i>
+                                    <span class="blog-entry-meta-date-month">January</span>
+                                    <span class="blog-entry-meta-date-day">28 - 31,</span>
+                                    <span class="blog-entry-meta-date-year">2014</span>
+                                 </div>
+                                    <div class="blog-entry-meta-date">
+                                    <i class="icon-map-marker"></i>
+                                    <span class="blog-entry-meta-date-month">Orlando, FL</span>
+                                 </div>
+                              </div>
+                           </header>
+
+                        </article>
+                       <hr>
+                       <article class="post hentry" >
+                           <header class="post-header">
+                              <h3 class="content-title"><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h3>
+                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                                 <div class="blog-entry-meta-date">
+                                    <i class="icon-time"></i>
+                                    <span class="blog-entry-meta-date-month">February</span>
+                                    <span class="blog-entry-meta-date-day">6 - 7,</span>
+                                    <span class="blog-entry-meta-date-year">2014</span>
+                                 </div>
+                                    <div class="blog-entry-meta-date">
+                                    <i class="icon-map-marker"></i>
+                                    <span class="blog-entry-meta-date-month">Marina Del Ray, CA</span>
+                                 </div>
+                              </div>
+                           </header>
+
+                        </article>
+
+
+                     </div>
                    <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
                        <!-- Sidebar Begin -->
                        <?php include '../views/about-sidebar.php'; ?>

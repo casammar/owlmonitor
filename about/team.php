@@ -127,10 +127,10 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-container">
-                        <h2>The ExamHawk Team</h2>
+<div class="container" style="height:100%;display:table;">
+               <div class="row" style="display:table-cell;vertical-align:middle;">
+                    <div class="content-container about-content-container col-lg-9 col-md-9 col-sm-9 col-xs-12" >
+                       <h2>The ExamHawk Team</h2>
                         <div class="row team">
                            <!-- item 1 -->
                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d1">
