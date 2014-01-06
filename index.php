@@ -132,23 +132,20 @@
                      <div class="col-lg-12 col-md-12 col-sm-12 content-container front-content-container pull-right">
                         <div class="row">
                            <div class="col-lg-12 col-md-12 col-sm-12">
-                              <h2>Live & Recorded Online Exam Monitoring</h2>
+                              <h2>Live & Recorded</h2>
+                              <h2>Online Exam Monitoring</h2>
                            </div>
                         </div>
                         <div class="row">
-                           <div class="col-lg-12 col-md-12 col-sm-12 bottom-pad">
+                           <div class="col-lg-12 col-md-12 col-sm-12">
                               <p style="color:white;">ExamHawk is a new online exam monitoring service that allows learners to take exams in a secure online environment. The platform is a simple and cost effective way to prevent cheating and maintain exam integrity. </p>
                            </div>
                         </div>
-                        <div class="row text-center cta-container">
-                           <div class="col-lg-12 col-md-12 col-sm-12">
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bottom-pad text-center">
-                                 <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
-                              </div>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bottom-pad text-center">
-                                 <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
-                              </div>
-                           </div>
+
+                        <div class="row clearfix">
+                            <div class="col-lg-12 col-md-12 col-sm-12 bottom-pad text-center">
+                               <a class="btn btn-info btn-lg product-tour" href="#" >Learn More</a>
+                            </div>
                         </div>
                      </div>
                   </div>

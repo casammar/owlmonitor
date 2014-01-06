@@ -124,8 +124,8 @@
                <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 content-container pull-right" id="institutions-content-container">
                         <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h2><small>Online Exam Monitoring for </small> Institutions</h2>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                                <h2 style="height:130px;"><small>Online Exam Monitoring for </small> Institutions</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -140,12 +140,13 @@
                             </div>
                         </div>
                         <div class="row text-center cta-container">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                                    <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0 50px;">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <a class="btn btn-info btn-lg btn-block" href="<?php echo BASE_URL; ?>/institutions/faq.php" >Learn More</a>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                                    <a class="btn btn-warning btn-lg" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                                <br>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <a class="btn btn-warning btn-lg btn-block" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
                                 </div>
                             </div>
 

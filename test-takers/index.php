@@ -139,11 +139,13 @@
                         </div>
                     </div>
                     <div class="row text-center cta-container">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn btn-info btn-lg" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn btn-warning btn-lg" href="#" >Download ExamHawk</a>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-pad" style="padding: 0 50px;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn btn-info btn-lg btn-block" href="<?php echo BASE_URL; ?>/test-takers/faq.php" >Learn More</a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn btn-warning btn-lg btn-block" href="#" >Download ExamHawk</a>
+                            </div>
                         </div>
                     </div>
                 </div>
