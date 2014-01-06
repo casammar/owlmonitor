@@ -505,16 +505,16 @@ jQuery(document).ready(function () {
 			return false;
 		});
 
-		jQuery('.scrolldown').click(function () {
+		jQuery('.product-tour').click(function () {
 			jQuery("html, body").animate({
-				scrollTop: 675
+				scrollTop: $(".feature-boxes").offset().top
 			}, 600);
 			return false;
 		});
 
-		jQuery('.product-tour').click(function () {
+		jQuery('.hawkee-footer').click(function () {
 			jQuery("html, body").animate({
-				scrollTop: 1000
+				scrollTop: 0
 			}, 600);
 			return false;
 		});
