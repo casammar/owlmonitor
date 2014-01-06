@@ -334,7 +334,7 @@ html, body, .background-banner{
 }
 
 .institution-background-banner{
-	background-image: url('../img/sandbox/campus5.jpg');
+	background-image: url('../img/sandbox/Campus_web-18.jpg');
 }
 
 .test-taker-background-banner{
@@ -450,7 +450,7 @@ html, body, .background-banner{
 }
 
 .content-container h2{
-    color:#00BDFF;
+    color:#1D3599;
     font-family: 'bemio', sans-serif;
     font-weight: 800;
     font-size: 40px;
@@ -504,7 +504,7 @@ html, body, .background-banner{
 
 
 .about-background-banner{
-    background-image: url('../img/sandbox/campus4.jpg');
+    background-image: url('../img/sandbox/Campus_web-14.jpg');
     background-position: center 30%;
 }
 
