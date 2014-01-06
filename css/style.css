@@ -20,7 +20,7 @@ img {
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     color: #666;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Roboto',sans-serif;
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
 }
 
@@ -1001,8 +1001,8 @@ div.content-box.big div.content-box-info {
 }
 
 div.content-box.big div.content-box-info h3 {
-    font-family: 'bemio', sans-serif;
-    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
     font-size:32px;
     color:#1D3599;
 }
