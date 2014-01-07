@@ -51,8 +51,7 @@
       <![endif]-->
    </head>
    <body>
-       <!-- background banner start -->
-       <div class="background-banner about-background-banner">
+
            <!-- Header Start -->
                 <header id="header">
                    <!-- Header Top Bar Start -->
@@ -126,12 +125,16 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-           <div class="container" style="height:100%;display:table;">
-               <div class="row" style="display:table-cell;vertical-align:middle;">
+                 <!-- background banner start -->
+       <div class="background-banner about-background-banner">
+           <div class="content">
+           <div class="container">
+               <div class="row">
                    <div class="posts-block content-container about-content-container col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <article class="post hentry" >
                            <header class="post-header">
                                <h2>ExamHawk News</h2>
+                               <br>
                               <h3 class="content-title"><a href="#">ExamHawk.com Launches!</a></h3>
                               <div class="blog-entry-meta" style="padding-left: 50px;">
                                  <div class="blog-entry-meta-date">
@@ -175,6 +178,7 @@
                 </div>
 	       </div>
            <!-- container end -->
+           </div>
        </div>
 	   <!-- background image row end -->
 

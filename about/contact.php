@@ -127,12 +127,13 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-         <div class="container" style="height:100%;display:table;">
-               <div class="row" style="display:table-cell;vertical-align:middle;">
+       <div class="content">
+         <div class="container">
+               <div class="row">
                    <div class="col-lg-9 col-md-9 col-sm-9  about-content-container content-container" >
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 ">
-                                <h2><small>Schedule a Live Demo!</small></h2>
+                                <h2>Schedule a Live Demo!</h2>
 
                             </div>
                         </div>
@@ -204,13 +205,14 @@
                         </ul>
                      </div>-->
 
-                   <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
+                   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
                        <!-- Sidebar Begin -->
                        <?php include '../views/about-sidebar.php'; ?>
                        <!-- Sidebar End -->
                    </div>
                 </div>
 	       </div>
+       </div>
            <!-- container end -->
        </div>
 	   <!-- background image row end -->

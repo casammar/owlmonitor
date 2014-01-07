@@ -52,8 +52,7 @@
       <![endif]-->
    </head>
    <body>
-       <!-- background banner start -->
-       <div class="background-banner about-background-banner">
+
            <!-- Header Start -->
                 <header id="header">
                    <!-- Header Top Bar Start -->
@@ -127,10 +126,14 @@
                    <!-- Main Header End -->
                 </header>
                 <!-- Header End -->
-<div class="container" style="height:100%;display:table;">
-               <div class="row" style="display:table-cell;vertical-align:middle;">
-                    <div class="content-container about-content-container col-lg-9 col-md-9 col-sm-9 col-xs-12" >
+                <!-- background banner start -->
+        <div class="background-banner about-background-banner">
+            <div class="content">
+            <div class="container" >
+               <div class="row" >
+                    <div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12" >
                        <h2>The ExamHawk Team</h2>
+                       <br>
                         <div class="row team">
                            <!-- item 1 -->
                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item animate_afc d1">
@@ -147,10 +150,10 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h3 class="team-member-name">Guy<br> Friedman</h3>
+                                       <h3 class="team-member-name">Guy Friedman</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p style="text-align:justify">Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
+                                          <p>Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
                                        </div>
                                     </div>
                                  </div>
@@ -172,10 +175,10 @@
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
-                                       <h3 class="team-member-name">Matt<br> Jaeh</h3>
+                                       <h3 class="team-member-name">Matt Jaeh</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -200,7 +203,7 @@
                                        <h3 class="team-member-name">Chris Sammarco</h3>
                                        <div class="team-member-role">Title</div>
                                        <div class="team-member-description">
-                                          <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -218,6 +221,7 @@
                 </div>
 	       </div>
            <!-- container end -->
+            </div>
        </div>
 	   <!-- background image row end -->
 

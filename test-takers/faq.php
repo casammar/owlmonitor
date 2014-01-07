@@ -5,39 +5,27 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk</title>
-      <meta name="description" content="">
+      <title>ExamHawk | About</title>
+      <meta name="description" content="The ExamHawk application allows you to take an online test anywhere, anytime.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,800italic,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
+         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/team-member.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/revolution-slider/css/settings.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/pricing-table.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
-      <!-- Steps -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/steps.css">
-      <!-- Schedule Grid -->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/schedule-grid.css">
+
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-      <!-- Institutions-->
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/institutions.css">
-
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/wise-owl-transparent.png">
       <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
@@ -47,17 +35,17 @@
       <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/respond.min.js"></script>
+      <script src="js/respond.min.js"></script>
       <![endif]-->
       <!--[if IE]>
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/ie.css">
+      <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
    </head>
-   <body class="home">
-      <div class="background-banner test-taker-background-banner">
-         <!-- Header Start -->
-         <header id="header">
-             <!-- Header Top Bar Start -->
+   <body>
+
+           <!-- Header Start -->
+                <header id="header">
+                   <!-- Header Top Bar Start -->
                    <div class="top-bar">
                       <div class="slidedown collapse">
                          <div class="container">
@@ -77,86 +65,70 @@
                       </div>
                    </div>
                    <!-- Header Top Bar End -->
-            <!-- Main Header Start -->
-            <div class="main-header">
-               <div class="container">
-                  <!-- TopNav Start -->
-                  <div class="topnav navbar-header">
-                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
-                     <i class="icon-angle-down icon-current"></i>
-                     </a>
-                  </div>
-                  <!-- TopNav End -->
-                  <!-- Logo Start -->
-                  <div class="logo pull-left">
-                      <a href="<?php echo BASE_URL; ?>">
-                         <img src="<?php echo BASE_URL; ?>/img/004-examhawk-logo.png">
-                      </a>
-                  </div>
-                  <!-- Logo End -->
-                  <!-- Mobile Menu Start -->
-                  <div class="mobile navbar-header">
-                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
-                     <i class="icon-reorder icon-2x"></i>
-                     </a>
-                  </div>
-                  <!-- Mobile Menu End -->
-                  <!-- Menu Start -->
-                  <nav class="collapse navbar-collapse menu">
-                     <ul class="nav navbar-nav sf-menu">
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions" style="color:#FFFFFF;">Institutions</a>
-                        </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/test-takers/')?'current':''?>" href="<?php echo BASE_URL; ?>/test-takers" style="color:#FFFFFF;">Test Takers</a>
-                        </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/about/')?'current':''?>" href="<?php echo BASE_URL; ?>/about" class="sf-with-ul" style="color:#FFFFFF;">About</a>
-                        </li>
-                        <li>
-                           <a id="<?php echo ($_SERVER['REQUEST_URI'] == '/beta/institutions/live-demo.php')?'current':''?>" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
-                        </li>
-                    </ul>
-                 </nav>
-                 <!-- Menu End -->
-               </div>
+                   <!-- Main Header Start -->
+                   <div class="main-header">
+                      <div class="container">
+                         <!-- TopNav Start -->
+                         <div class="topnav navbar-header">
+                            <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                            <i class="icon-angle-down icon-current"></i>
+                            </a>
+                         </div>
+                         <!-- TopNav End -->
+                         <!-- Logo Start -->
+                         <div class="logo pull-left">
+                            <h1>
+                               <a href="<?php echo BASE_URL; ?>">
+                                  <img src="<?php echo BASE_URL; ?>/img/004-examhawk-logo.png" alt="ExamHawk">
+                              </a>
+                            </h1>
+                         </div>
+                         <!-- Logo End -->
+                         <!-- Mobile Menu Start -->
+                         <div class="mobile navbar-header">
+                            <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                            <i class="icon-reorder icon-2x"></i>
+                            </a>
+                         </div>
+                         <!-- Mobile Menu End -->
 
-                <!-- About horizontal nav start-->
-                <?php
-                $mystring = $_SERVER['REQUEST_URI'];
-                $findme   = 'about';
-                $pos = strpos($mystring, $findme);
+                         <!-- Menu Start -->
+                         <nav class="collapse navbar-collapse menu">
+                               <ul class="nav navbar-nav sf-menu">
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions" class="">Institutions</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/test-takers" class="">Test Takers</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
+                                  </li>
+                                  <li>
+                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                  </li>
+                              </ul>
+                           </nav>
+                           <!-- Menu End -->
 
-                if ($pos === false) {
-                    //show nothing
-                } else { ?>
-<!--                    <div class="container">
-                            <table class="horizontal-table">
-                                <tr>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#institution-faq">Institution FAQs</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/faq.php#test-takers-faq">Test Taker FAQs</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></td>
-                                    <td><a href="<?php echo BASE_URL; ?>/about/blog.php">Blog</a></td>
-                                </tr>
-                            </table>
-                    </div>-->
-                <?php } ?>
-                <!-- About horizontal nav end-->
+                      </div>
+                   </div>
+                   <!-- Main Header End -->
+                </header>
+                <!-- Header End -->
 
-            </div>
-            <!-- Main Header End -->
 
-         </header>
-         <!-- Header End -->
-        <!-- Content Start -->
+
+              <!-- background banner start -->
+       <div class="background-banner about-background-banner">
+           <!-- Content Start -->
             <div class="content">
                <div class="container">
                   <div class="row">
                      <!-- FAQ Start -->
+                     
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                           <h3 class="title">Test Taker FAQs</h3>
+                           <h2>Test Taker FAQs</h2>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">
                                  <h4 class="accordion-toggle">How Secure is ExamHawk?</h4>
@@ -228,10 +200,101 @@
                         </div>
                      <!-- FAQ end-->
                      <!-- Sidebar Begin -->
+                     <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
+
                      <?php include '../views/about-sidebar.php'; ?>
+                     </div>
                      <!-- Sidebar End -->
                   </div>
                </div>
             </div>
          <!-- Content End -->
-<?php include '../views/footer.php'; ?>
+       </div>
+	   <!-- background image row end -->
+
+        <!-- Footer Start -->
+        <footer id="footer">
+           <!-- Footer Top Start -->
+           <div class="footer-top">
+              <div class="container contact-us">
+                 <div class="row footer-padding">
+                    <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two text-center">
+                        <h3>The Platform</h3>
+                    <ul>
+                        <li><a href="<?php echo BASE_URL; ?>/institutions">Institutions</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/test-takers">Test Takers</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/institutions/live-demo.php">Live Demo</a></li>
+                    </ul>
+                    </section>
+
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3>About ExamHawk</h3>
+                    <ul>
+                        <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/about/news.php">News</a></li>
+                    </ul>
+                    </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3>Contact Us</h3>
+                        <ul >
+                           <li>
+                              <i class="icon-map-marker"></i>
+                              <p>
+                                 <strong>Address:</strong>
+                                 Philadelphia, PA
+                              </p>
+                           </li>
+                           <li>
+                              <i class="icon-phone"></i>
+                              <p><strong>Phone:</strong> 215-995-6893</p>
+                           </li>
+                           <li>
+                              <i class="icon-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:guy@ExamHawk.com">guy@ExamHawk.com</a></p>
+                           </li>
+                        </ul>
+                     </section>
+                      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                    </div>
+                  </div>
+              </div>
+           </div>
+           <!-- Footer Top End -->
+           <!-- Footer Bottom Start -->
+           <div class="footer-bottom">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center"> &copy; Copyright 2014 ExamHawk. All Rights Reserved. </div>
+                 </div>
+              </div>
+           </div>
+           <!-- Footer Bottom End -->
+        </footer>
+
+      <!-- The Scripts -->
+      <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.parallax.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/modernizr-2.6.2.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.nivo.slider.pack.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.prettyPhoto.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.isotope.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/superfish.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/tweetMachine.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/tytabs.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.gmap.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/circularnav.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jquery.sticky.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
+      <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
+      <!--
+      <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
+      -->
+   </body>
+</html>
