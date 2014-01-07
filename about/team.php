@@ -115,7 +115,7 @@
                                      <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
                                   </li>
                                   <li>
-                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                     <a href="#" class="demo-link" data-toggle="modal" data-target="#demo-form">Live Demo</a>
                                   </li>
                               </ul>
                            </nav>
@@ -286,6 +286,10 @@
            </div>
            <!-- Footer Bottom End -->
         </footer>
+
+        <!-- Demo form modal start-->
+        <?php include '../views/demo-form.php'; ?>
+    <!-- Demo form modal end-->
 
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>

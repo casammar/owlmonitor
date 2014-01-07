@@ -114,7 +114,7 @@
                                      <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
                                   </li>
                                   <li>
-                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                     <a href="#" class="demo-link" data-toggle="modal" data-target="#demo-form">Live Demo</a>
                                   </li>
                               </ul>
                            </nav>
@@ -148,7 +148,7 @@
                                <a class="btn btn-info btn-lg product-tour" href="<?php echo BASE_URL; ?>/institutions" >Learn More</a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 bottom-pad text-center">
-                               <a class="btn btn-info btn-lg live-demo" href="<?php echo BASE_URL; ?>/institutions/live-demo.php" >Live Demo</a>
+                               <button class="btn btn-info btn-lg live-demo" data-toggle="modal" data-target="#demo-form">Live Demo</button>
                             </div>
                         </div>
                      </div>
@@ -215,6 +215,10 @@
                </div>
                <!-- Footer Bottom End -->
             </footer>
+
+            <!-- Demo form modal start-->
+                <?php include './views/demo-form.php'; ?>
+            <!-- Demo form modal end-->
 
 
 

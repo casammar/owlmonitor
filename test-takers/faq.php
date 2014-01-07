@@ -105,7 +105,7 @@
                                      <a href="<?php echo BASE_URL; ?>/about" class="">About</a>
                                   </li>
                                   <li>
-                                     <a href="<?php echo BASE_URL; ?>/institutions/live-demo.php" class="demo-link">Live Demo</a>
+                                     <a href="#" class="demo-link" data-toggle="modal" data-target="#demo-form">Live Demo</a>
                                   </li>
                               </ul>
                            </nav>
@@ -126,7 +126,7 @@
                <div class="container">
                   <div class="row">
                      <!-- FAQ Start -->
-                     
+
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                            <h2>Test Taker FAQs</h2>
                            <div class="accordionMod panel-group">
@@ -273,6 +273,10 @@
            </div>
            <!-- Footer Bottom End -->
         </footer>
+
+        <!-- Demo form modal start-->
+        <?php include '../views/demo-form.php'; ?>
+         <!-- Demo form modal end-->
 
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
