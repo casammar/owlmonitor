@@ -245,7 +245,7 @@
                         <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                        
+
                     </ul>
                     </section>
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
@@ -269,7 +269,7 @@
                         </ul>
                      </section>
                       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" class="hawkee-footer" alt="ExamHawk Mascot Hawkee" />
                     </div>
                   </div>
               </div>

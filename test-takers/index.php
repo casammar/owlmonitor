@@ -127,7 +127,7 @@
                         <div class="col-lg-7 col-md-7 col-sm-7 institution-content-container" >
                         <div class="row" style="margin-top:50px;">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-                                <h2>ExamHawk for <br>Test Takers</h2>
+                                <h2>ExamHawk for Test Takers</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -199,7 +199,7 @@
                         </ul>
                      </section>
                       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" style="width:150px;height:200px;margin:0 auto;text-align:center;"/>
+                        <img src="<?php echo BASE_URL; ?>/img/sandbox/lg-owl.png" class="hawkee-footer" alt="ExamHawk Mascot Hawkee" />
                     </div>
                   </div>
                </div>
