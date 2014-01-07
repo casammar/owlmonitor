@@ -296,29 +296,6 @@
            <!-- Footer Bottom End -->
         </footer>
 
-      <section id="style-switcher">
-        <h2>Style Switcher <a href="#"><i class="icon-cog"></i></a></h2>
-        <div>
-            <div class="header-color">
-                <h3>Background Picture</h3>
-                <input type="text"  class="slider" value="" data-slider-min="1" data-slider-max="22" data-slider-step="1" data-slider-value="1" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
-            </div>
-            <div class="layout-style">
-              <h3>Content Box</h3>
-              <select autocomplete="off" id="content-box-style">
-                 <option value="1">Left</option>
-                 <option value="2">Right</option>
-              </select>
-           </div>
-            <div class="title-color">
-                <h3>Header Color</h3>
-                <div class="header-color">
-                   <input type='text' class="header-bg" />
-                </div>
-            </div>
-        </div>
-     </section>
-
     <!-- Demo form modal start-->
         <?php include '../views/demo-form.php'; ?>
     <!-- Demo form modal end-->
