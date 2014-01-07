@@ -47,7 +47,7 @@
       <![endif]-->
    </head>
    <body>
-      <div class="background-banner test-taker-background-banner">
+
           <!-- Header Start -->
                 <header id="header">
                    <!-- Header Top Bar Start -->
@@ -120,10 +120,11 @@
                    </div>
                    <!-- Main Header End -->
                 </header>
+                <div class="background-banner test-taker-background-banner">
                 <!-- Header End -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-7 col-md-7 col-sm-7 institution-content-container pull-right" >
+                        <div class="col-lg-7 col-md-7 col-sm-7 institution-content-container" >
                         <div class="row" style="margin-top:50px;">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                                 <h2>ExamHawk for <br>Test Takers</h2>
@@ -174,7 +175,7 @@
                         <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                        
+
                     </ul>
                     </section>
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
