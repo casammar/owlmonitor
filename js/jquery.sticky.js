@@ -36,7 +36,7 @@
 
         if (scrollTop <= etse) {
           if (s.currentTop !== null) {
-	    $('.logo img').animate({ "max-width": "100%" }, "fast" );
+	    $('.logo img').animate({ "max-width": "100%" }, "400" );
 	    $('.logo h1').css('margin', '16px 0');
 
             s.stickyElement
@@ -60,7 +60,7 @@
             newTop = s.topSpacing;
           }
           if (s.currentTop != newTop && fwidth >= 980) {
-	    $( ".logo img" ).animate({ "max-width": "75%" }, "fast" );
+	    $( ".logo img" ).animate({ "max-width": "75%" }, "400" );
 	    $('.logo h1').css('margin', '7px 0');
 	    $('.menu ul>li>a ').css('padding', '34px 18px 31px 18px');
 
