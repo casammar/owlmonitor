@@ -2372,16 +2372,17 @@ header .social li.rss:hover,footer .social li.rss:hover {
     height: 0;
     width: 100%;
     padding-bottom: 100%;
+    text-align: center;
 }
 
 .team-member-image img {
-    border-radius: 50%;
+
 }
 
 .team-member-links {
     top: 0;
     min-height: 1px;
-    border-radius: 50%;
+    width:250px;
     box-shadow: 0 0 0 10px rgba(255,255,255,0.25) inset;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
@@ -2439,7 +2440,7 @@ header .social li.rss:hover,footer .social li.rss:hover {
 
 .team-member-description p {
     margin-bottom: 0;
-	text-align:center;
+    text-align:left;
 }
 
 .member-social.dark a {

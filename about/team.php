@@ -139,18 +139,18 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" style="height:100%;" src="http://m.c.lnkd.licdn.com/mpr/pub/image-pJdq08BYi8MHY3zGf5zIydXbyfvEwupQpGdQypBDyBnE7_NcpJdQJZaYyXkXwPOLdEDQ/guy-friedman.jpg">
+                                       <img alt=""  src="<?php echo BASE_URL; ?>/img/sandbox/guy-profile-small.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
-                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
-                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
-                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                             <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/guyafriedman"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="https://twitter.com/guyfriedman"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="http://www.linkedin.com/in/guyfriedman"><i class="icon-linkedin"></i></a>
                                           </div>
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
                                        <h3 class="team-member-name">Guy Friedman</h3>
-                                       <div class="team-member-role">Title</div>
+                                       <div class="team-member-role">Managing Director</div>
                                        <div class="team-member-description">
                                           <p>Guy handles all the business aspects of ExamHawk. He is the former CEO and founder of HigherNext. Currently, Guy lives in Philadelphia, PA with his wife Laura and daughter Lily. </p>
                                        </div>
@@ -164,20 +164,20 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" style="height:100%" src="http://m.c.lnkd.licdn.com/mpr/pub/image-TtG0f9l-CRqrL1m2mhgjKiQC3bVxJwmUTfb5MxMG3tuBHLQ3TtG59Lp-3hGeHwieCTFL/matthew-jaeh.jpg">
+                                        <img alt="" style="margin-top: 20px;" src="<?php echo BASE_URL; ?>/img/sandbox/matt-profile-small.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
-                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
-                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
-                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                             <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/matthew.jaeh"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="https://twitter.com/jaehdawg"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="http://www.linkedin.com/in/matthewjaeh"><i class="icon-linkedin"></i></a>
                                           </div>
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
                                        <h3 class="team-member-name">Matt Jaeh</h3>
-                                       <div class="team-member-role">Title</div>
+                                       <div class="team-member-role">Managing Director</div>
                                        <div class="team-member-description">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p>Matt graduated from the University of Florida and has a background in computer software engineering. He enjoys spending time with his family, making music and running.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -189,20 +189,20 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt="" style="height:100%;" src="http://cdn.slidesharecdn.com/profile-photo-chrissammarco-96x96.jpg">
+                                       <img alt=""  style="margin-top: 10px;" src="<?php echo BASE_URL; ?>/img/sandbox/chris-profile-small.png">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
-                                             <a target="_blank" class="facebook team-member-links-item" href="#"><i class="icon-facebook"></i></a>
-                                             <a target="_blank" class="twitter team-member-links-item" href="#"><i class="icon-twitter"></i></a>
-                                             <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="icon-linkedin"></i></a>
+                                             <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/chris.sammarco"><i class="icon-facebook"></i></a>
+                                             <a target="_blank" class="twitter team-member-links-item" href="https://twitter.com/ChrisSammarco"><i class="icon-twitter"></i></a>
+                                             <a target="_blank" class="linkedin team-member-links-item" href="http://www.linkedin.com/pub/chris-sammarco/12/8b/113"><i class="icon-linkedin"></i></a>
                                           </div>
                                        </div>
                                     </div>
                                     <div class="team-member-meta">
                                        <h3 class="team-member-name">Chris Sammarco</h3>
-                                       <div class="team-member-role">Title</div>
+                                       <div class="team-member-role">Lead Developer</div>
                                        <div class="team-member-description">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                          <p>Chris is a developer from Philadelphia, PA. He enjoys finding creative and simple solutions to all of life's difficult problems.</p>
                                        </div>
                                     </div>
                                  </div>
