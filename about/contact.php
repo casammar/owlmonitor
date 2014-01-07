@@ -237,7 +237,7 @@
                         <li><a href="<?php echo BASE_URL; ?>/about/team.php">Team</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/contact.php">Contact</a></li>
                         <li><a href="<?php echo BASE_URL; ?>/about/conferences.php">Conferences</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>/about/news.php">News</a></li>
+                        
                     </ul>
                     </section>
                      <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
