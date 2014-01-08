@@ -654,7 +654,7 @@ jQuery(document).ready(function () {
 	/*----------------------------------------------------*/
 	/*	Contact Form Section
 	/*----------------------------------------------------*/
-	$("#demo-form").submit(function (e) {
+	$("#demo-form-submit").click(function (e) {
 	    console.log('demo form submitted');
 
 	    e.preventDefault();
@@ -671,7 +671,7 @@ jQuery(document).ready(function () {
 		return pattern.test(emailAddress);
 	    };
 
-	    if (isValidEmail(email) && (name.length > 1)) {
+	    if (isValidEmail(email)) {
 		$.ajax({
 		    type: "POST",
 		    url: "ajax/process.php",

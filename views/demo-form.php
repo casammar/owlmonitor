@@ -34,7 +34,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <input class="btn btn-primary" type="submit" value="Submit" id="demo-form-submit">
       </div>
         <div class="success alert-success alert" style="display:none">
         Your message has been sent successfully.
