@@ -1763,7 +1763,7 @@ ul.why li:before {
 }
 
 /* Form */
-
+/*
 input, textarea {
 	border: solid 1px #E5E5E5;
 	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
@@ -1781,7 +1781,7 @@ input:focus, textarea:focus {
 }
 
 
-/* Accordion */
+ Accordion
 .accordionMod .panel-heading .accordion-toggle {
     position: relative;
     cursor: pointer;
@@ -1826,7 +1826,7 @@ input:focus, textarea:focus {
 }
 
 
-/* Contact Box */
+ Contact Box
 .contact-box {
     text-align: center !important;
     -webkit-box-shadow: 0 -1px 0 0 rgba(0,0,0,0.05) inset;
@@ -1846,7 +1846,7 @@ input:focus, textarea:focus {
 
 .contact-box i {
     font-size: 48px;
-}
+}*/
 
 
 /* Home page posts section */
