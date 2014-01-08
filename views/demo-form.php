@@ -34,13 +34,13 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <input class="btn btn-primary" type="submit" value="Submit" id="demo-form-submit">
+        <input class="btn btn-success" type="submit" value="Submit" id="demo-form-submit">
       </div>
         <div class="success alert-success alert" style="display:none">
         Your message has been sent successfully.
     </div>
     <div class="error alert-error alert" style="display:none">
-        E-mail must be valid and message must be longer than 100 characters.
+        There was an error
     </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
