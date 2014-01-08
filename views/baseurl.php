@@ -6,4 +6,10 @@
     /*production*/
     define('BASE_URL', 'http://highernext.com/beta');
 
+
+    /*Environment*/
+    define('ENVIRONMENT', 'production');
+
+    //define('ENVIRONMENT', 'development');
+
 ?>

@@ -129,7 +129,7 @@ nav.menu {
 @media (max-width: 767px) {
 .background-banner{
     background-image:none !important;
-    background-color:#00a3ff !important;
+    background-color:#FAFAFA !important;
     min-height:900px !important;
 }
 

@@ -309,8 +309,10 @@
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
-      <!--
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
-      -->
+
+      <?php if(ENVIRONMENT == 'production'){ ?>
+            <script src="<?php echo BASE_URL; ?>/js/ga.js"></script>
+      <?php } ?>
    </body>
 </html>
