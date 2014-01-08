@@ -654,8 +654,9 @@ jQuery(document).ready(function () {
 	/*----------------------------------------------------*/
 	/*	Contact Form Section
 	/*----------------------------------------------------*/
-	$("#demo-form-submit").click(function (e) {
+	$("#demo-form").submit(function (e) {
 	    e.preventDefault();
+	    var siteurl = $('body').data('site-url');
 	    var name = $("#name").val();
 	    var email = $("#email").val();
 	    var phone = $("#phone").val();
@@ -670,10 +671,12 @@ jQuery(document).ready(function () {
 	    if (isValidEmail(email)) {
 		$.ajax({
 		    type: "POST",
-		    url: "ajax/process.php",
+		    url: siteurl + "/ajax/process.php",
 		    data: dataString,
 		    success: function () {
-			$('.success').fadeIn(1000);
+			$('.success').fadeIn(1000).fadeOut(1000);
+			$('#demo-form').modal('hide');
+
 		    }
 		});
 	    } else {

@@ -50,7 +50,7 @@
             <link rel="stylesheet" href="css/ie.css">
             <![endif]-->
          </head>
-         <body>
+         <body data-site-url="<?php echo BASE_URL; ?>">
             <div class="background-banner" id="front-page-background-banner">
                 <!-- Header Start -->
                 <header id="header">

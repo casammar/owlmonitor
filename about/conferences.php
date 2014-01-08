@@ -49,7 +49,7 @@
       <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
    </head>
-   <body>
+   <body data-site-url="<?php echo BASE_URL; ?>">
 
            <!-- Header Start -->
                 <header id="header">
