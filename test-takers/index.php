@@ -133,7 +133,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h3>Easy and Convenient</h3>
-                                <p style="color: #000000;">
+                                <p>
                                     With ExamHawk, you can take an online test anywhere, anytime – all you need is a working webcam and internet connection, and to be in a quiet room. We are always available to help. Interested in how the product works? Check out our product page. For more information about technical requirements, the experience and company in our FAQs.
                                 </p>
                             </div>

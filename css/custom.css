@@ -524,7 +524,7 @@ html, body, .background-banner{
 }
 
 .content-container h3{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size:32px;
     color:#1D3599;
     line-height: 10px;
@@ -536,12 +536,11 @@ html, body, .background-banner{
     font-style: normal;
 }
 .content-container p{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight:400;
-    font-size:22px;
-    text-align:left;
-    line-height: 1.4;
-    padding:25px 50px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    padding: 0 15px;
+    line-height: 35px;
+    margin: 25px 0;
     padding-left: 0;
 }
 

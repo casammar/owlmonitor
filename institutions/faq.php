@@ -5,7 +5,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | About</title>
+      <title>ExamHawk | Institutions FAQ</title>
       <meta name="description" content="The ExamHawk application allows you to take an online test anywhere, anytime.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
@@ -126,7 +126,7 @@
                <div class="container">
                   <div class="row">
                      <!-- FAQ Start -->
-                        <div class="col-lg-9 col-md-9 col-sm-9 about-content-container content-container">
+                        <div class="col-lg-9 col-md-9 col-sm-9">
                           <h2>Institution FAQs</h2>
                            <div class="accordionMod panel-group">
                               <div class="accordion-item">

@@ -2430,6 +2430,7 @@ header .social li.rss:hover,footer .social li.rss:hover {
 
 .team-member-name {
     margin-bottom: 6px;
+    text-align:center !important;
 }
 
 .team-member-role {

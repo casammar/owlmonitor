@@ -5,7 +5,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | News</title>
+      <title>ExamHawk | Conferences</title>
       <meta name="description" content="View current and past news articles about ExamHawk.">
       <meta name="author" content="">
       <!-- Mobile Metas -->

@@ -121,11 +121,11 @@
 
               <!-- background banner start -->
        <div class="background-banner about-background-banner">
-           <div class="content">
+
            <div class="container">
-               <div class="row">
-                  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-container about-content-container">
-                        <div class="row">
+               <div class="row" style="margin-top:50px;">
+                  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 institution-content-container">
+                        <div class="row" >
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2>What is ExamHawk?</h2>
                             </div>
@@ -145,7 +145,7 @@
                 </div>
 	       </div>
            <!-- container end -->
-       </div>
+
        </div>
 	   <!-- background image row end -->
 

@@ -127,10 +127,10 @@
                 <!-- Header End -->
                 <!-- background banner start -->
         <div class="background-banner about-background-banner">
-            <div class="content">
+
             <div class="container" >
-               <div class="row" >
-                    <div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12" >
+               <div class="row" style="margin-top:50px;">
+                    <div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 institution-content-container" >
                        <h2>The ExamHawk Team</h2>
                        <br>
                         <div class="row team">
@@ -220,7 +220,7 @@
                 </div>
 	       </div>
            <!-- container end -->
-            </div>
+
        </div>
 	   <!-- background image row end -->
 

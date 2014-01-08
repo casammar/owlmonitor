@@ -5,7 +5,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | About</title>
+      <title>ExamHawk | Test Takers FAQ</title>
       <meta name="description" content="The ExamHawk application allows you to take an online test anywhere, anytime.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
