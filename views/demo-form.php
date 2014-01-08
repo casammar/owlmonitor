@@ -7,7 +7,7 @@
         <h2 class="modal-title" id="myModalLabel">Schedule a Live Demo</h2>
       </div>
       <div class="modal-body">
-          <form method="post" class="reply" id="contact">
+          <form method="post" class="reply" id="demo-form">
             <div class="col-sm-12">
                 <div class="row form-group">
                     <div class="col-xs-12">
