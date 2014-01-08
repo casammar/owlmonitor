@@ -696,3 +696,13 @@ html, body, .background-banner{
 .form-group {
     margin-bottom:0;
 }
+
+.modal-dialog-center {
+    margin-top: 10%;
+}
+.modal-header{
+    background-color:#323B44;
+}
+.modal-title{
+    color:#FFFFFF;
+}
