@@ -18,18 +18,20 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['institutio
 			$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 			$message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
 			$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
-			$message .= "<tr><td><strong>Institution/Company:</strong> </td><td>" . htmlentities($_POST['institution']) . "</td></tr>";
+            $message .= "<tr style='background: #eee;'><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
+			$message .= "<tr><td><strong>Company:</strong> </td><td>" . htmlentities($_POST['company']) . "</td></tr>";
 			$message .= "</table>";
 			$message .= "</body></html>";
 
 
 
 			//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
+            $to  = 'chris.sammarco@gmail.com';
 
-            $to  = 'chris.sammarco@gmail.com' . ', ';
-            $to .= 'guyfriedman@gmail.com';
+            //$to  = 'chris.sammarco@gmail.com' . ', ';
+            //$to .= 'guyfriedman@gmail.com';
 
-			$subject = "OwlMonitor Contact Form";
+			$subject = "ExamHAwk Live Demo Form";
 
 			$headers = "From: " . $_POST['email'] . "\r\n";
 			$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
