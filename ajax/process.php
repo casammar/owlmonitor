@@ -26,10 +26,10 @@ if (isset($_POST['email']) && isset($_POST['company']) && isset($_POST['name']) 
 
 
 			//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
-            $to  = 'chris.sammarco@gmail.com';
+            //$to  = 'chris.sammarco@gmail.com';
 
-            //$to  = 'chris.sammarco@gmail.com' . ', ';
-            //$to .= 'guyfriedman@gmail.com';
+            $to  = 'chris.sammarco@gmail.com' . ', ';
+            $to .= 'guyfriedman@gmail.com';
 
 			$subject = "ExamHAwk Live Demo Form";
 
