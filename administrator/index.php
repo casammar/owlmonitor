@@ -6,7 +6,7 @@
    <head>
       <meta charset="utf-8">
       <title>ExamHawk | Online Exam Monitoring | Administrator</title>
-      <meta name="description" content="ExamHawk application">
+      <meta name="description" content="ExamHawk application test">
       <meta name="author" content="ExamHawk development team">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
