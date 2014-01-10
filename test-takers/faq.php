@@ -5,7 +5,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
    <head>
       <meta charset="utf-8">
-      <title>ExamHawk | Test Takers FAQ</title>
+      <title>ExamHawk | Institutions FAQ</title>
       <meta name="description" content="The ExamHawk application allows you to take an online test anywhere, anytime.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
@@ -120,82 +120,64 @@
 
 
               <!-- background banner start -->
-       <div class="background-banner about-background-banner">
-           <!-- Content Start -->
-            <div class="content">
-               <div class="container">
-                  <div class="row">
-                     <!-- FAQ Start -->
 
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                           <h2>Test Taker FAQs</h2>
-                           <div class="accordionMod panel-group">
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">How Secure is ExamHawk?</h4>
-                                 <section class="accordion-inner panel-body">
+           <!-- Content Start -->
+
+               <div class="container">
+                <div class="row" style="margin-top:50px;">
+                     <!-- FAQ Start -->
+                        <div class="col-lg-9 col-md-9 col-sm-9  institution-content-container"">
+                          <h2>Test Taker FAQs</h2>
+                           <div class= panel-group">
+                                 <h3>How Secure is ExamHawk?</h3>
                                     <p>
-                                        <ul>
-                                            <li>The test-taker’s webcam feed, audio feed, screenshots are all recorded</li>
-                                            <li>A live person will monitor the test-taker for any infractions and will be available for customer service issues via chat or video chat directly with the test-taker</li>
-                                            <li>The application tracks facial engagement, audio analysis, keystrokes, and ping</li>
-                                        </ul>
+                                           1. The test-taker’s webcam feed, audio feed, screenshots are all recorded.<br>
+                                           2. A live person will monitor the test-taker for any infractions and will be available for customer service issues via chat or video chat directly with the test-taker.<br>
+                                           3. The application tracks facial engagement, audio analysis, keystrokes, and ping.<br>
+
                                     </p>
-                                 </section>
-                              </div>
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What do I need before I take my test?</h4>
-                                 <section class="accordion-inner panel-body">
+
+                                 <h3>What do I need before I take my test?</h3>
+
                                     <p>
-                                        <ul>
-                                            <li>Either in advance or right before the exam starts, download the ExamHawk application from the ExamHawk website. This application will run on all major operating systems.</li>
-                                            <li>Be alone in a well-lit and quiet room for their testing session.</li>
-                                            <li>All other devices and electronic besides your computer are forbidden during a exam.</li>
-                                            <li>You will need to bring a photo ID for the test to verify their identity.</li>
-                                        </ul>
+                                        1. Either in advance or right before the exam starts, download the ExamHawk application from the ExamHawk website. This application will run on all major operating systems.<br>
+                                        2. Be alone in a well-lit and quiet room for their testing session.<br>
+                                        3. All other devices and electronic besides your computer are forbidden during a exam.<br>
+                                        4. You will need to bring a photo ID for the test to verify their identity.<br>
                                     </p>
-                                 </section>
-                              </div>
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What are the technical requirements to take an exam?</h4>
-                                 <section class="accordion-inner panel-body">
+
+
+
+                                 <h3>What are the technical requirements to take an exam?</h3>
+                                 <p>
+                                    1. A solid internet connection.<br>
+                                    2. A working webcam.<br>
+                                 </p>
+
+
+                                 <h3>What can I expect from the ExamHawk application?</h3>
+
                                     <p>
-                                        <ul>
-                                            <li>A solid internet connection</li>
-                                            <li>A working webcam</li>
-                                        </ul>
+                                        Starting the application will initiate a lockdown internet browser, disabling any external programs, webpages, or methods of copying data from the screen during the test. Throughout the entire testing process, the test-taker’s webcam feed will be monitored, as well as the audio and screen of the test taker.
                                     </p>
-                                 </section>
-                              </div>
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What can I expect from the ExamHawk application?</h4>
-                                 <section class="accordion-inner panel-body">
-                                    <p>
-                                        <ul>
-                                            <li>Starting the application will initiate a lockdown internet browser, disabling any external programs, webpages, or methods of copying data from the screen during the test.</li>
-                                            <li>Throughout the entire testing process, the test-taker’s webcam feed will be monitored, as well as the audio and screen of the test taker. </li>
-                                        </ul>
-                                    </p>
-                                 </section>
-                              </div>
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">How do I actually take an exam once I launch the application?</h4>
-                                 <section class="accordion-inner panel-body">
-                                    <p>
-                                        <ul>
-                                            <li>After the ID Check and Authentication, you will be prompted to navigate to their test within the LMS or test delivery system.</li>
-                                            <li>In cases where students are prompted for a test password, a large “Unlock Your Test” button will be displayed in the sidebar of the application, allowing you to access your exam inside the secure browser only.</li>
-                                        </ul>
-                                    </p>
-                                 </section>
-                              </div>
-                              <div class="accordion-item">
-                                 <h4 class="accordion-toggle">What if I run into any trouble during the test?</h4>
-                                 <section class="accordion-inner panel-body">
+
+
+
+                                 <h3>How do I actually take an exam once I launch the application?</h3>
+
+                                    <p>After the ID Check and Authentication, you will be prompted to navigate to their test within the LMS or test delivery system. In cases where students are prompted for a test password, a large “Unlock Your Test” button will be displayed in the sidebar of the application, allowing you to access your exam inside the secure browser only.</p>
+
+
+
+                                 <h3>What if I run into any trouble during the test?</h3>
+
                                     <p>
                                         A “click to connect” button will also be displayed on the sidebar of the application to engage a customer service representative if technical help is needed.
                                     </p>
-                                 </section>
-                              </div>
+
+
+
+
                            </div>
                         </div>
                      <!-- FAQ end-->
@@ -206,10 +188,11 @@
                      </div>
                      <!-- Sidebar End -->
                   </div>
+                   <div class="divider"></div>
                </div>
-            </div>
+
          <!-- Content End -->
-       </div>
+
 	   <!-- background image row end -->
 
         <!-- Footer Start -->
@@ -276,7 +259,7 @@
 
         <!-- Demo form modal start-->
         <?php include '../views/demo-form.php'; ?>
-         <!-- Demo form modal end-->
+    <!-- Demo form modal end-->
 
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
@@ -297,7 +280,6 @@
       <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
       <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
-
       <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
 
       <?php if(ENVIRONMENT == 'production'){ ?>
