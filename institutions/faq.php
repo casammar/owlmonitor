@@ -126,77 +126,110 @@
                <div class="container">
                 <div class="row" style="margin-top:50px;">
                      <!-- FAQ Start -->
-                        <div class="col-lg-9 col-md-9 col-sm-9  institution-content-container"">
+                        <div class="col-lg-9 col-md-9 col-sm-9  institution-content-container">
                           <h2>Institution FAQs</h2>
                            <div class= panel-group">
-                                 <h3>What is ExamHawk?</h3>
-                                    <p>
-                                        ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
-                                    </p>
-
-                                 <h3>What are ExamHawk's security features?</h3>
-
-                                    <p>
-                                        During an exam:<br>
-                                        The test-taker’s webcam feed, audio feed, screenshots are all recorded<br>
-                                        A live person will monitor the test-taker for any infractions and will be available for customer service issues via<br>
-                                        chat or video chat directly with the test-taker<br>
-                                        The application tracks facial engagement, audio analysis, keystrokes, and ping
-                                    </p>
-
-
-
-                                 <h3>How does it work?</h3>
-                                 <p>
-                                    1. Before an exam, the test-taker downloads a small application.<br>
-                                    2. The application will run a system test on the examinee’s webcam, audio feed and Internet speed.<br>
-                                    3. The application will take the user through an ID and authentication check.<br>
-                                    4. The test-taker then takes their exam through a secure browser within their LMS.<br>
-                                 </p>
-
-
-                                 <h3>How are suspicious activities handled?</h3>
-
-                                    <p>
-                                        A partner institution representative will be alerted to any suspicious activity or incidents within minutes of a suspicious incident.
-                                    </p>
-                                    <p>
-                                        A detailed incident report containing a brief summary, photographs, screen capture images and the corresponding details will be emailed to the contact person within two business days of the incident
-                                    </p>
-
-
-
-                                 <h3>Is technical support available?</h3>
-
-                                    <p>
-                                        ExamHawk’s technical support is available to all examinees through live online sessions, telephone and email 24 hours a day, seven days per week
-                                    </p>
-
-
-
-                                 <h3>How is ExamHawk implemented?</h3>
-
-                                    <p>
-                                        ExamHawk works with any LMS or test delivery system and ExamHawk representatives will work with your institution to make the delivery process as seamless as possible
-                                    </p>
-
-
-
-                                 <h3>How much does ExamHawk cost?</h3>
-
-                                    <p>
-                                        exam starts at $10 per examination!
-                                    </p>
-
-
-                           </div>
+                            <h3>What is ExamHawk?</h3>
+                            <p>
+                               ExamHawk is an online exam monitoring service for institutions looking for a flexible, technically-robust remote exam monitoring solution. The service’s mission is to increase access to online exams, making the experience convenient, cost effective and easy for both the educator and test-taker while maintaining the highest exam integrity.
+                            </p>
+                            <h3>What are ExamHawk's security features?</h3>
+                            <p>
+                               During an exam:<br>
+                               The test-taker’s webcam feed, audio feed, screenshots are all recorded<br>
+                               A live person will monitor the test-taker for any infractions and will be available for customer service issues via<br>
+                               chat or video chat directly with the test-taker<br>
+                               The application tracks facial engagement, audio analysis, keystrokes, and ping
+                            </p>
+                            <h3>How does it work?</h3>
+                            <p>
+                               1. Before an exam, the test-taker downloads a small application.<br>
+                               2. The application will run a system test on the examinee’s webcam, audio feed and Internet speed.<br>
+                               3. The application will take the user through an ID and authentication check.<br>
+                               4. The test-taker then takes their exam through a secure browser within their LMS.<br>
+                            </p>
+                            <h3>How are suspicious activities handled?</h3>
+                            <p>
+                               A partner institution representative will be alerted to any suspicious activity or incidents within minutes of a suspicious incident.
+                            </p>
+                            <p>
+                               A detailed incident report containing a brief summary, photographs, screen capture images and the corresponding details will be emailed to the contact person within two business days of the incident
+                            </p>
+                            <h3>What are the system requirements?</h3>
+                            <table cellpadding="10" cellspacing="10" border="0">
+                               <tr>
+                                  <th rowspan="5" class="text-center">Windows</th>
+                               </tr>
+                               <tr>
+                                  <th></th>
+                                  <th>FEATURE</th>
+                                  <th>MINIMUM REQUIREMENT</th>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>Processor</td>
+                                  <td>Validation of 2.33GHz or faster x86-compatible processor, or Intel Atom? 1.5GHz or faster processor for netbook class devices set</td>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>OS Version</td>
+                                  <td>Microsoft&reg; Windows&reg; XP, Windows Server 2008, Windows Vista&reg; (Including 64 bit editions) with Service Pack 2, Windows 7, or Windows 8 classic
+                                  <td>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>RAM</td>
+                                  <td>512MB of RAM (1GB recommended)</td>
+                               </tr>
+                            </table>
+                            <hr>
+                            <table cellpadding="10" cellspacing="10" border="0">
+                               <tr>
+                                  <th rowspan="5" class="text-center">Mac OSX</th>
+                               </tr>
+                               <tr>
+                                  <th></th>
+                                  <th>FEATURE</th>
+                                  <th>MINIMUM REQUIREMENT</th>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>Processor</td>
+                                  <td>Intel &reg; Core Duo 1.83GHz or faster processor</td>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>OS Version</td>
+                                  <td>Mac OS X v10.6, v10.7, or v10.8
+                                  <td>
+                               </tr>
+                               <tr>
+                                  <td></td>
+                                  <td>RAM</td>
+                                  <td>512MB of RAM (1GB recommended)</td>
+                               </tr>
+                            </table>
+                            <br>
+                            <h3>Is technical support available?</h3>
+                            <p>
+                               ExamHawk’s technical support is available to all examinees through live online sessions, telephone and email 24 hours a day, seven days per week
+                            </p>
+                            <h3>How is ExamHawk implemented?</h3>
+                            <p>
+                               ExamHawk works with any LMS or test delivery system and ExamHawk representatives will work with your institution to make the delivery process as seamless as possible
+                            </p>
+                            <h3>How much does ExamHawk cost?</h3>
+                            <p>
+                               exam starts at $10 per examination!
+                            </p>
+                         </div>
                         </div>
                      <!-- FAQ end-->
                      <!-- Sidebar Begin -->
                      <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-2 col-md-2 col-sm-2 col-xs-12 about-sidebar">
 
                      <?php include '../views/about-sidebar.php'; ?>
-                     </div>
+                  </div>
                      <!-- Sidebar End -->
                   </div>
                    <div class="divider"></div>

@@ -154,6 +154,62 @@
                                     2. A working webcam.<br>
                                  </p>
 
+                                 <h3>What are the system requirements?</h3>
+                                    <table cellpadding="10" cellspacing="10" border="0">
+                                       <tr>
+                                          <th rowspan="5" class="text-center">Windows</th>
+                                       </tr>
+                                       <tr>
+                                          <th></th>
+                                          <th>FEATURE</th>
+                                          <th>MINIMUM REQUIREMENT</th>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>Processor</td>
+                                          <td>Validation of 2.33GHz or faster x86-compatible processor, or Intel Atom? 1.5GHz or faster processor for netbook class devices set</td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>OS Version</td>
+                                          <td>Microsoft&reg; Windows&reg; XP, Windows Server 2008, Windows Vista&reg; (Including 64 bit editions) with Service Pack 2, Windows 7, or Windows 8 classic
+                                          <td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>RAM</td>
+                                          <td>512MB of RAM (1GB recommended)</td>
+                                       </tr>
+                                    </table>
+                                    <hr>
+                                    <table cellpadding="10" cellspacing="10" border="0">
+                                       <tr>
+                                          <th rowspan="5" class="text-center">Mac OSX</th>
+                                       </tr>
+                                       <tr>
+                                          <th></th>
+                                          <th>FEATURE</th>
+                                          <th>MINIMUM REQUIREMENT</th>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>Processor</td>
+                                          <td>Intel &reg; Core Duo 1.83GHz or faster processor</td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>OS Version</td>
+                                          <td>Mac OS X v10.6, v10.7, or v10.8
+                                          <td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                          <td>RAM</td>
+                                          <td>512MB of RAM (1GB recommended)</td>
+                                       </tr>
+                                    </table>
+                                    <br>
+
 
                                  <h3>What can I expect from the ExamHawk application?</h3>
 
