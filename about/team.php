@@ -139,7 +139,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt=""  src="<?php echo BASE_URL; ?>/img/sandbox/guy-profile-small.jpg">
+                                       <img alt="guy friedman profile picture"  style="margin-top: 35px;" src="<?php echo BASE_URL; ?>/img/sandbox/guy-profile-small.png">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/guyafriedman"><i class="icon-facebook"></i></a>
@@ -164,7 +164,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                        <img alt="" style="margin-top: 20px;" src="<?php echo BASE_URL; ?>/img/sandbox/matt-profile-small.jpg">
+                                        <img alt="matt jaeh profile picture" style="margin-top: 20px;" src="<?php echo BASE_URL; ?>/img/sandbox/matt-profile-small.jpg">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/matthew.jaeh"><i class="icon-facebook"></i></a>
@@ -189,7 +189,7 @@
                               <div class="team-member">
                                  <div class="team-member-holder">
                                     <div class="team-member-image">
-                                       <img alt=""  style="margin-top: 10px;" src="<?php echo BASE_URL; ?>/img/sandbox/chris-profile-small.png">
+                                       <img alt="chris sammarco profile picture"  style="margin-top: 10px;" src="<?php echo BASE_URL; ?>/img/sandbox/chris-profile-small.png">
                                        <div class="team-member-links">
                                           <div class="team-member-links-list">
                                              <a target="_blank" class="facebook team-member-links-item" href="https://www.facebook.com/chris.sammarco"><i class="icon-facebook"></i></a>
