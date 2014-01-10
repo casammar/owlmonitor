@@ -132,54 +132,31 @@
                    <div class="col-lg-9 col-md-9 col-sm-9  about-content-container content-container" >
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 ">
-                                <h2>Schedule a Live Demo!</h2>
+                                <h2>Contact ExamHawk</h2>
 
                             </div>
                         </div>
+                       <div class="row">
+                           <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=417+North+8th+Street,+Philadelphia,+PA&amp;aq=0&amp;oq=417+north&amp;sll=40.002498,-75.118033&amp;sspn=0.467596,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=417+N+8th+St,+Philadelphia,+Pennsylvania+19133&amp;t=m&amp;z=14&amp;ll=39.959548,-75.151859&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=417+North+8th+Street,+Philadelphia,+PA&amp;aq=0&amp;oq=417+north&amp;sll=40.002498,-75.118033&amp;sspn=0.467596,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=417+N+8th+St,+Philadelphia,+Pennsylvania+19133&amp;t=m&amp;z=14&amp;ll=39.959548,-75.151859" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                       </div>
                         <div class="row" style="padding:20px;">
                             <div class="col-lg-12 col-md-12 col-sm-12">
-                               <form method="post" class="reply" id="contact">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <label>Name: <span>*</span></label>
-                                            <input class="form-control" id="name" name="name" type="text" value="" required>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <label>Email: <span>*</span></label>
-                                            <input class="form-control" type="email" id="email" name="email" value="" required>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <label>Phone: <span>*</span></label>
-                                            <input class="form-control" type="text" id="phone" name="phone" value="" required>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <label>Company: <span>*</span></label>
-                                            <input class="form-control" type="text" id="company" name="company" value="" required>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                            <button class="btn btn-primary btn-lg" style="min-width: 200px;" type="submit" >Live Demo</button>
-                                        </div>
-                                    </div>
+                                <ul class="">
+                                    <li>
+                                       <p><i class="icon-map-marker"></i>
+                                          <strong>Address:</strong>
+                                          Philadelphia, PA
+                                       </p>
+                                    </li>
+                                    <li>
 
-                                <div class="success alert-success alert" style="display:none">
-                                    Your message has been sent successfully.
-                                </div>
-                                <div class="error alert-error alert" style="display:none">
-                                    E-mail must be valid and message must be longer than 100 characters.
-                                </div>
-                                <div class="clearfix">
-                                </div>
-                            </form>
+                                       <p><i class="icon-phone"></i><strong> Phone:</strong>215-995-6893</p>
+                                    </li>
+                                    <li>
+
+                                       <p><i class="icon-envelope"></i><strong> Email:</strong><a href="mailto:guy@ExamHawk.com">guy@ExamHawk.com</a></p>
+                                    </li>
+                                 </ul>
                             </div>
                         </div>
                     </div>
