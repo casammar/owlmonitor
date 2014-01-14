@@ -14,26 +14,16 @@
             <meta name="google-site-verification" content="I65w_rleeBlQuYO8sDSqX-13h19KL1oPMz34-67sw8w" />
             <!-- Google Fonts -->
             <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.googleapis.com/css?family=ABeeZee|Merriweather+Sans:700,400|Archivo+Narrow:400,700|Amaranth:400,700' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
             <!-- Library CSS -->
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-            <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
-            <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
-
-            <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/prettyPhoto.css" media="screen">
             <!-- Theme CSS -->
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
             <!-- Skin -->
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
             <!-- Responsive CSS -->
             <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
-            <!-- Switcher CSS -->
-            <link rel="stylesheet" href="css/switcher.css">
-            <link rel="stylesheet" href="css/spectrum.css">
-            <link rel="stylesheet" href="css/slider.css">
             <!-- Favicons -->
             <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
             <link rel="icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
@@ -51,7 +41,6 @@
             <![endif]-->
          </head>
          <body data-site-url="<?php echo BASE_URL; ?>">
-            <div class="background-banner" id="front-page-background-banner">
                 <!-- Header Start -->
                 <header id="header">
                    <!-- Header Top Bar Start -->
@@ -126,7 +115,7 @@
                 </header>
                 <!-- Header End -->
 
-
+                <div class="background-banner" id="front-page-background-banner">
                   <div class="container">
                   <!-- Top Content Begin -->
                   <div class="row">
@@ -219,33 +208,14 @@
                 <?php include './views/demo-form.php'; ?>
             <!-- Demo form modal end-->
 
-
-
             <!-- The Scripts -->
             <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jquery.parallax.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/modernizr-2.6.2.min.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jquery.nivo.slider.pack.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jquery.prettyPhoto.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jquery.isotope.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/superfish.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/tweetMachine.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/tytabs.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jquery.gmap.min.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/circularnav.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/jquery.sticky.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/spectrum.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/switcher.js"></script>
-            <script src="<?php echo BASE_URL; ?>/js/bootstrap-slider.js"></script>
             <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
-
-            <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
-
+            <script src="<?php echo BASE_URL; ?>/js/snap-chat.js"></script>
             <?php if(ENVIRONMENT == 'production'){ ?>
                   <script src="<?php echo BASE_URL; ?>/js/ga.js"></script>
             <?php } ?>
