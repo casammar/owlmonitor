@@ -10,8 +10,6 @@ jQuery(document).ready(function () {
 	});
 
 
-
-
 /*----------------------------------------------------*/
 /*	Keyframe animations enable
 /*----------------------------------------------------*/
@@ -29,27 +27,6 @@ jQuery().waypoint && jQuery("body").imagesLoaded(function () {
             triggerOnce: !0
         })
     });
-
-
-
-/*----------------------------------------------------*/
-/*	Flickr Feed
-/*----------------------------------------------------*/
-
-$('ul#flickrfeed').jflickrfeed({
-		limit: 6,
-		qstrings: {
-			id: '71865026@N00'
-		},
-		itemTemplate: '<li>'+
-						'<a rel="prettyPhoto[pp_gal]" href="{{image}}">' +
-							'<img src="{{image_s}}" alt="{{title}}" />' +
-						'</a>' +
-					  '</li>'
-	}, function(data) {
-		$('a[rel^="prettyPhoto"]').prettyPhoto();
-	});
-
 
 
 /*----------------------------------------------------*/
@@ -149,212 +126,6 @@ $('ul#flickrfeed').jflickrfeed({
 });
 
 
-
-/*----------------------------------------------------*/
-/*	Nivo Slider
-/*----------------------------------------------------*/
-
-jQuery(window).load(function() {
-    jQuery('#nivoslider').nivoSlider({
-        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
-        slices: 15, // For slice animations
-        boxCols: 8, // For box animations
-        boxRows: 4, // For box animations
-        animSpeed: 500, // Slide transition speed
-        pauseTime: 5000, // How long each slide will show
-        startSlide: 0, // Set starting Slide (0 index)
-        directionNav: true, // Next & Prev navigation
-        controlNav: false, // 1,2,3... navigation
-        controlNavThumbs: false, // Use thumbnails for Control Nav
-        pauseOnHover: true, // Stop animation while hovering
-        manualAdvance: false, // Force manual transitions
-        prevText: '', // Prev directionNav text
-        nextText: '', // Next directionNav text
-        randomStart: false, // Start on a random slide
-        beforeChange: function(){}, // Triggers before a slide transition
-        afterChange: function(){}, // Triggers after a slide transition
-        slideshowEnd: function(){}, // Triggers after all slides have been shown
-        lastSlide: function(){}, // Triggers when last slide is shown
-        afterLoad: function(){} // Triggers when slider has loaded
-    });
-});
-
-
-
-/*----------------------------------------------------*/
-/*	Revolution Slider Triggering
-/*----------------------------------------------------*/
-
-
-   jQuery(document).ready(function() {
-      if (jQuery.fn.cssOriginal!=undefined)
-      jQuery.fn.css = jQuery.fn.cssOriginal;
-      jQuery('.fullwidthbanner').revolution({
-        delay: 9000,
-        startwidth: 1170,
-        startheight: 470,
-
-        onHoverStop: "on",
-        // Stop Banner Timet at Hover on Slide on/off
-        thumbWidth: 100,
-        // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
-        thumbHeight: 50,
-        thumbAmount: 3,
-
-        hideThumbs: 0,
-        navigationType: "none",
-        // bullet, thumb, none
-        navigationArrows: "solo",
-        // nexttobullets, solo (old name verticalcentered), none
-        navigationStyle: "square",
-        // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
-
-        navigationHAlign: "center",
-        // Vertical Align top,center,bottom
-        navigationVAlign: "top",
-        // Horizontal Align left,center,right
-        navigationHOffset: 0,
-        navigationVOffset: 20,
-
-        soloArrowLeftHalign: "left",
-        soloArrowLeftValign: "center",
-        soloArrowLeftHOffset: 0,
-        soloArrowLeftVOffset: 0,
-
-        soloArrowRightHalign: "right",
-        soloArrowRightValign: "center",
-        soloArrowRightHOffset: 0,
-        soloArrowRightVOffset: 0,
-
-        touchenabled: "on",
-        // Enable Swipe Function : on/off
-
-
-        stopAtSlide: -1,
-        // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
-        stopAfterLoops: -1,
-        // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
-        hideCaptionAtLimit: 0,
-        // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
-        hideAllCaptionAtLilmit: 0,
-        // Hide all The Captions if Width of Browser is less then this value
-        hideSliderAtLimit: 0,
-        // Hide the whole slider, and stop also functions if Width of Browser is less than this value
-
-        fullWidth: "on",
-
-        shadow: 0 //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
-    });
-
-
-
-
-});
-
-
-
-
-
-/*----------------------------------------------------*/
-/*	Carousel Section
-/*----------------------------------------------------*/
-
-	jQuery('.portfolio-carousel').carousel({interval: false, wrap: false});
-
-
-	jQuery('.client-carousel').carousel({interval: false, wrap: false});
-
-	jQuery('.testimonials-carousel').carousel({interval: 5000, pause: "hover"});
-
-
-
-$(document).ready(function(){
-		$("a[rel^='prettyPhoto']").prettyPhoto({
-			animation_speed: 'fast', /* fast/slow/normal */
-			slideshow: 5000, /* false OR interval time in ms */
-			autoplay_slideshow: false, /* true/false */
-			opacity: 0.80, /* Value between 0 and 1 */
-			show_title: true, /* true/false */
-			allow_resize: true, /* Resize the photos bigger than viewport. true/false */
-			default_width: 500,
-			default_height: 344,
-			counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
-			theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-			horizontal_padding: 20, /* The padding on each side of the picture */
-			hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
-			wmode: 'opaque', /* Set the flash wmode attribute */
-			autoplay: true, /* Automatically start videos: True/False */
-			modal: false, /* If set to true, only the close button will close the window */
-			deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
-			overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
-			keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
-			changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
-			callback: function(){}, /* Called when prettyPhoto is closed */
-			ie6_fallback: true,
-			markup: '<div class="pp_pic_holder"> \
-						<div class="ppt">&nbsp;</div> \
-						<div class="pp_top"> \
-							<div class="pp_left"></div> \
-							<div class="pp_middle"></div> \
-							<div class="pp_right"></div> \
-						</div> \
-						<div class="pp_content_container"> \
-							<div class="pp_left"> \
-							<div class="pp_right"> \
-								<div class="pp_content"> \
-									<div class="pp_loaderIcon"></div> \
-									<div class="pp_fade"> \
-										<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
-										<div class="pp_hoverContainer"> \
-											<a class="pp_next" href="#">next</a> \
-											<a class="pp_previous" href="#">previous</a> \
-										</div> \
-										<div id="pp_full_res"></div> \
-										<div class="pp_details"> \
-											<div class="pp_nav"> \
-												<a href="#" class="pp_arrow_previous">Previous</a> \
-												<p class="currentTextHolder">0/0</p> \
-												<a href="#" class="pp_arrow_next">Next</a> \
-											</div> \
-											<p class="pp_description"></p> \
-											{pp_social} \
-											<a class="pp_close" href="#">Close</a> \
-										</div> \
-									</div> \
-								</div> \
-							</div> \
-							</div> \
-						</div> \
-						<div class="pp_bottom"> \
-							<div class="pp_left"></div> \
-							<div class="pp_middle"></div> \
-							<div class="pp_right"></div> \
-						</div> \
-					</div> \
-					<div class="pp_overlay"></div>',
-			gallery_markup: '<div class="pp_gallery"> \
-								<a href="#" class="pp_arrow_previous">Previous</a> \
-								<div> \
-									<ul> \
-										{gallery} \
-									</ul> \
-								</div> \
-								<a href="#" class="pp_arrow_next">Next</a> \
-							</div>',
-			image_markup: '<img id="fullResImage" src="{path}" />',
-			flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
-			quicktime_markup: '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" height="{height}" width="{width}"><param name="src" value="{path}"><param name="autoplay" value="{autoplay}"><param name="type" value="video/quicktime"><embed src="{path}" height="{height}" width="{width}" autoplay="{autoplay}" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"></embed></object>',
-			iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
-			inline_markup: '<div class="pp_inline">{content}</div>',
-			custom_markup: '',
-			social_tools: '<div class="pp_social"><div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&href='+location.href+'&amp;layout=button_count&amp;show_faces=true&amp;width=500&amp;action=like&amp;font&amp;colorscheme=light&amp;height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div></div>' /* html or false to disable */
-		});
-	});
-
-
-
-
-
 /*----------------------------------------------------*/
 /*	Hover Overlay
 /*----------------------------------------------------*/
@@ -450,18 +221,6 @@ jQuery(document).ready(function () {
 });
 
 
-
-/*----------------------------------------------------*/
-/*	Clients section Parallax
-/*----------------------------------------------------*/
-
-	jQuery('.client').parallax("50%", 0.1);
-	jQuery('.service-reasont').parallax("50%", 0.1);
-
-	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({overlay_gallery: false});
-
-
-
 /*----------------------------------------------------*/
 /*	Tootltip Initialize
 /*----------------------------------------------------*/
@@ -523,134 +282,6 @@ jQuery(document).ready(function () {
 
 
 
-/*----------------------------------------------------*/
-/*	Twitter Section
-/*----------------------------------------------------*/
-
-	jQuery('#tweets').tweetMachine('', {
-		backendScript:  'http://demo.fifothemes.com/pixma/ajax/getFromTwitter.php',
-		endpoint: 'statuses/user_timeline',
-		user_name: 'FIFOThemes',
-		include_retweets: true,
-		exclude_replies: false,
-		limit: 1,
-		autoRefresh: false
-	});
-
-
-
-
-
-/*----------------------------------------------------*/
-/*	Tabs Control Section
-/*----------------------------------------------------*/
-
-
-	jQuery("#horizontal-tabs").tytabs({
-		tabinit: "1",
-		fadespeed: "fast"
-	});
-	jQuery("#horizontal-tabs.two").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_two",
-		prefixcontent: "content_two",
-		fadespeed: "fast"
-	});
-	jQuery("#horizontal-tabs.three").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_three",
-		prefixcontent: "content_three",
-		fadespeed: "fast"
-	});
-	jQuery("#horizontal-tabs.four").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_four",
-		prefixcontent: "content_four",
-		fadespeed: "fast"
-	});
-	jQuery("#horizontal-tabs.five").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_five",
-		prefixcontent: "content_five",
-		fadespeed: "fast"
-	});
-	jQuery("#vertical-tabs").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_v",
-		prefixcontent: "content_v",
-		fadespeed: "fast"
-	});
-	jQuery("#vertical-tabs.two").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_v_two",
-		prefixcontent: "content_v_two",
-		fadespeed: "fast"
-	});
-	jQuery("#vertical-tabs.three").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_v_three",
-		prefixcontent: "content_v_three",
-		fadespeed: "fast"
-	});
-	jQuery("#vertical-tabs.four").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_v_four",
-		prefixcontent: "content_v_four",
-		fadespeed: "fast"
-	});
-	jQuery("#vertical-tabs.five").tytabs({
-		tabinit: "1",
-		prefixtabs: "tab_v_five",
-		prefixcontent: "content_v_five",
-		fadespeed: "fast"
-	});
-	jQuery(".hideit").click(function () {
-		e(this).fadeOut(600)
-	});
-	jQuery("#toggle-view li h4").click(function () {
-		var t = e(this).siblings("div.panel");
-		if (t.is(":hidden")) {
-			t.slideDown("200");
-			e(this).siblings("span").html("-")
-		} else {
-			t.slideUp("200");
-			e(this).siblings("span").html("+")
-		}
-	});
-
-	jQuery(function (jQuery) {
-		jQuery("#example").popover();
-		jQuery("#example_left").popover({
-			placement: 'left'
-		});
-		jQuery("#example_top").popover({
-			placement: 'top'
-		});
-		jQuery("#example_bottom").popover({
-			placement: 'bottom'
-		});
-	});
-
-
-
-	/*----------------------------------------------------*/
-	/*	Jquery Google map Section
-	/*----------------------------------------------------*/
-
-	//Google map
-	jQuery('#maps').gMap({
-		address: "2100 Riverchase Center #108 Birmingham, AL 35244",
-		zoom: 10,
-		markers: [{
-			latitude: 33.36437,
-			longitude: -86.787078,
-			html: "<h4>OwlMonitor</h4>",
-			popup: true
-		}]
-	});
-
-
-
 	/*----------------------------------------------------*/
 	/*	Contact Form Section
 	/*----------------------------------------------------*/
@@ -674,8 +305,9 @@ jQuery(document).ready(function () {
 		    url: siteurl + "/ajax/process.php",
 		    data: dataString,
 		    success: function () {
-			$('.success').fadeIn(1000).fadeOut(1000);
-			$('#demo-form').modal('hide');
+			$('.form-body').fadeOut(1000);
+			$('.message-sent').fadeIn(1000).fadeOut(3000);
+			//$('#demo-form').modal('hide');
 
 		    }
 		});
@@ -698,148 +330,6 @@ jQuery(document).ready(function () {
 //	    $("#user-version").append( BrowserDetect.version);
 //	});
 
-
-/*----------------------------------------------------*/
-/*	STYLE SWITCHER SLIDER
-/*----------------------------------------------------*/
-
-	jQuery(document).ready(function(){
-
-	    //Header Color Change
-	    $(".header-bg").spectrum({
-		showInitial: true,
-		    color: "#00BDFF",
-		    preferredFormat: "hex6",
-		showInput: true,
-		    move: updateHeader
-	    });
-	    //Changing the header color instantly
-	    function updateHeader(color) {
-		$(".content-container h2").css("color", color.toHexString());
-	    }
-
-	    $("#content-box-style").on('change', function() {
-		var align = $(this).val();
-
-		if (align == 2){
-		    console.log('remove left');
-		    console.log('add right');
-
-		    $( ".content-container" ).removeClass( "pull-left" );
-		    $( ".content-container" ).addClass( "pull-right" );
-		}
-
-		else if(align == 1){
-		    console.log('remove right');
-		    console.log('add left');
-
-		    $( ".content-container" ).removeClass( "pull-right" );
-		    $( ".content-container" ).addClass( "pull-left" );
-		}
-
-
-
-
-	    });
-
-	    //initialize slider
-	    $('.slider').slider()
-
-	    .on('slide', function(ev){
-		switch(ev.value) {
-		    case (1):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web.jpg')");
-			break;
-		    case (2):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-2.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-2.jpg')");
-			break;
-		    case (3):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-3.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-3.jpg')");
-			break;
-		    case (4):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-4.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-4.jpg')");
-			break;
-		    case (5):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-5.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-5.jpg')");
-		        break;
-		    case (6):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-6.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-6.jpg')");
-			break;
-		    case (7):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-7.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-7.jpg')");
-			break;
-		    case (8):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-8.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-8.jpg')");
-			break;
-		    case (9):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-9.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-9.jpg')");
-			 break;
-		    case (10):
-			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-10.jpg')");
-			 $("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-10.jpg')");
-			 break;
-		    case (11):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-11.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-11.jpg')");
-			break;
-		    case (12):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-12.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-12.jpg')");
-			break;
-		    case (13):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-13.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-13.jpg')");
-			break;
-		    case (14):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-14.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-14.jpg')");
-			break;
-		    case (15):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-15.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-15.jpg')");
-		        break;
-		    case (16):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-16.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-16.jpg')");
-			break;
-		    case (17):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-17.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-17.jpg')");
-			break;
-		    case (18):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-18.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-18.jpg')");
-			break;
-		    case (19):
-			$("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-19.jpg')");
-			$("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-19.jpg')");
-			 break;
-		    case (20):
-			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-20.jpg')");
-			 $("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-20.jpg')");
-			 break;
-		    case (21):
-			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-21.jpg')");
-			 $("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-21.jpg')");
-			 break;
-	            case (22):
-			 $("#front-page-background-banner").css("background-image", "url('./img/sandbox/Campus_web-22.jpg')");
-			 $("#institutions-page-background-banner").css("background-image", "url('../img/sandbox/Campus_web-22.jpg')");
-			 break;
-		}
-	    });
-	});
-
-
 /*----------------------------------------------------*/
 /*       FULLSCREEN BACKGROUND PICTURES
 /*----------------------------------------------------*/
@@ -848,5 +338,14 @@ jQuery(document).ready(function () {
 	    //on resize change background pic height
 	    $(window).bind("resize", function() {
 		$(".background-banner").css("height", $(window).height());
+
+		if($(window).width() < 767){
+		    //$(".background-banner").removeAttr('id').removeAttr('style');
+		    //$("#front-page-background-banner").removeClass( "background-banner" );
+		   // $('div#front-page-background-banner').removeAttr('id').removeAttr('style');
+
+		}
+
 	    });
+
 	});
