@@ -6,32 +6,29 @@
    <head>
       <meta charset="utf-8">
       <title>ExamHawk | Institutions FAQ</title>
-      <meta name="description" content="The ExamHawk application allows you to take an online test anywhere, anytime.">
+      <meta name="description" content="Frequently asked questions about ExamHawk for institutions.">
       <meta name="author" content="">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
       <!-- Library CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/fonts/font-awesome/css/font-awesome.css">
-         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/animations.css" media="screen">
-      <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/superfish.css" media="screen">
       <!-- Theme CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
       <!-- Skin -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/custom.css">
-
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/theme-responsive.css">
       <!-- Favicons -->
       <link rel="shortcut icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
       <link rel="icon" href="<?php echo BASE_URL; ?>/img/ico/favicon.ico" type="image/x-icon">
-      <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-114.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-144.png">
+      <link rel="apple-touch-icon" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="<?php echo BASE_URL; ?>/img/ico/apple-touch-icon-120x120.png" />
       <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -136,7 +133,7 @@
                             <h3>What are ExamHawk's security features?</h3>
                             <p>
                                During an exam:<br>
-                               The test-taker’s webcam feed, audio feed, screenshots are all recorded<br>
+                               The test-takers webcam feed, audio feed, screenshots are all recorded<br>
                                A live person will monitor the test-taker for any infractions and will be available for customer service issues via<br>
                                chat or video chat directly with the test-taker<br>
                                The application tracks facial engagement, audio analysis, keystrokes, and ping
@@ -220,7 +217,7 @@
                             </p>
                             <h3>How much does ExamHawk cost?</h3>
                             <p>
-                               exam starts at $10 per examination!
+                               Exams start at $10!
                             </p>
                          </div>
                         </div>
@@ -301,33 +298,20 @@
            <!-- Footer Bottom End -->
         </footer>
 
-        <!-- Demo form modal start-->
-        <?php include '../views/demo-form.php'; ?>
-    <!-- Demo form modal end-->
+            <!-- Demo form modal start-->
+                <?php include '../views/demo-form.php'; ?>
+            <!-- Demo form modal end-->
 
-      <!-- The Scripts -->
-      <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.parallax.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/modernizr-2.6.2.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.nivo.slider.pack.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.prettyPhoto.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.isotope.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/superfish.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/tweetMachine.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/tytabs.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.gmap.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/circularnav.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jquery.sticky.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/jflickrfeed.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/imagesloaded.pkgd.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/waypoints.min.js"></script>
-      <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
-      <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'd5e7d80c-967b-4390-a12c-c25e4bfd6633', f: true }); done = true; } }; })();</script>
-
-      <?php if(ENVIRONMENT == 'production'){ ?>
-            <script src="<?php echo BASE_URL; ?>/js/ga.js"></script>
-      <?php } ?>
-   </body>
+            <!-- The Scripts -->
+            <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/bootstrap.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/modernizr-2.6.2.min.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/superfish.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/jquery.sticky.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/custom.js"></script>
+            <script src="<?php echo BASE_URL; ?>/js/snap-chat.js"></script>
+            <?php if(ENVIRONMENT == 'production'){ ?>
+                  <script src="<?php echo BASE_URL; ?>/js/ga.js"></script>
+            <?php } ?>
+         </body>
 </html>
