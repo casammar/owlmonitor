@@ -305,14 +305,14 @@ jQuery(document).ready(function () {
 		    url: siteurl + "/ajax/process.php",
 		    data: dataString,
 		    success: function () {
-			$('.form-body').fadeOut(1000);
-			$('.message-sent').fadeIn(1000).fadeOut(3000);
-			//$('#demo-form').modal('hide');
-
+			$('#demo-form-submit').hide();
+			$('.form-body').hide();
+			$('.message-sent').fadeIn(1000);
 		    }
 		});
+
 	    } else {
-		$('.error').fadeIn(1000).delay(5000).fadeOut(1000);
+		$('.error').fadeIn(1000).delay(5000).fadeOut(10000);
 
 	    }
 
