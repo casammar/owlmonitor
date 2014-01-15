@@ -134,8 +134,11 @@
                            <header class="post-header" >
                               <h2>Conferences</h2>
                               <br>
-                              <h3 class="content-title"><a href="http://educonphilly.org/" target="_blank">Educon</a></h3>
-                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                              <h3 class="content-title">Educon</h3>
+                             <div class="blog-entry-meta">
+                                 <div class="blog-entry-meta-date">
+                                      <a href="http://educonphilly.org/" target="_blank"><i class="icon-external-link"></i>More Info</a>
+                                 </div>
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
                                     <span class="blog-entry-meta-date-month">January</span>
@@ -146,7 +149,9 @@
                                     <i class="icon-map-marker"></i>
                                     <span class="blog-entry-meta-date-month">Philadelphia, PA</span>
                                  </div>
-
+                                 <div class="blog-entry-meta-date">
+                                    <a class="btn btn-primary conference-btn join-conference" data-toggle="modal" data-target="#conference-form"href="#">I'm going</a>
+                                 </div>
                               </div>
                            </header>
 
@@ -154,17 +159,23 @@
                        <hr>
                        <article class="post hentry" >
                            <header class="post-header">
-                              <h3 class="content-title"><a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank">FETC 2014</a></h3>
-                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                              <h3 class="content-title">FETC 2014</h3>
+                              <div class="blog-entry-meta">
+                                 <div class="blog-entry-meta-date">
+                                     <a href="http://fetc.org/Events/Educational-Technology-Conference/Home.aspx" target="_blank"><i class="icon-external-link"></i>More Info</a>
+                                 </div>
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
                                     <span class="blog-entry-meta-date-month">January</span>
                                     <span class="blog-entry-meta-date-day">28 - 31,</span>
                                     <span class="blog-entry-meta-date-year">2014</span>
                                  </div>
-                                    <div class="blog-entry-meta-date">
+                                 <div class="blog-entry-meta-date">
                                     <i class="icon-map-marker"></i>
                                     <span class="blog-entry-meta-date-month">Orlando, FL</span>
+                                 </div>
+                                  <div class="blog-entry-meta-date">
+                                    <a class="btn btn-primary conference-btn join-conference" data-toggle="modal" data-target="#conference-form"href="#">I'm going</a>
                                  </div>
                               </div>
                            </header>
@@ -173,17 +184,23 @@
                        <hr>
                        <article class="post hentry" >
                            <header class="post-header">
-                              <h3 class="content-title"><a href="http://www.the-oesis.com/" target="_blank">OESIS 2014</a></h3>
-                              <div class="blog-entry-meta" style="padding-left: 50px;min-width:600px;">
+                              <h3 class="content-title">OESIS 2014</h3>
+                              <div class="blog-entry-meta">
+                                  <div class="blog-entry-meta-date">
+                                     <a href="http://www.the-oesis.com/" target="_blank"><i class="icon-external-link"></i>More Info</a>
+                                 </div>
                                  <div class="blog-entry-meta-date">
                                     <i class="icon-time"></i>
                                     <span class="blog-entry-meta-date-month">February</span>
                                     <span class="blog-entry-meta-date-day">6 - 7,</span>
                                     <span class="blog-entry-meta-date-year">2014</span>
                                  </div>
-                                    <div class="blog-entry-meta-date">
+                                 <div class="blog-entry-meta-date">
                                     <i class="icon-map-marker"></i>
                                     <span class="blog-entry-meta-date-month">Marina Del Ray, CA</span>
+                                 </div>
+                                  <div class="blog-entry-meta-date">
+                                    <a class="btn btn-primary conference-btn join-conference" data-toggle="modal" data-target="#conference-form" href="#">I'm going</a>
                                  </div>
                               </div>
                            </header>
@@ -267,8 +284,11 @@
         </footer>
 
         <!-- Demo form modal start-->
-        <?php include '../views/demo-form.php'; ?>
-    <!-- Demo form modal end-->
+            <?php include '../views/demo-form.php'; ?>
+        <!-- Demo form modal end-->
+        <!-- Conference form modal start-->
+            <?php include '../views/conference-form.php'; ?>
+        <!-- Conference form modal end-->
 
       <!-- The Scripts -->
       <script src="<?php echo BASE_URL; ?>/js/jquery.min.js"></script>

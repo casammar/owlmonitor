@@ -320,6 +320,45 @@ jQuery(document).ready(function () {
 	});
 
 
+
+	/*----------------------------------------------------*/
+	/*	Conference Form Section
+	/*----------------------------------------------------*/
+	$("#conference-form").submit(function (e) {
+	    e.preventDefault();
+	    var siteurl = $('body').data('site-url');
+	    var name = $("#name").val();
+	    var email = $("#email").val();
+	    var phone = $("#phone").val();
+	    var company = $("#company").val();
+	    var dataString = 'name=' + name + '&email=' + email + '&phone=' + phone + '&company=' + company;
+
+	    function isValidEmail(email) {
+		var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		return regex.test(email);
+	      }
+
+	    if (isValidEmail(email)) {
+		$.ajax({
+		    type: "POST",
+		    url: siteurl + "/ajax/process.php",
+		    data: dataString,
+		    success: function () {
+			$('#demo-form-submit').hide();
+			$('.form-body').hide();
+			$('.message-sent').fadeIn(1000);
+		    }
+		});
+
+	    } else {
+		$('.error').fadeIn(1000).delay(5000).fadeOut(10000);
+
+	    }
+
+	    return false;
+	});
+
+
 /*----------------------------------------------------*/
 /*	Browser & OS Detect
 /*----------------------------------------------------*/
