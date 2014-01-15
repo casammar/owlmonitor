@@ -49,7 +49,7 @@
                          <div class="container">
                             <div class="phone-email pull-left">
                                <a><i class="icon-phone"></i> Call Us : 215-995-6893</a>
-                               <a href="info@examhawk.com"><i class="icon-envelope"></i> Email : info@examhawk.com</a>
+                               <a href="mailto:info@examhawk.com"><i class="icon-envelope"></i> Email : info@examhawk.com</a>
                             </div>
                             <div class="pull-right">
                                <ul class="social pull-left">
