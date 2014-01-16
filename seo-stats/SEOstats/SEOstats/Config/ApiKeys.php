@@ -26,6 +26,6 @@ interface ApiKeys
 
     // To acquire a Mozscape (f.k.a. SEOmoz) API key, visit:
     //      https://moz.com/products/api/keys
-    const MOZSCAPE_ACCESS_ID  = '';
-    const MOZSCAPE_SECRET_KEY = '';
+    const MOZSCAPE_ACCESS_ID  = 'member-425f8fe1c0';
+    const MOZSCAPE_SECRET_KEY = 'e3fe00f2c27c34c6dfdc99e94006e150';
 }
